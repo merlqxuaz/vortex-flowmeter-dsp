@@ -1,0 +1,1142 @@
+[
+  {
+    "title": "封面与扉页",
+    "book_page": 1,
+    "pdf_page_index": 0,
+    "level": 1
+  },
+  {
+    "title": "前言",
+    "book_page": "iii",
+    "pdf_page_index": 4,
+    "level": 1
+  },
+  {
+    "title": "目录",
+    "book_page": "v",
+    "pdf_page_index": 6,
+    "level": 1
+  },
+  {
+    "title": "第 1 章 绪论",
+    "book_page": 1,
+    "pdf_page_index": 12,
+    "level": 1
+  },
+  {
+    "title": "1.1 流量测量的重要性",
+    "book_page": 1,
+    "pdf_page_index": 12,
+    "level": 2
+  },
+  {
+    "title": "1.2 涡街流量计简介",
+    "book_page": 1,
+    "pdf_page_index": 12,
+    "level": 2
+  },
+  {
+    "title": "1.2.1 涡街流量计的测量原理",
+    "book_page": 2,
+    "pdf_page_index": 13,
+    "level": 3
+  },
+  {
+    "title": "1.2.2 应力式涡街流量计的结构组成",
+    "book_page": 3,
+    "pdf_page_index": 14,
+    "level": 3
+  },
+  {
+    "title": "1.3 国内外研究现状",
+    "book_page": 5,
+    "pdf_page_index": 16,
+    "level": 2
+  },
+  {
+    "title": "1.3.1 提高涡街流量计的测量准确度",
+    "book_page": 5,
+    "pdf_page_index": 16,
+    "level": 3
+  },
+  {
+    "title": "1.3.2 实现低功耗",
+    "book_page": 7,
+    "pdf_page_index": 18,
+    "level": 3
+  },
+  {
+    "title": "1.3.3 抗强管道振动干扰",
+    "book_page": 8,
+    "pdf_page_index": 19,
+    "level": 3
+  },
+  {
+    "title": "参考文献",
+    "book_page": 14,
+    "pdf_page_index": 25,
+    "level": 2
+  },
+  {
+    "title": "第 2 章 基于频谱分析的信号处理方法和系统",
+    "book_page": 19,
+    "pdf_page_index": 30,
+    "level": 1
+  },
+  {
+    "title": "2.1 算法基本原理及其实现",
+    "book_page": 19,
+    "pdf_page_index": 30,
+    "level": 2
+  },
+  {
+    "title": "2.1.1 信号数字滤波",
+    "book_page": 19,
+    "pdf_page_index": 30,
+    "level": 3
+  },
+  {
+    "title": "2.1.2 信号频谱分析",
+    "book_page": 20,
+    "pdf_page_index": 31,
+    "level": 3
+  },
+  {
+    "title": "2.1.3 涡街频率估计",
+    "book_page": 21,
+    "pdf_page_index": 32,
+    "level": 3
+  },
+  {
+    "title": "2.1.4 算法仿真",
+    "book_page": 22,
+    "pdf_page_index": 33,
+    "level": 3
+  },
+  {
+    "title": "2.2 基 于DSP 的涡街流量计数字信号处理系统研制",
+    "book_page": 22,
+    "pdf_page_index": 33,
+    "level": 2
+  },
+  {
+    "title": "2.2.1 系统硬件设计",
+    "book_page": 23,
+    "pdf_page_index": 34,
+    "level": 3
+  },
+  {
+    "title": "2.2.2 系统软件设计",
+    "book_page": 26,
+    "pdf_page_index": 37,
+    "level": 3
+  },
+  {
+    "title": "2.3 涡街流量计信号处理系统调试和标定",
+    "book_page": 32,
+    "pdf_page_index": 43,
+    "level": 2
+  },
+  {
+    "title": "2.3.1 系统调试",
+    "book_page": 32,
+    "pdf_page_index": 43,
+    "level": 3
+  },
+  {
+    "title": "2.3.2 温度实验",
+    "book_page": 33,
+    "pdf_page_index": 44,
+    "level": 3
+  },
+  {
+    "title": "2.3.3 标定实验",
+    "book_page": 34,
+    "pdf_page_index": 45,
+    "level": 3
+  },
+  {
+    "title": "参考文献",
+    "book_page": 35,
+    "pdf_page_index": 46,
+    "level": 2
+  },
+  {
+    "title": "第 3 章 基于陷波的抗固定强振动方法和系统",
+    "book_page": 37,
+    "pdf_page_index": 48,
+    "level": 1
+  },
+  {
+    "title": "3.1 抗固定强振动干扰算法",
+    "book_page": 37,
+    "pdf_page_index": 48,
+    "level": 2
+  },
+  {
+    "title": "3.1.1 算法基本原理",
+    "book_page": 37,
+    "pdf_page_index": 48,
+    "level": 3
+  },
+  {
+    "title": "3.1.2 陷阱深度和宽度可调的陷波器设计",
+    "book_page": 38,
+    "pdf_page_index": 49,
+    "level": 3
+  },
+  {
+    "title": "3.1.3 频谱分析",
+    "book_page": 50,
+    "pdf_page_index": 61,
+    "level": 3
+  },
+  {
+    "title": "3.1.4 算法具体实现",
+    "book_page": 52,
+    "pdf_page_index": 63,
+    "level": 3
+  },
+  {
+    "title": "3.2 信号处理系统硬件",
+    "book_page": 53,
+    "pdf_page_index": 64,
+    "level": 2
+  },
+  {
+    "title": "3.3 信号处理系统软件研制",
+    "book_page": 54,
+    "pdf_page_index": 65,
+    "level": 2
+  },
+  {
+    "title": "3.3.1 DSP 资源分配",
+    "book_page": 54,
+    "pdf_page_index": 65,
+    "level": 3
+  },
+  {
+    "title": "3.3.2 软件总体框图",
+    "book_page": 54,
+    "pdf_page_index": 65,
+    "level": 3
+  },
+  {
+    "title": "3.3.3 主监控程序",
+    "book_page": 55,
+    "pdf_page_index": 66,
+    "level": 3
+  },
+  {
+    "title": "3.3.4 中断模块",
+    "book_page": 56,
+    "pdf_page_index": 67,
+    "level": 3
+  },
+  {
+    "title": "3.4 系统测试和实验",
+    "book_page": 56,
+    "pdf_page_index": 67,
+    "level": 2
+  },
+  {
+    "title": "3.4.1 常规气体流量实验",
+    "book_page": 56,
+    "pdf_page_index": 67,
+    "level": 3
+  },
+  {
+    "title": "3.4.2 抗强振动干扰实验",
+    "book_page": 57,
+    "pdf_page_index": 68,
+    "level": 3
+  },
+  {
+    "title": "参考文献",
+    "book_page": 58,
+    "pdf_page_index": 69,
+    "level": 2
+  },
+  {
+    "title": "第 4 章 基于数字频谱与模拟带通滤波器组的低功耗系统",
+    "book_page": 59,
+    "pdf_page_index": 70,
+    "level": 1
+  },
+  {
+    "title": "4.1 硬件设计",
+    "book_page": 60,
+    "pdf_page_index": 71,
+    "level": 2
+  },
+  {
+    "title": "4.1.1 总体方案",
+    "book_page": 60,
+    "pdf_page_index": 71,
+    "level": 3
+  },
+  {
+    "title": "4.1.2 压电传感器与电荷放大器",
+    "book_page": 61,
+    "pdf_page_index": 72,
+    "level": 3
+  },
+  {
+    "title": "4.1.3 程控电压放大电路与峰值检测电路",
+    "book_page": 65,
+    "pdf_page_index": 76,
+    "level": 3
+  },
+  {
+    "title": "4.1.4 低通滤波器",
+    "book_page": 67,
+    "pdf_page_index": 78,
+    "level": 3
+  },
+  {
+    "title": "4.1.5 带通滤波器组",
+    "book_page": 68,
+    "pdf_page_index": 79,
+    "level": 3
+  },
+  {
+    "title": "4.1.6 多路选通与整形电路",
+    "book_page": 72,
+    "pdf_page_index": 83,
+    "level": 3
+  },
+  {
+    "title": "4.1.7 温压补偿模块",
+    "book_page": 73,
+    "pdf_page_index": 84,
+    "level": 3
+  },
+  {
+    "title": "4.1.8 单片机电路",
+    "book_page": 74,
+    "pdf_page_index": 85,
+    "level": 3
+  },
+  {
+    "title": "4.1.9 4～20mA 电流输出与电源管理电路",
+    "book_page": 76,
+    "pdf_page_index": 87,
+    "level": 3
+  },
+  {
+    "title": "4.1.10 人机接口",
+    "book_page": 83,
+    "pdf_page_index": 94,
+    "level": 3
+  },
+  {
+    "title": "4.1.11 电源监测",
+    "book_page": 84,
+    "pdf_page_index": 95,
+    "level": 3
+  },
+  {
+    "title": "4.2 软件研制",
+    "book_page": 86,
+    "pdf_page_index": 97,
+    "level": 2
+  },
+  {
+    "title": "4.2.1 总体框图",
+    "book_page": 86,
+    "pdf_page_index": 97,
+    "level": 3
+  },
+  {
+    "title": "4.2.2 主监控程序流程图",
+    "book_page": 86,
+    "pdf_page_index": 97,
+    "level": 3
+  },
+  {
+    "title": "4.2.3 脉冲计数",
+    "book_page": 88,
+    "pdf_page_index": 99,
+    "level": 3
+  },
+  {
+    "title": "4.2.4 频率估算",
+    "book_page": 88,
+    "pdf_page_index": 99,
+    "level": 3
+  },
+  {
+    "title": "4.2.5 带通滤波器选择",
+    "book_page": 89,
+    "pdf_page_index": 100,
+    "level": 3
+  },
+  {
+    "title": "4.3 测试与实验",
+    "book_page": 89,
+    "pdf_page_index": 100,
+    "level": 2
+  },
+  {
+    "title": "4.3.1 电流输出和系统功耗测试",
+    "book_page": 90,
+    "pdf_page_index": 101,
+    "level": 3
+  },
+  {
+    "title": "4.3.2 FFT 计算精度测试",
+    "book_page": 90,
+    "pdf_page_index": 101,
+    "level": 3
+  },
+  {
+    "title": "4.3.3 实际流量测试",
+    "book_page": 90,
+    "pdf_page_index": 101,
+    "level": 3
+  },
+  {
+    "title": "4.4 电池供电系统",
+    "book_page": 91,
+    "pdf_page_index": 102,
+    "level": 2
+  },
+  {
+    "title": "4.4.1 硬件设计",
+    "book_page": 92,
+    "pdf_page_index": 103,
+    "level": 3
+  },
+  {
+    "title": "4.4.2 软件设计",
+    "book_page": 96,
+    "pdf_page_index": 107,
+    "level": 3
+  },
+  {
+    "title": "4.4.3 测试与实验",
+    "book_page": 98,
+    "pdf_page_index": 109,
+    "level": 3
+  },
+  {
+    "title": "参考文献",
+    "book_page": 100,
+    "pdf_page_index": 111,
+    "level": 2
+  },
+  {
+    "title": "第 5 章 基于 FFT 的全数字式低功耗系统",
+    "book_page": 102,
+    "pdf_page_index": 113,
+    "level": 1
+  },
+  {
+    "title": "5.1 系统硬件研制",
+    "book_page": 102,
+    "pdf_page_index": 113,
+    "level": 2
+  },
+  {
+    "title": "5.1.1 系统框图",
+    "book_page": 102,
+    "pdf_page_index": 113,
+    "level": 3
+  },
+  {
+    "title": "5.1.2 工作过程",
+    "book_page": 103,
+    "pdf_page_index": 114,
+    "level": 3
+  },
+  {
+    "title": "5.2 系统软件研制",
+    "book_page": 103,
+    "pdf_page_index": 114,
+    "level": 2
+  },
+  {
+    "title": "5.2.1 软件框图",
+    "book_page": 103,
+    "pdf_page_index": 114,
+    "level": 3
+  },
+  {
+    "title": "5.2.2 主监控模块",
+    "book_page": 104,
+    "pdf_page_index": 115,
+    "level": 3
+  },
+  {
+    "title": "5.2.3 计算模块",
+    "book_page": 105,
+    "pdf_page_index": 116,
+    "level": 3
+  },
+  {
+    "title": "5.2.4 输出模块",
+    "book_page": 113,
+    "pdf_page_index": 124,
+    "level": 3
+  },
+  {
+    "title": "5.3 标定结果",
+    "book_page": 115,
+    "pdf_page_index": 126,
+    "level": 2
+  },
+  {
+    "title": "参考文献",
+    "book_page": 116,
+    "pdf_page_index": 127,
+    "level": 2
+  },
+  {
+    "title": "第 6 章 针对耐高温传感器的调理电路和低功耗系统",
+    "book_page": 117,
+    "pdf_page_index": 128,
+    "level": 1
+  },
+  {
+    "title": "6.1 用于耐高温涡街流量传感器的信号调理电路研制",
+    "book_page": 118,
+    "pdf_page_index": 129,
+    "level": 2
+  },
+  {
+    "title": "6.1.1 耐高温涡街流量传感器的特点",
+    "book_page": 118,
+    "pdf_page_index": 129,
+    "level": 3
+  },
+  {
+    "title": "6.1.2 基于双电荷放大器的信号调理电路设计",
+    "book_page": 119,
+    "pdf_page_index": 130,
+    "level": 3
+  },
+  {
+    "title": "6.1.3 信号调理电路屏蔽",
+    "book_page": 125,
+    "pdf_page_index": 136,
+    "level": 3
+  },
+  {
+    "title": "6.2 数字式两线制 HART 涡街流量变送器研制",
+    "book_page": 129,
+    "pdf_page_index": 140,
+    "level": 2
+  },
+  {
+    "title": "6.2.1 变送器整体设计方案",
+    "book_page": 130,
+    "pdf_page_index": 141,
+    "level": 3
+  },
+  {
+    "title": "6.2.2 两线制 4～20mA 电流输出及 HART 通信模块",
+    "book_page": 131,
+    "pdf_page_index": 142,
+    "level": 3
+  },
+  {
+    "title": "6.2.3 数字隔离电路",
+    "book_page": 138,
+    "pdf_page_index": 149,
+    "level": 3
+  },
+  {
+    "title": "6.2.4 电源管理模块",
+    "book_page": 139,
+    "pdf_page_index": 150,
+    "level": 3
+  },
+  {
+    "title": "6.2.5 EMC 滤波与 ESD 保护电路模块",
+    "book_page": 142,
+    "pdf_page_index": 153,
+    "level": 3
+  },
+  {
+    "title": "6.2.6 温压补偿模块",
+    "book_page": 143,
+    "pdf_page_index": 154,
+    "level": 3
+  },
+  {
+    "title": "6.2.7 数字信号处理模块",
+    "book_page": 144,
+    "pdf_page_index": 155,
+    "level": 3
+  },
+  {
+    "title": "6.2.8 人机接口模块",
+    "book_page": 146,
+    "pdf_page_index": 157,
+    "level": 3
+  },
+  {
+    "title": "6.3 系统测试",
+    "book_page": 147,
+    "pdf_page_index": 158,
+    "level": 2
+  },
+  {
+    "title": "6.3.1 功耗测试",
+    "book_page": 147,
+    "pdf_page_index": 158,
+    "level": 3
+  },
+  {
+    "title": "6.3.2 4～20mA 电流输出精度测试",
+    "book_page": 147,
+    "pdf_page_index": 158,
+    "level": 3
+  },
+  {
+    "title": "6.3.3 HART 通信测试",
+    "book_page": 148,
+    "pdf_page_index": 159,
+    "level": 3
+  },
+  {
+    "title": "6.3.4 水流量标定",
+    "book_page": 150,
+    "pdf_page_index": 161,
+    "level": 3
+  },
+  {
+    "title": "参考文献",
+    "book_page": 151,
+    "pdf_page_index": 162,
+    "level": 2
+  },
+  {
+    "title": "第 7 章 针对低雷诺数流量的测量方法和低功耗系统",
+    "book_page": 153,
+    "pdf_page_index": 164,
+    "level": 1
+  },
+  {
+    "title": "7.1 基于互相关分析的流量测量方案",
+    "book_page": 153,
+    "pdf_page_index": 164,
+    "level": 2
+  },
+  {
+    "title": "7.1.1 流量测量方案",
+    "book_page": 153,
+    "pdf_page_index": 164,
+    "level": 3
+  },
+  {
+    "title": "7.1.2 互相关分析计算延迟时间的原理",
+    "book_page": 154,
+    "pdf_page_index": 165,
+    "level": 3
+  },
+  {
+    "title": "7.2 一次仪表设计",
+    "book_page": 156,
+    "pdf_page_index": 167,
+    "level": 2
+  },
+  {
+    "title": "7.3 互相关分析中有偏估计与无偏估计的比较",
+    "book_page": 157,
+    "pdf_page_index": 168,
+    "level": 2
+  },
+  {
+    "title": "7.3.1 有偏估计和无偏估计的特点",
+    "book_page": 157,
+    "pdf_page_index": 168,
+    "level": 3
+  },
+  {
+    "title": "7.3.2 有偏估计和无偏估计应用于两个同频率涡街流量信号",
+    "book_page": 157,
+    "pdf_page_index": 168,
+    "level": 3
+  },
+  {
+    "title": "7.4 信号处理方法研究",
+    "book_page": 160,
+    "pdf_page_index": 171,
+    "level": 2
+  },
+  {
+    "title": "7.4.1 基于互相关分析快速计算延迟时间方法",
+    "book_page": 160,
+    "pdf_page_index": 171,
+    "level": 3
+  },
+  {
+    "title": "7.4.2 三次样条插值方法",
+    "book_page": 163,
+    "pdf_page_index": 174,
+    "level": 3
+  },
+  {
+    "title": "7.5 二次仪表研制",
+    "book_page": 164,
+    "pdf_page_index": 175,
+    "level": 2
+  },
+  {
+    "title": "7.5.1 硬件研制",
+    "book_page": 164,
+    "pdf_page_index": 175,
+    "level": 3
+  },
+  {
+    "title": "7.5.2 软件研制",
+    "book_page": 165,
+    "pdf_page_index": 176,
+    "level": 3
+  },
+  {
+    "title": "7.6 系统测试",
+    "book_page": 167,
+    "pdf_page_index": 178,
+    "level": 2
+  },
+  {
+    "title": "7.6.1 功耗测试",
+    "book_page": 167,
+    "pdf_page_index": 178,
+    "level": 3
+  },
+  {
+    "title": "7.6.2 实时性测试",
+    "book_page": 167,
+    "pdf_page_index": 178,
+    "level": 3
+  },
+  {
+    "title": "7.6.3 水流量标定",
+    "book_page": 168,
+    "pdf_page_index": 179,
+    "level": 3
+  },
+  {
+    "title": "参考文献",
+    "book_page": 169,
+    "pdf_page_index": 180,
+    "level": 2
+  },
+  {
+    "title": "第 8 章 基于频率方差和频域相减的抗强振动方法与低功耗系统",
+    "book_page": 170,
+    "pdf_page_index": 181,
+    "level": 1
+  },
+  {
+    "title": "8.1 涡街流量传感器输出信号模型建立",
+    "book_page": 170,
+    "pdf_page_index": 181,
+    "level": 2
+  },
+  {
+    "title": "8.1.1 涡街流量信号模型",
+    "book_page": 171,
+    "pdf_page_index": 182,
+    "level": 3
+  },
+  {
+    "title": "8.1.2 传感器振动噪声信号模型",
+    "book_page": 180,
+    "pdf_page_index": 191,
+    "level": 3
+  },
+  {
+    "title": "8.1.3 机械振动噪声信号模型",
+    "book_page": 180,
+    "pdf_page_index": 191,
+    "level": 3
+  },
+  {
+    "title": "8.1.4 涡街流量传感器输出信号模型",
+    "book_page": 184,
+    "pdf_page_index": 195,
+    "level": 3
+  },
+  {
+    "title": "8.2 基于双传感器的抗强干扰信号处理算法研究",
+    "book_page": 185,
+    "pdf_page_index": 196,
+    "level": 2
+  },
+  {
+    "title": "8.2.1 算法原理",
+    "book_page": 185,
+    "pdf_page_index": 196,
+    "level": 3
+  },
+  {
+    "title": "8.2.2 算法流程",
+    "book_page": 186,
+    "pdf_page_index": 197,
+    "level": 3
+  },
+  {
+    "title": "8.2.3 动态截止幅值",
+    "book_page": 187,
+    "pdf_page_index": 198,
+    "level": 3
+  },
+  {
+    "title": "8.2.4 频域相减",
+    "book_page": 188,
+    "pdf_page_index": 199,
+    "level": 3
+  },
+  {
+    "title": "8.2.5 频率方差计算",
+    "book_page": 189,
+    "pdf_page_index": 200,
+    "level": 3
+  },
+  {
+    "title": "8.3 低功耗信号处理系统实现和实验",
+    "book_page": 193,
+    "pdf_page_index": 204,
+    "level": 2
+  },
+  {
+    "title": "8.3.1 硬件研制",
+    "book_page": 193,
+    "pdf_page_index": 204,
+    "level": 3
+  },
+  {
+    "title": "8.3.2 软件开发",
+    "book_page": 193,
+    "pdf_page_index": 204,
+    "level": 3
+  },
+  {
+    "title": "8.3.3 实验测试",
+    "book_page": 195,
+    "pdf_page_index": 206,
+    "level": 3
+  },
+  {
+    "title": "参考文献",
+    "book_page": 197,
+    "pdf_page_index": 208,
+    "level": 2
+  },
+  {
+    "title": "第 9 章 基于频率方差的抗强振动方法和低功耗系统",
+    "book_page": 199,
+    "pdf_page_index": 210,
+    "level": 1
+  },
+  {
+    "title": "9.1 涡街流量传感器输出信号的频率特征分析",
+    "book_page": 199,
+    "pdf_page_index": 210,
+    "level": 2
+  },
+  {
+    "title": "9.1.1 强振动干扰实验",
+    "book_page": 199,
+    "pdf_page_index": 210,
+    "level": 3
+  },
+  {
+    "title": "9.1.2 带宽分析",
+    "book_page": 201,
+    "pdf_page_index": 212,
+    "level": 3
+  },
+  {
+    "title": "9.1.3 频率波动分析",
+    "book_page": 205,
+    "pdf_page_index": 216,
+    "level": 3
+  },
+  {
+    "title": "9.2 抗强振动干扰算法研究",
+    "book_page": 207,
+    "pdf_page_index": 218,
+    "level": 2
+  },
+  {
+    "title": "9.2.1 基本原理",
+    "book_page": 207,
+    "pdf_page_index": 218,
+    "level": 3
+  },
+  {
+    "title": "9.2.2 分段动态截止幅值",
+    "book_page": 208,
+    "pdf_page_index": 219,
+    "level": 3
+  },
+  {
+    "title": "9.2.3 频率方差算法",
+    "book_page": 210,
+    "pdf_page_index": 221,
+    "level": 3
+  },
+  {
+    "title": "9.3 抗强振动干扰算法实现",
+    "book_page": 215,
+    "pdf_page_index": 226,
+    "level": 2
+  },
+  {
+    "title": "9.3.1 硬件设计",
+    "book_page": 215,
+    "pdf_page_index": 226,
+    "level": 3
+  },
+  {
+    "title": "9.3.2 软件设计",
+    "book_page": 216,
+    "pdf_page_index": 227,
+    "level": 3
+  },
+  {
+    "title": "9.4 抗强振动气体流量实验验证",
+    "book_page": 217,
+    "pdf_page_index": 228,
+    "level": 2
+  },
+  {
+    "title": "9.4.1 抗强振动气体流量实验平台",
+    "book_page": 217,
+    "pdf_page_index": 228,
+    "level": 3
+  },
+  {
+    "title": "9.4.2 实验过程及验证结果",
+    "book_page": 218,
+    "pdf_page_index": 229,
+    "level": 3
+  },
+  {
+    "title": "参考文献",
+    "book_page": 221,
+    "pdf_page_index": 232,
+    "level": 2
+  },
+  {
+    "title": "第 10 章 基于频率方差和幅值计算的抗强振动方法与低功耗系统",
+    "book_page": 222,
+    "pdf_page_index": 233,
+    "level": 1
+  },
+  {
+    "title": "10.1 涡街流量传感器输出信号分析",
+    "book_page": 222,
+    "pdf_page_index": 233,
+    "level": 2
+  },
+  {
+    "title": "10.1.1 涡街流量计强管道振动干扰实验",
+    "book_page": 222,
+    "pdf_page_index": 233,
+    "level": 3
+  },
+  {
+    "title": "10.1.2 涡街流量传感器输出信号的频率方差分析",
+    "book_page": 227,
+    "pdf_page_index": 238,
+    "level": 3
+  },
+  {
+    "title": "10.1.3 涡街流量传感器输出信号的频谱幅值分析",
+    "book_page": 230,
+    "pdf_page_index": 241,
+    "level": 3
+  },
+  {
+    "title": "10.2 抗管道振动干扰算法研究",
+    "book_page": 236,
+    "pdf_page_index": 247,
+    "level": 2
+  },
+  {
+    "title": "10.2.1 算法原理",
+    "book_page": 236,
+    "pdf_page_index": 247,
+    "level": 3
+  },
+  {
+    "title": "10.2.2 算法流程",
+    "book_page": 237,
+    "pdf_page_index": 248,
+    "level": 3
+  },
+  {
+    "title": "10.2.3 频率方差计算",
+    "book_page": 239,
+    "pdf_page_index": 250,
+    "level": 3
+  },
+  {
+    "title": "10.2.4 幅值运算",
+    "book_page": 243,
+    "pdf_page_index": 254,
+    "level": 3
+  },
+  {
+    "title": "10.3 低功耗数字信号处理系统研制",
+    "book_page": 250,
+    "pdf_page_index": 261,
+    "level": 2
+  },
+  {
+    "title": "10.3.1 硬件研制",
+    "book_page": 250,
+    "pdf_page_index": 261,
+    "level": 3
+  },
+  {
+    "title": "10.3.2 软件研制",
+    "book_page": 251,
+    "pdf_page_index": 262,
+    "level": 3
+  },
+  {
+    "title": "10.4 验证实验",
+    "book_page": 253,
+    "pdf_page_index": 264,
+    "level": 2
+  },
+  {
+    "title": "10.4.1 气体标定实验",
+    "book_page": 253,
+    "pdf_page_index": 264,
+    "level": 3
+  },
+  {
+    "title": "10.4.2 抗管道振动干扰实验",
+    "book_page": 254,
+    "pdf_page_index": 265,
+    "level": 3
+  },
+  {
+    "title": "10.4.3 功耗测试实验",
+    "book_page": 261,
+    "pdf_page_index": 272,
+    "level": 3
+  },
+  {
+    "title": "参考文献",
+    "book_page": 261,
+    "pdf_page_index": 272,
+    "level": 2
+  },
+  {
+    "title": "第 11 章 基于卡尔曼滤波的抗强瞬态冲击方法和低功耗系统",
+    "book_page": 262,
+    "pdf_page_index": 273,
+    "level": 1
+  },
+  {
+    "title": "11.1 瞬态冲击分析",
+    "book_page": 262,
+    "pdf_page_index": 273,
+    "level": 2
+  },
+  {
+    "title": "11.2 传感器输出信号模型",
+    "book_page": 263,
+    "pdf_page_index": 274,
+    "level": 2
+  },
+  {
+    "title": "11.2.1 瞬态冲击振动实验平台",
+    "book_page": 264,
+    "pdf_page_index": 275,
+    "level": 3
+  },
+  {
+    "title": "11.2.2 瞬态冲击振动的时频分析",
+    "book_page": 265,
+    "pdf_page_index": 276,
+    "level": 3
+  },
+  {
+    "title": "11.2.3 瞬态冲击振动的数学模型",
+    "book_page": 266,
+    "pdf_page_index": 277,
+    "level": 3
+  },
+  {
+    "title": "11.2.4 数学模型的验证",
+    "book_page": 269,
+    "pdf_page_index": 280,
+    "level": 3
+  },
+  {
+    "title": "11.3 基于卡尔曼滤波的抗强瞬态冲击方法",
+    "book_page": 272,
+    "pdf_page_index": 283,
+    "level": 2
+  },
+  {
+    "title": "11.3.1 查找瞬态冲击数据段",
+    "book_page": 273,
+    "pdf_page_index": 284,
+    "level": 3
+  },
+  {
+    "title": "11.3.2 卡尔曼滤波器参数配置",
+    "book_page": 277,
+    "pdf_page_index": 288,
+    "level": 3
+  },
+  {
+    "title": "11.3.3 分段卡尔曼滤波方法",
+    "book_page": 281,
+    "pdf_page_index": 292,
+    "level": 3
+  },
+  {
+    "title": "11.4 抗强瞬态冲击方法的低功耗实现",
+    "book_page": 285,
+    "pdf_page_index": 296,
+    "level": 2
+  },
+  {
+    "title": "11.4.1 硬件系统",
+    "book_page": 286,
+    "pdf_page_index": 297,
+    "level": 3
+  },
+  {
+    "title": "11.4.2 软件系统",
+    "book_page": 286,
+    "pdf_page_index": 297,
+    "level": 3
+  },
+  {
+    "title": "11.5 抗强瞬态冲击方法的验证实验",
+    "book_page": 288,
+    "pdf_page_index": 299,
+    "level": 2
+  },
+  {
+    "title": "11.5.1 空气流量验证实验",
+    "book_page": 288,
+    "pdf_page_index": 299,
+    "level": 3
+  },
+  {
+    "title": "11.5.2 水流量验证实验",
+    "book_page": 291,
+    "pdf_page_index": 302,
+    "level": 3
+  },
+  {
+    "title": "参考文献",
+    "book_page": 292,
+    "pdf_page_index": 303,
+    "level": 2
+  }
+]
