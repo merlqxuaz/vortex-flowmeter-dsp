@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
   <title>涡街流量计的数字信号处理技术 - 在线阅读</title>
-  <meta name="description" content="徐科军 著《涡街流量计的数字信号处理技术》科学出版社。高清图文流式阅读、全文实时检索、PaddleOCR智能识别比对，专为手机与桌面端阅读优化。">
+  <meta name="description" content="徐科军 著《涡街流量计的数字信号处理技术》科学出版社。高清图文流式阅读、完整插图排版、全文实时检索、PaddleOCR智能识别比对，专为手机与桌面端阅读优化。">
   <meta name="theme-color" content="#2563eb">
   <link rel="stylesheet" href="css/style.css">
 </head>
@@ -16,7 +16,7 @@
   <!-- Header / App Bar -->
   <header class="app-header">
     <div class="header-left">
-      <button id="btnToggleToc" class="icon-btn" title="打开目录 (TOC)" aria-label="打开目录">
+      <button id="btnToggleToc" class="icon-btn" title="打开/关闭目录 (TOC)" aria-label="切换目录">
         <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
       </button>
       <div class="header-titles">
@@ -30,9 +30,9 @@
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><circle cx="8.5" cy="8.5" r="1.5"></circle><polyline points="21 15 16 10 5 21"></polyline></svg>
         <span>高清阅读</span>
       </button>
-      <button class="view-tab" data-view-target="text" title="纯文本排版版">
+      <button class="view-tab" data-view-target="text" title="完整图文排版版">
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="4" y1="6" x2="20" y2="6"></line><line x1="4" y1="12" x2="20" y2="12"></line><line x1="4" y1="18" x2="16" y2="18"></line></svg>
-        <span>文本排版</span>
+        <span>图文排版</span>
       </button>
       <button class="view-tab" data-view-target="ocr" title="PaddleOCR PP-OCRv6 比对">
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
@@ -58,13 +58,16 @@
     </div>
   </header>
 
-  <!-- Main Container -->
+  <!-- TOC Overlay (for mobile and backdrop click) -->
+  <div id="tocOverlay" class="toc-overlay"></div>
+
+  <!-- Main Layout -->
   <div class="main-layout">
     <!-- Sidebar / Drawer TOC -->
     <aside id="tocSidebar" class="toc-sidebar">
       <div class="sidebar-header">
         <h3>全书目录 (TOC)</h3>
-        <button id="btnCloseToc" class="icon-btn close-toc-btn" aria-label="关闭目录">
+        <button id="btnCloseToc" class="icon-btn close-toc-btn" title="关闭目录" aria-label="关闭目录">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
         </button>
       </div>
@@ -94,10 +97,10 @@
         </div>
       </section>
 
-      <!-- View 2: Reflowable Text View -->
+      <!-- View 2: Reflowable Text View with Complete Figures -->
       <section id="textView" class="reader-view">
         <div class="text-content-container" id="textContentContainer">
-          <!-- Text stream with section headings and paragraphs -->
+          <!-- Text stream with section headings, paragraphs, and embedded figures -->
         </div>
       </section>
 
@@ -161,6 +164,17 @@
       </div>
       <div class="search-status" id="searchStatus">输入关键词开始实时全文检索</div>
       <div class="search-results-list" id="searchResultsList"></div>
+    </div>
+  </div>
+
+  <!-- Lightbox Modal for Fullscreen Figure Viewing -->
+  <div id="lightboxModal" class="lightbox-modal">
+    <button id="btnCloseLightbox" class="icon-btn close-lightbox-btn" aria-label="关闭全屏">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+    </button>
+    <div class="lightbox-content">
+      <img id="lightboxImg" alt="Enlarged Figure" />
+      <div id="lightboxCaption" class="lightbox-caption"></div>
     </div>
   </div>
 

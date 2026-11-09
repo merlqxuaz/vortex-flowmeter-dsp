@@ -2,6 +2,10 @@
 let pagesData = [];
 let tocData = [];
 let ocrData = [];
+let figuresData = [];
+let figuresByPage = {};
+let figuresByNum = {};
+
 let currentPageIndex = 0;
 let currentTheme = localStorage.getItem('vortex_reader_theme') || 'light';
 let currentFontSize = parseInt(localStorage.getItem('vortex_reader_fontsize') || '16', 10);
@@ -12,6 +16,7 @@ const body = document.body;
 const progressBar = document.getElementById('readProgressBar');
 const currentChapterLabel = document.getElementById('currentChapterLabel');
 const tocSidebar = document.getElementById('tocSidebar');
+const tocOverlay = document.getElementById('tocOverlay');
 const tocList = document.getElementById('tocList');
 const tocFilterInput = document.getElementById('tocFilterInput');
 const btnToggleToc = document.getElementById('btnToggleToc');
@@ -37,6 +42,12 @@ const mBtnSearch = document.getElementById('mBtnSearch');
 const mBtnView = document.getElementById('mBtnView');
 const mBtnTop = document.getElementById('mBtnTop');
 
+// Lightbox Elements
+const lightboxModal = document.getElementById('lightboxModal');
+const lightboxImg = document.getElementById('lightboxImg');
+const lightboxCaption = document.getElementById('lightboxCaption');
+const btnCloseLightbox = document.getElementById('btnCloseLightbox');
+
 // OCR Elements
 const ocrPageSelect = document.getElementById('ocrPageSelect');
 const ocrPreviewImg = document.getElementById('ocrPreviewImg');
@@ -51,19 +62,38 @@ async function init() {
   applyFontSize(currentFontSize);
   switchView(currentView);
 
-  // Load data
+  // Restore Desktop TOC collapsed preference
+  if (window.innerWidth > 860) {
+    const isCollapsed = localStorage.getItem('vortex_toc_collapsed') === 'true';
+    if (isCollapsed) {
+      tocSidebar.classList.add('collapsed');
+    }
+  }
+
+  // Load core data
   try {
-    const [pagesRes, tocRes] = await Promise.all([
+    const [pagesRes, tocRes, figsRes] = await Promise.all([
       fetch('data/pages_data.json').then(r => r.json()),
-      fetch('data/toc.json').then(r => r.json())
+      fetch('data/toc.json').then(r => r.json()),
+      fetch('data/figures.json').then(r => r.json()).catch(() => [])
     ]);
     pagesData = pagesRes;
     tocData = tocRes;
+    figuresData = figsRes || [];
+
+    // Index figures
+    figuresData.forEach(fig => {
+      const pIdx = fig.page_index;
+      if (!figuresByPage[pIdx]) figuresByPage[pIdx] = [];
+      figuresByPage[pIdx].push(fig);
+      figuresByNum[fig.num] = fig;
+    });
+
   } catch (err) {
     console.error('Failed to load pages or TOC data', err);
   }
 
-  // Load OCR data asynchronously
+  // Load OCR data
   try {
     const ocrRes = await fetch('data/ocr_samples.json').then(r => r.json());
     ocrData = ocrRes;
@@ -79,12 +109,53 @@ async function init() {
   setupIntersectionObservers();
 }
 
+// TOC Functions (Opening / Closing)
+function isMobile() {
+  return window.innerWidth <= 860;
+}
+
+function openToc() {
+  if (isMobile()) {
+    tocSidebar.classList.add('open');
+    tocOverlay.classList.add('active');
+  } else {
+    tocSidebar.classList.remove('collapsed');
+    localStorage.setItem('vortex_toc_collapsed', 'false');
+  }
+}
+
+function closeToc() {
+  if (isMobile()) {
+    tocSidebar.classList.remove('open');
+    tocOverlay.classList.remove('active');
+  } else {
+    tocSidebar.classList.add('collapsed');
+    localStorage.setItem('vortex_toc_collapsed', 'true');
+  }
+}
+
+function toggleToc() {
+  if (isMobile()) {
+    if (tocSidebar.classList.contains('open')) {
+      closeToc();
+    } else {
+      openToc();
+    }
+  } else {
+    if (tocSidebar.classList.contains('collapsed')) {
+      openToc();
+    } else {
+      closeToc();
+    }
+  }
+}
+
 // Render TOC
 function renderToc(filterText = '') {
   tocList.innerHTML = '';
   const filter = filterText.trim().toLowerCase();
 
-  tocData.forEach((item, idx) => {
+  tocData.forEach((item) => {
     if (filter && !item.title.toLowerCase().includes(filter)) {
       return;
     }
@@ -100,8 +171,8 @@ function renderToc(filterText = '') {
     a.addEventListener('click', (e) => {
       e.preventDefault();
       scrollToPage(item.pdf_page_index);
-      if (window.innerWidth <= 860) {
-        tocSidebar.classList.remove('open');
+      if (isMobile()) {
+        closeToc();
       }
     });
 
@@ -109,7 +180,7 @@ function renderToc(filterText = '') {
   });
 }
 
-// Render Image Stream with Lazy Loading
+// Render Image Stream
 function renderImageStream() {
   pagesContainer.innerHTML = '';
 
@@ -133,7 +204,7 @@ function renderImageStream() {
   });
 }
 
-// Render Text Stream
+// Render Text Stream with Embedded Figures
 function renderTextStream() {
   textContentContainer.innerHTML = '';
 
@@ -143,21 +214,100 @@ function renderTextStream() {
     block.id = `text-page-${idx}`;
     block.dataset.pageIndex = idx;
 
+    const pageFigs = figuresByPage[idx] || [];
+    const renderedFigNums = new Set();
+
+    // Format body text and embed figures where captions appear
+    const rawLines = (page.text || '').split('\n');
+    let bodyHtml = '';
+
+    rawLines.forEach(line => {
+      const lineTrim = line.trim();
+      if (!lineTrim) return;
+
+      // Check if this line is a standalone figure caption
+      const m = lineTrim.match(/^图\s*(\d+\.\d+(?:\.\d+)?)\s*(.*)$/);
+      if (m && !lineTrim.includes('所示') && !lineTrim.includes('见图') && !lineTrim.includes('表明') && !lineTrim.includes('中的')) {
+        const figNum = m[1];
+        const figObj = figuresByNum[figNum];
+
+        if (figObj) {
+          renderedFigNums.add(figNum);
+          bodyHtml += `
+            <figure class="text-figure-card" data-fig-num="${figObj.num}">
+              <div class="figure-img-wrap" onclick="openLightbox('${figObj.image}', '${escapeHtml(figObj.title)}')">
+                <img src="${figObj.image}" alt="${escapeHtml(figObj.title)}" loading="lazy" />
+              </div>
+              <figcaption class="figure-caption">
+                <span class="fig-badge">插图</span>
+                <span>${escapeHtml(figObj.title)}</span>
+              </figcaption>
+            </figure>
+          `;
+          return;
+        }
+      }
+
+      // Normal paragraph
+      const isHeader = lineTrim.startsWith('第 ') || lineTrim.startsWith('1.') || lineTrim.startsWith('2.') || lineTrim.startsWith('3.') || lineTrim.startsWith('4.') || lineTrim.startsWith('5.') || lineTrim.startsWith('6.') || lineTrim.startsWith('7.') || lineTrim.startsWith('8.') || lineTrim.startsWith('9.') || lineTrim.startsWith('10.') || lineTrim.startsWith('11.');
+      const indentClass = isHeader ? 'no-indent' : '';
+      bodyHtml += `<p class="text-paragraph ${indentClass}">${escapeHtml(lineTrim)}</p>`;
+    });
+
+    // Check if there are any figures on this page that weren't inlined yet
+    pageFigs.forEach(fig => {
+      if (!renderedFigNums.has(fig.num)) {
+        bodyHtml += `
+          <figure class="text-figure-card" data-fig-num="${fig.num}">
+            <div class="figure-img-wrap" onclick="openLightbox('${fig.image}', '${escapeHtml(fig.title)}')">
+              <img src="${fig.image}" alt="${escapeHtml(fig.title)}" loading="lazy" />
+            </div>
+            <figcaption class="figure-caption">
+              <span class="fig-badge">插图</span>
+              <span>${escapeHtml(fig.title)}</span>
+            </figcaption>
+          </figure>
+        `;
+      }
+    });
+
+    if (!bodyHtml.trim()) {
+      bodyHtml = '<p class="text-paragraph no-indent">（本页无独立文字流或为纯插图）</p>';
+    }
+
+    const figBadgeHtml = pageFigs.length > 0 
+      ? `<span class="page-figs-count-badge">含 ${pageFigs.length} 幅插图</span>` 
+      : '';
+
     block.innerHTML = `
       <div class="text-page-header">
         <strong>第 ${idx + 1} 页 (${getChapterForPage(idx)})</strong>
-        <span>${page.char_count} 字符</span>
+        <div>
+          ${figBadgeHtml}
+          <span style="margin-left: 8px;">${page.char_count} 字符</span>
+        </div>
       </div>
-      <div class="text-page-body">${escapeHtml(page.text || '（本页无独立文字流或为纯插图）')}</div>
+      <div class="text-page-body">${bodyHtml}</div>
     `;
 
     textContentContainer.appendChild(block);
   });
 }
 
-// Set up Intersection Observers for lazy image load and scroll spy
+// Lightbox Functions
+window.openLightbox = function(src, captionText) {
+  lightboxImg.src = src;
+  lightboxCaption.textContent = captionText || '';
+  lightboxModal.classList.add('active');
+};
+
+function closeLightbox() {
+  lightboxModal.classList.remove('active');
+  lightboxImg.src = '';
+}
+
+// Intersection Observers
 function setupIntersectionObservers() {
-  // Image Lazy Loader
   const imgObserver = new IntersectionObserver((entries, observer) => {
     entries.forEach(entry => {
       if (entry.isIntersecting) {
@@ -175,7 +325,6 @@ function setupIntersectionObservers() {
     imgObserver.observe(img);
   });
 
-  // Page Scroll Spy
   const pageObserver = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
       if (entry.isIntersecting) {
@@ -391,7 +540,7 @@ function displayOcrSample(sampleIdx) {
   };
 
   ocrResultList.innerHTML = '';
-  sample.results.forEach((line, i) => {
+  sample.results.forEach((line) => {
     const row = document.createElement('div');
     row.className = 'ocr-line-item';
     const confPct = Math.round(line.score * 100);
@@ -436,13 +585,10 @@ function drawOcrBoxes(sample) {
 
 // Event Listeners
 function setupEvents() {
-  btnToggleToc.addEventListener('click', () => {
-    tocSidebar.classList.toggle('open');
-  });
-
-  btnCloseToc.addEventListener('click', () => {
-    tocSidebar.classList.remove('open');
-  });
+  // TOC Button Click Handlers
+  btnToggleToc.addEventListener('click', toggleToc);
+  btnCloseToc.addEventListener('click', closeToc);
+  tocOverlay.addEventListener('click', closeToc);
 
   tocFilterInput.addEventListener('input', (e) => {
     renderToc(e.target.value);
@@ -486,11 +632,14 @@ function setupEvents() {
     }, 200);
   });
 
-  // Mobile Bottom Bar
-  mBtnToc.addEventListener('click', () => {
-    tocSidebar.classList.toggle('open');
+  // Lightbox Close
+  btnCloseLightbox.addEventListener('click', closeLightbox);
+  lightboxModal.addEventListener('click', (e) => {
+    if (e.target === lightboxModal) closeLightbox();
   });
 
+  // Mobile Bottom Bar
+  mBtnToc.addEventListener('click', toggleToc);
   mBtnSearch.addEventListener('click', openSearch);
 
   mBtnView.addEventListener('click', () => {
@@ -501,6 +650,15 @@ function setupEvents() {
 
   mBtnTop.addEventListener('click', () => {
     scrollToPage(0);
+  });
+
+  // Keyboard Shortcuts (Esc to close overlays)
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') {
+      closeSearch();
+      closeLightbox();
+      if (isMobile()) closeToc();
+    }
   });
 
   window.addEventListener('resize', () => {

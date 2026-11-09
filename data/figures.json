@@ -1,0 +1,1952 @@
+[
+  {
+    "num": "1.1.1",
+    "title": "图 1.1.1 流量计分类简图",
+    "page_index": 12,
+    "page_number": 13,
+    "image": "figures/fig_1_1_1.webp",
+    "width": 489,
+    "height": 244,
+    "aspect_ratio": 2.004
+  },
+  {
+    "num": "1.2.1",
+    "title": "图 1.2.1 卡门涡街形成示意图",
+    "page_index": 13,
+    "page_number": 14,
+    "image": "figures/fig_1_2_1.webp",
+    "width": 576,
+    "height": 259,
+    "aspect_ratio": 2.224
+  },
+  {
+    "num": "1.2.2",
+    "title": "图 1.2.2 Sr 与 Re 的关系曲线",
+    "page_index": 14,
+    "page_number": 15,
+    "image": "figures/fig_1_2_2.webp",
+    "width": 483,
+    "height": 727,
+    "aspect_ratio": 0.664
+  },
+  {
+    "num": "1.2.3",
+    "title": "图 1.2.3 涡街流量计的分类简图",
+    "page_index": 15,
+    "page_number": 16,
+    "image": "figures/fig_1_2_3.webp",
+    "width": 524,
+    "height": 249,
+    "aspect_ratio": 2.104
+  },
+  {
+    "num": "1.2.4",
+    "title": "图 1.2.4 应力式涡街流量计的一种悬臂梁型结构简图",
+    "page_index": 15,
+    "page_number": 16,
+    "image": "figures/fig_1_2_4.webp",
+    "width": 356,
+    "height": 221,
+    "aspect_ratio": 1.611
+  },
+  {
+    "num": "1.3.1",
+    "title": "图 1.3.1 双数字锁相环原理框图",
+    "page_index": 17,
+    "page_number": 18,
+    "image": "figures/fig_1_3_1.webp",
+    "width": 647,
+    "height": 341,
+    "aspect_ratio": 1.897
+  },
+  {
+    "num": "1.3.2",
+    "title": "图 1.3.2 改进的 ZCA 原理图",
+    "page_index": 17,
+    "page_number": 18,
+    "image": "figures/fig_1_3_2.webp",
+    "width": 917,
+    "height": 209,
+    "aspect_ratio": 4.388
+  },
+  {
+    "num": "1.3.3",
+    "title": "图 1.3.3 菲时博特带温压补偿的涡街流量计探头结构和安装示意图",
+    "page_index": 21,
+    "page_number": 22,
+    "image": "figures/fig_1_3_3.webp",
+    "width": 912,
+    "height": 380,
+    "aspect_ratio": 2.4
+  },
+  {
+    "num": "1.3.4",
+    "title": "图 1.3.4 “三线共地形”结构的涡街流量计探头",
+    "page_index": 21,
+    "page_number": 22,
+    "image": "figures/fig_1_3_4.webp",
+    "width": 702,
+    "height": 281,
+    "aspect_ratio": 2.498
+  },
+  {
+    "num": "1.3.5",
+    "title": "图 1.3.5 罗斯蒙特涡街流量计质量平衡传感系统",
+    "page_index": 22,
+    "page_number": 23,
+    "image": "figures/fig_1_3_5.webp",
+    "width": 326,
+    "height": 380,
+    "aspect_ratio": 0.858
+  },
+  {
+    "num": "1.3.6",
+    "title": "图 1.3.6 日本横河涡街流量传感器的简支梁结构",
+    "page_index": 22,
+    "page_number": 23,
+    "image": "figures/fig_1_3_6.webp",
+    "width": 455,
+    "height": 357,
+    "aspect_ratio": 1.275
+  },
+  {
+    "num": "1.3.7",
+    "title": "图 1.3.7 双传感器涡街流量计的结构",
+    "page_index": 23,
+    "page_number": 24,
+    "image": "figures/fig_1_3_7.webp",
+    "width": 707,
+    "height": 401,
+    "aspect_ratio": 1.763
+  },
+  {
+    "num": "1.3.8",
+    "title": "图 1.3.8 常规单传感器涡街流量计的探头结构",
+    "page_index": 24,
+    "page_number": 25,
+    "image": "figures/fig_1_3_8.webp",
+    "width": 755,
+    "height": 308,
+    "aspect_ratio": 2.451
+  },
+  {
+    "num": "1.3.9",
+    "title": "图 1.3.9 悬浮式差动结构传感器示意图",
+    "page_index": 25,
+    "page_number": 26,
+    "image": "figures/fig_1_3_9.webp",
+    "width": 588,
+    "height": 390,
+    "aspect_ratio": 1.508
+  },
+  {
+    "num": "2.1.1",
+    "title": "图 2.1.1 涡街流量传感器信号频谱分析",
+    "page_index": 32,
+    "page_number": 33,
+    "image": "figures/fig_2_1_1.webp",
+    "width": 248,
+    "height": 122,
+    "aspect_ratio": 2.033
+  },
+  {
+    "num": "2.2.1",
+    "title": "图 2.2.1 系统硬件结构框图",
+    "page_index": 34,
+    "page_number": 35,
+    "image": "figures/fig_2_2_1.webp",
+    "width": 844,
+    "height": 566,
+    "aspect_ratio": 1.491
+  },
+  {
+    "num": "2.2.2",
+    "title": "图 2.2.2 软件总体框图",
+    "page_index": 37,
+    "page_number": 38,
+    "image": "figures/fig_2_2_2.webp",
+    "width": 740,
+    "height": 374,
+    "aspect_ratio": 1.979
+  },
+  {
+    "num": "2.2.3",
+    "title": "图 2.2.3 主监控程序流程图",
+    "page_index": 38,
+    "page_number": 39,
+    "image": "figures/fig_2_2_3.webp",
+    "width": 268,
+    "height": 701,
+    "aspect_ratio": 0.382
+  },
+  {
+    "num": "2.2.4",
+    "title": "图 2.2.4 信号处理算法流程图",
+    "page_index": 40,
+    "page_number": 41,
+    "image": "figures/fig_2_2_4.webp",
+    "width": 167,
+    "height": 500,
+    "aspect_ratio": 0.334
+  },
+  {
+    "num": "2.2.5",
+    "title": "图 2.2.5 瞬时流量计算流程图",
+    "page_index": 41,
+    "page_number": 42,
+    "image": "figures/fig_2_2_5.webp",
+    "width": 434,
+    "height": 687,
+    "aspect_ratio": 0.632
+  },
+  {
+    "num": "2.2.6",
+    "title": "图 2.2.6 流量的温压补偿子程序流程图",
+    "page_index": 42,
+    "page_number": 43,
+    "image": "figures/fig_2_2_6.webp",
+    "width": 483,
+    "height": 800,
+    "aspect_ratio": 0.604
+  },
+  {
+    "num": "3.1.1",
+    "title": "图 3.1.1 抗固定强振动干扰算法流程图",
+    "page_index": 49,
+    "page_number": 50,
+    "image": "figures/fig_3_1_1.webp",
+    "width": 477,
+    "height": 160,
+    "aspect_ratio": 2.981
+  },
+  {
+    "num": "3.1.2",
+    "title": "图 3.1.2 为其幅频响应曲线。",
+    "page_index": 49,
+    "page_number": 50,
+    "image": "figures/fig_3_1_2.webp",
+    "width": 237,
+    "height": 538,
+    "aspect_ratio": 0.441
+  },
+  {
+    "num": "3.1.3",
+    "title": "图 3.1.3 陷阱宽度 1",
+    "page_index": 51,
+    "page_number": 52,
+    "image": "figures/fig_3_1_3.webp",
+    "width": 561,
+    "height": 1194,
+    "aspect_ratio": 0.47
+  },
+  {
+    "num": "3.1.4",
+    "title": "图 3.1.4 陷阱宽度 2",
+    "page_index": 53,
+    "page_number": 54,
+    "image": "figures/fig_3_1_4.webp",
+    "width": 536,
+    "height": 433,
+    "aspect_ratio": 1.238
+  },
+  {
+    "num": "3.1.5",
+    "title": "图 3.1.5 陷波滤波流程图",
+    "page_index": 56,
+    "page_number": 57,
+    "image": "figures/fig_3_1_5.webp",
+    "width": 520,
+    "height": 685,
+    "aspect_ratio": 0.759
+  },
+  {
+    "num": "3.1.6",
+    "title": "图 3.1.6 陷波器陷波效果 1",
+    "page_index": 57,
+    "page_number": 58,
+    "image": "figures/fig_3_1_6.webp",
+    "width": 799,
+    "height": 658,
+    "aspect_ratio": 1.214
+  },
+  {
+    "num": "3.1.7",
+    "title": "图 3.1.7 陷波器陷波效果 2",
+    "page_index": 58,
+    "page_number": 59,
+    "image": "figures/fig_3_1_7.webp",
+    "width": 790,
+    "height": 310,
+    "aspect_ratio": 2.548
+  },
+  {
+    "num": "3.1.8",
+    "title": "图 3.1.8 陷波器陷波效果 3",
+    "page_index": 58,
+    "page_number": 59,
+    "image": "figures/fig_3_1_8.webp",
+    "width": 802,
+    "height": 646,
+    "aspect_ratio": 1.241
+  },
+  {
+    "num": "3.1.9",
+    "title": "图 3.1.9 陷波器陷波效果 4",
+    "page_index": 59,
+    "page_number": 60,
+    "image": "figures/fig_3_1_9.webp",
+    "width": 842,
+    "height": 655,
+    "aspect_ratio": 1.285
+  },
+  {
+    "num": "3.1.10",
+    "title": "图 3.1.10 DIF 蝶形单元",
+    "page_index": 61,
+    "page_number": 62,
+    "image": "figures/fig_3_1_10.webp",
+    "width": 417,
+    "height": 171,
+    "aspect_ratio": 2.439
+  },
+  {
+    "num": "3.2.1",
+    "title": "图 3.2.1 系统硬件整体结构框图",
+    "page_index": 65,
+    "page_number": 66,
+    "image": "figures/fig_3_2_1.webp",
+    "width": 768,
+    "height": 428,
+    "aspect_ratio": 1.794
+  },
+  {
+    "num": "3.3.1",
+    "title": "图 3.3.1 主监控程序流程图",
+    "page_index": 66,
+    "page_number": 67,
+    "image": "figures/fig_3_3_1.webp",
+    "width": 477,
+    "height": 296,
+    "aspect_ratio": 1.611
+  },
+  {
+    "num": "4.1.1",
+    "title": "图 4.1.1 系统硬件框图",
+    "page_index": 71,
+    "page_number": 72,
+    "image": "figures/fig_4_1_1.webp",
+    "width": 919,
+    "height": 411,
+    "aspect_ratio": 2.236
+  },
+  {
+    "num": "4.1.2",
+    "title": "图 4.1.2 电荷放大器等效电路",
+    "page_index": 73,
+    "page_number": 74,
+    "image": "figures/fig_4_1_2.webp",
+    "width": 614,
+    "height": 277,
+    "aspect_ratio": 2.217
+  },
+  {
+    "num": "4.1.3",
+    "title": "图 4.1.3 单运放差动式电荷放大器电路原理",
+    "page_index": 73,
+    "page_number": 74,
+    "image": "figures/fig_4_1_3.webp",
+    "width": 406,
+    "height": 365,
+    "aspect_ratio": 1.112
+  },
+  {
+    "num": "4.1.4",
+    "title": "图 4.1.4 单运放差动式电荷放大器实际模型",
+    "page_index": 74,
+    "page_number": 75,
+    "image": "figures/fig_4_1_4.webp",
+    "width": 547,
+    "height": 400,
+    "aspect_ratio": 1.367
+  },
+  {
+    "num": "4.1.5",
+    "title": "图 4.1.5 单运放差动式电荷放大器同相",
+    "page_index": 74,
+    "page_number": 75,
+    "image": "figures/fig_4_1_5.webp",
+    "width": 349,
+    "height": 286,
+    "aspect_ratio": 1.22
+  },
+  {
+    "num": "4.1.7",
+    "title": "图 4.1.7 三运放差分电荷放大器电路原理",
+    "page_index": 75,
+    "page_number": 76,
+    "image": "figures/fig_4_1_7.webp",
+    "width": 812,
+    "height": 492,
+    "aspect_ratio": 1.65
+  },
+  {
+    "num": "4.1.8",
+    "title": "图 4.1.8 可变增益程控放大器",
+    "page_index": 76,
+    "page_number": 77,
+    "image": "figures/fig_4_1_8.webp",
+    "width": 637,
+    "height": 269,
+    "aspect_ratio": 2.368
+  },
+  {
+    "num": "4.1.9",
+    "title": "图 4.1.9 程控放大器电路图",
+    "page_index": 77,
+    "page_number": 78,
+    "image": "figures/fig_4_1_9.webp",
+    "width": 333,
+    "height": 326,
+    "aspect_ratio": 1.021
+  },
+  {
+    "num": "4.1.10",
+    "title": "图 4.1.10 峰值检测电路原理图",
+    "page_index": 78,
+    "page_number": 79,
+    "image": "figures/fig_4_1_10.webp",
+    "width": 680,
+    "height": 328,
+    "aspect_ratio": 2.073
+  },
+  {
+    "num": "4.1.11",
+    "title": "图 4.1.11 低通滤波器电路",
+    "page_index": 79,
+    "page_number": 80,
+    "image": "figures/fig_4_1_11.webp",
+    "width": 540,
+    "height": 242,
+    "aspect_ratio": 2.231
+  },
+  {
+    "num": "4.1.12",
+    "title": "图 4.1.12 双运放级联带通滤波器",
+    "page_index": 79,
+    "page_number": 80,
+    "image": "figures/fig_4_1_12.webp",
+    "width": 656,
+    "height": 236,
+    "aspect_ratio": 2.78
+  },
+  {
+    "num": "4.1.13",
+    "title": "图 4.1.13 单运放带通滤波器",
+    "page_index": 80,
+    "page_number": 81,
+    "image": "figures/fig_4_1_13.webp",
+    "width": 416,
+    "height": 273,
+    "aspect_ratio": 1.524
+  },
+  {
+    "num": "4.1.14",
+    "title": "图 4.1.14 单运放带通滤波器幅频特性",
+    "page_index": 80,
+    "page_number": 81,
+    "image": "figures/fig_4_1_14.webp",
+    "width": 546,
+    "height": 255,
+    "aspect_ratio": 2.141
+  },
+  {
+    "num": "4.1.15",
+    "title": "图 4.1.15 级联带通滤波器幅频特性",
+    "page_index": 81,
+    "page_number": 82,
+    "image": "figures/fig_4_1_15.webp",
+    "width": 569,
+    "height": 250,
+    "aspect_ratio": 2.276
+  },
+  {
+    "num": "4.1.16",
+    "title": "图 4.1.16 第一个频率段电路参数",
+    "page_index": 82,
+    "page_number": 83,
+    "image": "figures/fig_4_1_16.webp",
+    "width": 477,
+    "height": 646,
+    "aspect_ratio": 0.738
+  },
+  {
+    "num": "4.1.17",
+    "title": "图 4.1.17 第二个频率段高通电路参数",
+    "page_index": 83,
+    "page_number": 84,
+    "image": "figures/fig_4_1_17.webp",
+    "width": 492,
+    "height": 362,
+    "aspect_ratio": 1.359
+  },
+  {
+    "num": "4.1.19",
+    "title": "图 4.1.19 和图 4.1.20 分别为迟滞触发器的电路和传输曲线。触发器输出为边沿陡",
+    "page_index": 84,
+    "page_number": 85,
+    "image": "figures/fig_4_1_19.webp",
+    "width": 478,
+    "height": 277,
+    "aspect_ratio": 1.726
+  },
+  {
+    "num": "4.1.21",
+    "title": "图 4.1.21 温压补偿电路模块的框图",
+    "page_index": 85,
+    "page_number": 86,
+    "image": "figures/fig_4_1_21.webp",
+    "width": 447,
+    "height": 289,
+    "aspect_ratio": 1.547
+  },
+  {
+    "num": "4.1.22",
+    "title": "图 4.1.22 单片机电路",
+    "page_index": 87,
+    "page_number": 88,
+    "image": "figures/fig_4_1_22.webp",
+    "width": 724,
+    "height": 565,
+    "aspect_ratio": 1.281
+  },
+  {
+    "num": "4.1.23",
+    "title": "图 4.1.23 两线制 24V、4～20mA 环路供电和测量示意图",
+    "page_index": 88,
+    "page_number": 89,
+    "image": "figures/fig_4_1_23.webp",
+    "width": 538,
+    "height": 228,
+    "aspect_ratio": 2.36
+  },
+  {
+    "num": "4.1.24",
+    "title": "图 4.1.24 中 XTR115 不仅能实现流量信号的 V/I 转换，同时内部集成了一",
+    "page_index": 88,
+    "page_number": 89,
+    "image": "figures/fig_4_1_24.webp",
+    "width": 475,
+    "height": 776,
+    "aspect_ratio": 0.612
+  },
+  {
+    "num": "4.1.25",
+    "title": "图 4.1.25 LT1934-1 工作电路",
+    "page_index": 92,
+    "page_number": 93,
+    "image": "figures/fig_4_1_25.webp",
+    "width": 706,
+    "height": 240,
+    "aspect_ratio": 2.942
+  },
+  {
+    "num": "4.1.26",
+    "title": "图 4.1.26 TPS71501 的工作电路",
+    "page_index": 94,
+    "page_number": 95,
+    "image": "figures/fig_4_1_26.webp",
+    "width": 689,
+    "height": 696,
+    "aspect_ratio": 0.99
+  },
+  {
+    "num": "4.1.27",
+    "title": "图 4.1.27 RC 上电复位电路",
+    "page_index": 95,
+    "page_number": 96,
+    "image": "figures/fig_4_1_27.webp",
+    "width": 174,
+    "height": 290,
+    "aspect_ratio": 0.6
+  },
+  {
+    "num": "4.1.28",
+    "title": "图 4.1.28 掉电检测电路",
+    "page_index": 96,
+    "page_number": 97,
+    "image": "figures/fig_4_1_28.webp",
+    "width": 778,
+    "height": 533,
+    "aspect_ratio": 1.46
+  },
+  {
+    "num": "4.1.29",
+    "title": "图 4.1.29 FRAM",
+    "page_index": 96,
+    "page_number": 97,
+    "image": "figures/fig_4_1_29.webp",
+    "width": 380,
+    "height": 197,
+    "aspect_ratio": 1.929
+  },
+  {
+    "num": "4.2.1",
+    "title": "图 4.2.1 系统软件总体框图",
+    "page_index": 97,
+    "page_number": 98,
+    "image": "figures/fig_4_2_1.webp",
+    "width": 724,
+    "height": 275,
+    "aspect_ratio": 2.633
+  },
+  {
+    "num": "4.2.2",
+    "title": "图 4.2.2 主监控程序流程图",
+    "page_index": 98,
+    "page_number": 99,
+    "image": "figures/fig_4_2_2.webp",
+    "width": 468,
+    "height": 1285,
+    "aspect_ratio": 0.364
+  },
+  {
+    "num": "4.2.3",
+    "title": "图 4.2.3 脉冲捕获原理框图",
+    "page_index": 99,
+    "page_number": 100,
+    "image": "figures/fig_4_2_3.webp",
+    "width": 848,
+    "height": 400,
+    "aspect_ratio": 2.12
+  },
+  {
+    "num": "4.4.1",
+    "title": "图 4.4.1 为系统硬件设计框图， 主要由电源转换电路、MSP430F5418、 前向输",
+    "page_index": 103,
+    "page_number": 104,
+    "image": "figures/fig_4_4_1.webp",
+    "width": 478,
+    "height": 491,
+    "aspect_ratio": 0.974
+  },
+  {
+    "num": "4.4.2",
+    "title": "图 4.4.2 为采用高、 低通有源滤波器级联构成的带通滤波器。 选用级联方式构",
+    "page_index": 104,
+    "page_number": 105,
+    "image": "figures/fig_4_4_2.webp",
+    "width": 478,
+    "height": 1210,
+    "aspect_ratio": 0.395
+  },
+  {
+    "num": "4.4.3",
+    "title": "图 4.4.3 为第一级电压转换电路。通过增强型电池低电量输入 (low battery",
+    "page_index": 105,
+    "page_number": 106,
+    "image": "figures/fig_4_4_3.webp",
+    "width": 869,
+    "height": 242,
+    "aspect_ratio": 3.591
+  },
+  {
+    "num": "4.4.4",
+    "title": "图 4.4.4 DC_on 信号生成电路",
+    "page_index": 106,
+    "page_number": 107,
+    "image": "figures/fig_4_4_4.webp",
+    "width": 789,
+    "height": 180,
+    "aspect_ratio": 4.383
+  },
+  {
+    "num": "4.4.5",
+    "title": "图 4.4.5 第二级电压转换电路",
+    "page_index": 106,
+    "page_number": 107,
+    "image": "figures/fig_4_4_5.webp",
+    "width": 411,
+    "height": 36,
+    "aspect_ratio": 11.417
+  },
+  {
+    "num": "4.4.6",
+    "title": "图 4.4.6 可控恒流源电路",
+    "page_index": 107,
+    "page_number": 108,
+    "image": "figures/fig_4_4_6.webp",
+    "width": 778,
+    "height": 686,
+    "aspect_ratio": 1.134
+  },
+  {
+    "num": "4.4.7",
+    "title": "图 4.4.7 为带通滤波器选择原理图， 具体选择过程为： 当频率没有超过当前滤波器",
+    "page_index": 109,
+    "page_number": 110,
+    "image": "figures/fig_4_4_7.webp",
+    "width": 81,
+    "height": 40,
+    "aspect_ratio": 2.025
+  },
+  {
+    "num": "5.1.1",
+    "title": "图 5.1.1 系统硬件框图",
+    "page_index": 114,
+    "page_number": 115,
+    "image": "figures/fig_5_1_1.webp",
+    "width": 816,
+    "height": 396,
+    "aspect_ratio": 2.061
+  },
+  {
+    "num": "5.2.1",
+    "title": "图 5.2.1 系统软件总体框图",
+    "page_index": 115,
+    "page_number": 116,
+    "image": "figures/fig_5_2_1.webp",
+    "width": 592,
+    "height": 229,
+    "aspect_ratio": 2.585
+  },
+  {
+    "num": "5.2.3",
+    "title": "图 5.2.3 频率处理流程图",
+    "page_index": 120,
+    "page_number": 121,
+    "image": "figures/fig_5_2_3.webp",
+    "width": 460,
+    "height": 1270,
+    "aspect_ratio": 0.362
+  },
+  {
+    "num": "5.2.4",
+    "title": "图 5.2.4 温度和压力采样流程图",
+    "page_index": 121,
+    "page_number": 122,
+    "image": "figures/fig_5_2_4.webp",
+    "width": 387,
+    "height": 659,
+    "aspect_ratio": 0.587
+  },
+  {
+    "num": "5.2.5",
+    "title": "图 5.2.5 温压补偿流程图",
+    "page_index": 122,
+    "page_number": 123,
+    "image": "figures/fig_5_2_5.webp",
+    "width": 740,
+    "height": 777,
+    "aspect_ratio": 0.952
+  },
+  {
+    "num": "5.2.6",
+    "title": "图 5.2.6 仪表系数示意图",
+    "page_index": 123,
+    "page_number": 124,
+    "image": "figures/fig_5_2_6.webp",
+    "width": 581,
+    "height": 1303,
+    "aspect_ratio": 0.446
+  },
+  {
+    "num": "5.2.7",
+    "title": "图 5.2.7 脉冲输出中断子程序流程图",
+    "page_index": 126,
+    "page_number": 127,
+    "image": "figures/fig_5_2_7.webp",
+    "width": 244,
+    "height": 770,
+    "aspect_ratio": 0.317
+  },
+  {
+    "num": "6.1.2",
+    "title": "图 6.1.2 基于双电荷放大器的信号调理电路硬件框图",
+    "page_index": 131,
+    "page_number": 132,
+    "image": "figures/fig_6_1_2.webp",
+    "width": 799,
+    "height": 65,
+    "aspect_ratio": 12.292
+  },
+  {
+    "num": "6.1.3",
+    "title": "图 6.1.3 电荷放大器与压电式传感器连接的等效电路",
+    "page_index": 131,
+    "page_number": 132,
+    "image": "figures/fig_6_1_3.webp",
+    "width": 519,
+    "height": 306,
+    "aspect_ratio": 1.696
+  },
+  {
+    "num": "6.1.4",
+    "title": "图 6.1.4 第一级、第二级电荷放大器电路原理图",
+    "page_index": 132,
+    "page_number": 133,
+    "image": "figures/fig_6_1_4.webp",
+    "width": 573,
+    "height": 1253,
+    "aspect_ratio": 0.457
+  },
+  {
+    "num": "6.1.6",
+    "title": "图 6.1.6 调理电路输出信号幅值谱对比",
+    "page_index": 134,
+    "page_number": 135,
+    "image": "figures/fig_6_1_6.webp",
+    "width": 814,
+    "height": 304,
+    "aspect_ratio": 2.678
+  },
+  {
+    "num": "6.1.7",
+    "title": "图 6.1.7 由一级电荷放大器和一级有源带通滤波器组成调理电路时输出信号幅值谱",
+    "page_index": 134,
+    "page_number": 135,
+    "image": "figures/fig_6_1_7.webp",
+    "width": 457,
+    "height": 307,
+    "aspect_ratio": 1.489
+  },
+  {
+    "num": "6.1.8",
+    "title": "图 6.1.8 第一级低通滤波器",
+    "page_index": 135,
+    "page_number": 136,
+    "image": "figures/fig_6_1_8.webp",
+    "width": 554,
+    "height": 517,
+    "aspect_ratio": 1.072
+  },
+  {
+    "num": "6.1.9",
+    "title": "图 6.1.9 第二级低通滤波器",
+    "page_index": 136,
+    "page_number": 137,
+    "image": "figures/fig_6_1_9.webp",
+    "width": 617,
+    "height": 295,
+    "aspect_ratio": 2.092
+  },
+  {
+    "num": "6.1.10",
+    "title": "图 6.1.10 电压跟随器",
+    "page_index": 136,
+    "page_number": 137,
+    "image": "figures/fig_6_1_10.webp",
+    "width": 425,
+    "height": 243,
+    "aspect_ratio": 1.749
+  },
+  {
+    "num": "6.1.12",
+    "title": "图 6.1.12 两回路之间磁场耦合",
+    "page_index": 138,
+    "page_number": 139,
+    "image": "figures/fig_6_1_12.webp",
+    "width": 318,
+    "height": 264,
+    "aspect_ratio": 1.205
+  },
+  {
+    "num": "6.1.13",
+    "title": "图 6.1.13 信号线屏蔽罩实物图",
+    "page_index": 139,
+    "page_number": 140,
+    "image": "figures/fig_6_1_13.webp",
+    "width": 494,
+    "height": 507,
+    "aspect_ratio": 0.974
+  },
+  {
+    "num": "6.1.14",
+    "title": "图 6.1.14 信号调理电路屏蔽罩实物图",
+    "page_index": 139,
+    "page_number": 140,
+    "image": "figures/fig_6_1_14.webp",
+    "width": 452,
+    "height": 471,
+    "aspect_ratio": 0.96
+  },
+  {
+    "num": "6.1.15",
+    "title": "图 6.1.15 没有采取屏蔽措施时调理电路输出信号",
+    "page_index": 140,
+    "page_number": 141,
+    "image": "figures/fig_6_1_15.webp",
+    "width": 903,
+    "height": 335,
+    "aspect_ratio": 2.696
+  },
+  {
+    "num": "6.1.16",
+    "title": "图 6.1.16 采取屏蔽措施时调理电路输出信号",
+    "page_index": 140,
+    "page_number": 141,
+    "image": "figures/fig_6_1_16.webp",
+    "width": 917,
+    "height": 331,
+    "aspect_ratio": 2.77
+  },
+  {
+    "num": "6.2.1",
+    "title": "图 6.2.1 数字式两线制 HART 涡街流量变送器硬件框图",
+    "page_index": 141,
+    "page_number": 142,
+    "image": "figures/fig_6_2_1.webp",
+    "width": 925,
+    "height": 385,
+    "aspect_ratio": 2.403
+  },
+  {
+    "num": "6.2.2",
+    "title": "图 6.2.2 两线制 4～20mA 电流输出以及 HART 通信模块和电源管理模块的硬件框图",
+    "page_index": 142,
+    "page_number": 143,
+    "image": "figures/fig_6_2_2.webp",
+    "width": 483,
+    "height": 389,
+    "aspect_ratio": 1.242
+  },
+  {
+    "num": "6.2.3",
+    "title": "图 6.2.3 4～20mA 电流输出控制原理框图",
+    "page_index": 144,
+    "page_number": 145,
+    "image": "figures/fig_6_2_3.webp",
+    "width": 858,
+    "height": 429,
+    "aspect_ratio": 2.0
+  },
+  {
+    "num": "6.2.4",
+    "title": "图 6.2.4 AD5421 与 HART 通信电路的连接示意图",
+    "page_index": 145,
+    "page_number": 146,
+    "image": "figures/fig_6_2_4.webp",
+    "width": 596,
+    "height": 405,
+    "aspect_ratio": 1.472
+  },
+  {
+    "num": "6.2.6",
+    "title": "图 6.2.6 HART 通信信号示意图",
+    "page_index": 147,
+    "page_number": 148,
+    "image": "figures/fig_6_2_6.webp",
+    "width": 680,
+    "height": 222,
+    "aspect_ratio": 3.063
+  },
+  {
+    "num": "6.2.7",
+    "title": "图 6.2.7 HART 适配器连接示意图",
+    "page_index": 148,
+    "page_number": 149,
+    "image": "figures/fig_6_2_7.webp",
+    "width": 491,
+    "height": 282,
+    "aspect_ratio": 1.741
+  },
+  {
+    "num": "6.2.8",
+    "title": "图 6.2.8 HART 通信电路原理图",
+    "page_index": 149,
+    "page_number": 150,
+    "image": "figures/fig_6_2_8.webp",
+    "width": 861,
+    "height": 642,
+    "aspect_ratio": 1.341
+  },
+  {
+    "num": "6.2.9",
+    "title": "图 6.2.9 数字隔离电路原理图",
+    "page_index": 150,
+    "page_number": 151,
+    "image": "figures/fig_6_2_9.webp",
+    "width": 695,
+    "height": 670,
+    "aspect_ratio": 1.037
+  },
+  {
+    "num": "6.2.10",
+    "title": "图 6.2.10 以往的数字式两线制涡街流量计的电源设计方案示意图",
+    "page_index": 151,
+    "page_number": 152,
+    "image": "figures/fig_6_2_10.webp",
+    "width": 556,
+    "height": 244,
+    "aspect_ratio": 2.279
+  },
+  {
+    "num": "6.2.11",
+    "title": "图 6.2.11 模拟电源管理电路硬件框图",
+    "page_index": 152,
+    "page_number": 153,
+    "image": "figures/fig_6_2_11.webp",
+    "width": 349,
+    "height": 339,
+    "aspect_ratio": 1.029
+  },
+  {
+    "num": "6.2.12",
+    "title": "图 6.2.12 EMC 滤波与 ESD 保护电路原理图",
+    "page_index": 154,
+    "page_number": 155,
+    "image": "figures/fig_6_2_12.webp",
+    "width": 889,
+    "height": 361,
+    "aspect_ratio": 2.463
+  },
+  {
+    "num": "6.2.13",
+    "title": "图 6.2.13 温压补偿模块硬件原理框图",
+    "page_index": 155,
+    "page_number": 156,
+    "image": "figures/fig_6_2_13.webp",
+    "width": 538,
+    "height": 320,
+    "aspect_ratio": 1.681
+  },
+  {
+    "num": "6.2.14",
+    "title": "图 6.2.14 电源监测电路原理图",
+    "page_index": 156,
+    "page_number": 157,
+    "image": "figures/fig_6_2_14.webp",
+    "width": 639,
+    "height": 282,
+    "aspect_ratio": 2.266
+  },
+  {
+    "num": "6.2.15",
+    "title": "图 6.2.15 按 键KEY1 电路原理图",
+    "page_index": 157,
+    "page_number": 158,
+    "image": "figures/fig_6_2_15.webp",
+    "width": 709,
+    "height": 1076,
+    "aspect_ratio": 0.659
+  },
+  {
+    "num": "6.3.1",
+    "title": "图 6.3.1 测试平台示意图",
+    "page_index": 159,
+    "page_number": 160,
+    "image": "figures/fig_6_3_1.webp",
+    "width": 927,
+    "height": 1280,
+    "aspect_ratio": 0.724
+  },
+  {
+    "num": "6.3.2",
+    "title": "图 6.3.2 命 令0 通信成功显示界面",
+    "page_index": 160,
+    "page_number": 161,
+    "image": "figures/fig_6_3_2.webp",
+    "width": 920,
+    "height": 395,
+    "aspect_ratio": 2.329
+  },
+  {
+    "num": "7.1.1",
+    "title": "图 7.1.1 采集的两个压电传感器输出信号",
+    "page_index": 165,
+    "page_number": 166,
+    "image": "figures/fig_7_1_1.webp",
+    "width": 616,
+    "height": 530,
+    "aspect_ratio": 1.162
+  },
+  {
+    "num": "7.1.2",
+    "title": "图 7.1.2 两路涡街流量信号序列  1x n 和  2x n 的互相关分析结果",
+    "page_index": 166,
+    "page_number": 167,
+    "image": "figures/fig_7_1_2.webp",
+    "width": 510,
+    "height": 1002,
+    "aspect_ratio": 0.509
+  },
+  {
+    "num": "7.3.1",
+    "title": "图 7.3.1 1()x n 和 2 ()x n 互相关分析采用有偏估计的结果",
+    "page_index": 169,
+    "page_number": 170,
+    "image": "figures/fig_7_3_1.webp",
+    "width": 517,
+    "height": 708,
+    "aspect_ratio": 0.73
+  },
+  {
+    "num": "7.3.2",
+    "title": "图 7.3.2  1x n 和  2x n 互相关分析采用无偏估计的结果",
+    "page_index": 170,
+    "page_number": 171,
+    "image": "figures/fig_7_3_2.webp",
+    "width": 439,
+    "height": 307,
+    "aspect_ratio": 1.43
+  },
+  {
+    "num": "7.3.3",
+    "title": "图 7.3.3  1x n 和  2x n 受干扰时互相关分析采用无偏估计的结果",
+    "page_index": 170,
+    "page_number": 171,
+    "image": "figures/fig_7_3_3.webp",
+    "width": 888,
+    "height": 308,
+    "aspect_ratio": 2.883
+  },
+  {
+    "num": "7.4.1",
+    "title": "图 7.4.1 基于互相关分析快速计算延迟时间算法软件流程图",
+    "page_index": 173,
+    "page_number": 174,
+    "image": "figures/fig_7_4_1.webp",
+    "width": 159,
+    "height": 922,
+    "aspect_ratio": 0.172
+  },
+  {
+    "num": "7.5.1",
+    "title": "图 7.5.1 基于互相关分析测量低雷诺数流量的涡街流量计硬件框图",
+    "page_index": 175,
+    "page_number": 176,
+    "image": "figures/fig_7_5_1.webp",
+    "width": 931,
+    "height": 1239,
+    "aspect_ratio": 0.751
+  },
+  {
+    "num": "7.5.2",
+    "title": "图 7.5.2 主监控程序软件流程图",
+    "page_index": 177,
+    "page_number": 178,
+    "image": "figures/fig_7_5_2.webp",
+    "width": 824,
+    "height": 1259,
+    "aspect_ratio": 0.654
+  },
+  {
+    "num": "8.1.1",
+    "title": "图 8.1.1 为选用耐德 40mm 传感器时的实验设备结构图。鼓风机产生气流，",
+    "page_index": 183,
+    "page_number": 184,
+    "image": "figures/fig_8_1_1.webp",
+    "width": 478,
+    "height": 160,
+    "aspect_ratio": 2.987
+  },
+  {
+    "num": "8.1.2",
+    "title": "图 8.1.2 耐 德40mm 传感器输出信号时域波形",
+    "page_index": 184,
+    "page_number": 185,
+    "image": "figures/fig_8_1_2.webp",
+    "width": 863,
+    "height": 659,
+    "aspect_ratio": 1.31
+  },
+  {
+    "num": "8.1.3",
+    "title": "图 8.1.3 川 仪50mm 传感器输出信号时域波形",
+    "page_index": 184,
+    "page_number": 185,
+    "image": "figures/fig_8_1_3.webp",
+    "width": 819,
+    "height": 621,
+    "aspect_ratio": 1.319
+  },
+  {
+    "num": "8.1.4",
+    "title": "图 8.1.4 山 东40mm 传感器输出信号时域波形",
+    "page_index": 185,
+    "page_number": 186,
+    "image": "figures/fig_8_1_4.webp",
+    "width": 817,
+    "height": 624,
+    "aspect_ratio": 1.309
+  },
+  {
+    "num": "8.1.5",
+    "title": "图 8.1.5 川 仪50mm 传感器涡街流量信号频谱图",
+    "page_index": 186,
+    "page_number": 187,
+    "image": "figures/fig_8_1_5.webp",
+    "width": 861,
+    "height": 877,
+    "aspect_ratio": 0.982
+  },
+  {
+    "num": "8.1.6",
+    "title": "图 8.1.6 川 仪50mm 传感器涡街流量信号幅值概率密度直方图",
+    "page_index": 187,
+    "page_number": 188,
+    "image": "figures/fig_8_1_6.webp",
+    "width": 828,
+    "height": 657,
+    "aspect_ratio": 1.26
+  },
+  {
+    "num": "8.1.7",
+    "title": "图 8.1.7 川 仪50mm 传感器涡街流量信号幅值概率密度分布与正态分布比较",
+    "page_index": 188,
+    "page_number": 189,
+    "image": "figures/fig_8_1_7.webp",
+    "width": 834,
+    "height": 319,
+    "aspect_ratio": 2.614
+  },
+  {
+    "num": "8.1.8",
+    "title": "图 8.1.8 川 仪50mm 传感器涡街流量信号幅值概率密度函数与混合高斯分布比较",
+    "page_index": 189,
+    "page_number": 190,
+    "image": "figures/fig_8_1_8.webp",
+    "width": 918,
+    "height": 980,
+    "aspect_ratio": 0.937
+  },
+  {
+    "num": "8.1.9",
+    "title": "图 8.1.9 川 仪50mm 传感器涡街流量信号与正弦信号的功率谱比较",
+    "page_index": 190,
+    "page_number": 191,
+    "image": "figures/fig_8_1_9.webp",
+    "width": 838,
+    "height": 676,
+    "aspect_ratio": 1.24
+  },
+  {
+    "num": "8.1.10",
+    "title": "图 8.1.10 只有振动时的传感器输出信号时域波形 (0Hz)",
+    "page_index": 193,
+    "page_number": 194,
+    "image": "figures/fig_8_1_10.webp",
+    "width": 590,
+    "height": 393,
+    "aspect_ratio": 1.501
+  },
+  {
+    "num": "8.1.11",
+    "title": "图 8.1.11 既有流量又有振动时传感器输出信号时域波形",
+    "page_index": 193,
+    "page_number": 194,
+    "image": "figures/fig_8_1_11.webp",
+    "width": 817,
+    "height": 651,
+    "aspect_ratio": 1.255
+  },
+  {
+    "num": "8.1.12",
+    "title": "图 8.1.12 只有振动时传感器输出信号频谱图",
+    "page_index": 194,
+    "page_number": 195,
+    "image": "figures/fig_8_1_12.webp",
+    "width": 624,
+    "height": 501,
+    "aspect_ratio": 1.246
+  },
+  {
+    "num": "8.1.13",
+    "title": "图 8.1.13 既有流量又有振动时传感器输出信号频谱图",
+    "page_index": 194,
+    "page_number": 195,
+    "image": "figures/fig_8_1_13.webp",
+    "width": 845,
+    "height": 713,
+    "aspect_ratio": 1.185
+  },
+  {
+    "num": "8.1.14",
+    "title": "图 8.1.14 四个流量点的传感器输出信号与正弦信号的功率谱比较",
+    "page_index": 195,
+    "page_number": 196,
+    "image": "figures/fig_8_1_14.webp",
+    "width": 835,
+    "height": 583,
+    "aspect_ratio": 1.432
+  },
+  {
+    "num": "8.2.1",
+    "title": "图 8.2.1 基于双传感器的抗强干扰信号处理算法流程图",
+    "page_index": 197,
+    "page_number": 198,
+    "image": "figures/fig_8_2_1.webp",
+    "width": 605,
+    "height": 633,
+    "aspect_ratio": 0.956
+  },
+  {
+    "num": "8.2.2",
+    "title": "图 8.2.2 涡街流量频率与噪声频率不同时的流量传感器输出信号频谱图",
+    "page_index": 199,
+    "page_number": 200,
+    "image": "figures/fig_8_2_2.webp",
+    "width": 477,
+    "height": 394,
+    "aspect_ratio": 1.211
+  },
+  {
+    "num": "8.2.3",
+    "title": "图 8.2.3 涡街流量频率与噪声频率不同时的振动传感器输出信号频谱图",
+    "page_index": 200,
+    "page_number": 201,
+    "image": "figures/fig_8_2_3.webp",
+    "width": 456,
+    "height": 312,
+    "aspect_ratio": 1.462
+  },
+  {
+    "num": "8.2.4",
+    "title": "图 8.2.4 频域相减流程图",
+    "page_index": 200,
+    "page_number": 201,
+    "image": "figures/fig_8_2_4.webp",
+    "width": 214,
+    "height": 665,
+    "aspect_ratio": 0.322
+  },
+  {
+    "num": "8.2.5",
+    "title": "图 8.2.5 为只有噪声时流量传感器输出信号幅值谱图，图 8.2.6 为只有噪声时振动",
+    "page_index": 201,
+    "page_number": 202,
+    "image": "figures/fig_8_2_5.webp",
+    "width": 478,
+    "height": 82,
+    "aspect_ratio": 5.829
+  },
+  {
+    "num": "8.2.7",
+    "title": "图 8.2.7 两者同频时流量传感器输出信号幅值谱图",
+    "page_index": 201,
+    "page_number": 202,
+    "image": "figures/fig_8_2_7.webp",
+    "width": 919,
+    "height": 17,
+    "aspect_ratio": 54.059
+  },
+  {
+    "num": "8.2.8",
+    "title": "图 8.2.8 两者同频时振动传感器输出信号幅值谱图",
+    "page_index": 202,
+    "page_number": 203,
+    "image": "figures/fig_8_2_8.webp",
+    "width": 453,
+    "height": 310,
+    "aspect_ratio": 1.461
+  },
+  {
+    "num": "8.2.9",
+    "title": "图 8.2.9 方差对比图",
+    "page_index": 203,
+    "page_number": 204,
+    "image": "figures/fig_8_2_9.webp",
+    "width": 486,
+    "height": 336,
+    "aspect_ratio": 1.446
+  },
+  {
+    "num": "8.2.10",
+    "title": "图 8.2.10 计算频率方差流程图",
+    "page_index": 203,
+    "page_number": 204,
+    "image": "figures/fig_8_2_10.webp",
+    "width": 461,
+    "height": 802,
+    "aspect_ratio": 0.575
+  },
+  {
+    "num": "8.3.1",
+    "title": "图 8.3.1 低功耗信号处理系统硬件结构框图",
+    "page_index": 204,
+    "page_number": 205,
+    "image": "figures/fig_8_3_1.webp",
+    "width": 872,
+    "height": 423,
+    "aspect_ratio": 2.061
+  },
+  {
+    "num": "8.3.2",
+    "title": "图 8.3.2 主监控程序流程图",
+    "page_index": 205,
+    "page_number": 206,
+    "image": "figures/fig_8_3_2.webp",
+    "width": 250,
+    "height": 774,
+    "aspect_ratio": 0.323
+  },
+  {
+    "num": "8.3.3",
+    "title": "图 8.3.3 实验装置组成图",
+    "page_index": 206,
+    "page_number": 207,
+    "image": "figures/fig_8_3_3.webp",
+    "width": 624,
+    "height": 236,
+    "aspect_ratio": 2.644
+  },
+  {
+    "num": "9.1.1",
+    "title": "图 9.1.1 实验平台组成图",
+    "page_index": 211,
+    "page_number": 212,
+    "image": "figures/fig_9_1_1.webp",
+    "width": 829,
+    "height": 267,
+    "aspect_ratio": 3.105
+  },
+  {
+    "num": "9.1.2",
+    "title": "图 9.1.2 流量传感器输出信号时域图",
+    "page_index": 212,
+    "page_number": 213,
+    "image": "figures/fig_9_1_2.webp",
+    "width": 845,
+    "height": 804,
+    "aspect_ratio": 1.051
+  },
+  {
+    "num": "9.1.3",
+    "title": "图 9.1.3 计算幅值谱流程图",
+    "page_index": 213,
+    "page_number": 214,
+    "image": "figures/fig_9_1_3.webp",
+    "width": 856,
+    "height": 80,
+    "aspect_ratio": 10.7
+  },
+  {
+    "num": "9.1.4",
+    "title": "图 9.1.4 是流量传感器输出信号频域幅值谱的局部放大图，图中四幅小图分",
+    "page_index": 213,
+    "page_number": 214,
+    "image": "figures/fig_9_1_4.webp",
+    "width": 420,
+    "height": 36,
+    "aspect_ratio": 11.667
+  },
+  {
+    "num": "9.1.5",
+    "title": "图 9.1.5 (c)和(d)是在只有振动噪声信号的情况下， 流量传感器输出的振动噪声信",
+    "page_index": 214,
+    "page_number": 215,
+    "image": "figures/fig_9_1_5.webp",
+    "width": 429,
+    "height": 423,
+    "aspect_ratio": 1.014
+  },
+  {
+    "num": "9.1.6",
+    "title": "图 9.1.6 流量信号与振动噪声信号频率波动对比",
+    "page_index": 217,
+    "page_number": 218,
+    "image": "figures/fig_9_1_6.webp",
+    "width": 633,
+    "height": 1281,
+    "aspect_ratio": 0.494
+  },
+  {
+    "num": "9.2.1",
+    "title": "图 9.2.1 抗强振动干扰算法流程图",
+    "page_index": 219,
+    "page_number": 220,
+    "image": "figures/fig_9_2_1.webp",
+    "width": 370,
+    "height": 723,
+    "aspect_ratio": 0.512
+  },
+  {
+    "num": "9.2.2",
+    "title": "图 9.2.2 实际峰值选择流程图",
+    "page_index": 221,
+    "page_number": 222,
+    "image": "figures/fig_9_2_2.webp",
+    "width": 182,
+    "height": 681,
+    "aspect_ratio": 0.267
+  },
+  {
+    "num": "9.2.3",
+    "title": "图 9.2.3 只有涡街流量信号时幅值谱  图 9.2.4 只有振动噪声信号时幅值谱",
+    "page_index": 222,
+    "page_number": 223,
+    "image": "figures/fig_9_2_3.webp",
+    "width": 477,
+    "height": 393,
+    "aspect_ratio": 1.214
+  },
+  {
+    "num": "9.2.5",
+    "title": "图 9.2.5 涡街流量信号与振动噪声信号频",
+    "page_index": 223,
+    "page_number": 224,
+    "image": "figures/fig_9_2_5.webp",
+    "width": 392,
+    "height": 362,
+    "aspect_ratio": 1.083
+  },
+  {
+    "num": "9.2.7",
+    "title": "图 9.2.7 涡街流量信号与振动噪声信号频",
+    "page_index": 223,
+    "page_number": 224,
+    "image": "figures/fig_9_2_7.webp",
+    "width": 390,
+    "height": 361,
+    "aspect_ratio": 1.08
+  },
+  {
+    "num": "9.2.9",
+    "title": "图 9.2.9 涡街流量信号与振动噪声信号频",
+    "page_index": 225,
+    "page_number": 226,
+    "image": "figures/fig_9_2_9.webp",
+    "width": 389,
+    "height": 346,
+    "aspect_ratio": 1.124
+  },
+  {
+    "num": "9.2.11",
+    "title": "图 9.2.11 频率方差处理流程图",
+    "page_index": 225,
+    "page_number": 226,
+    "image": "figures/fig_9_2_11.webp",
+    "width": 379,
+    "height": 594,
+    "aspect_ratio": 0.638
+  },
+  {
+    "num": "9.3.1",
+    "title": "图 9.3.1 抗强振动干扰系统硬件结构框图",
+    "page_index": 226,
+    "page_number": 227,
+    "image": "figures/fig_9_3_1.webp",
+    "width": 916,
+    "height": 455,
+    "aspect_ratio": 2.013
+  },
+  {
+    "num": "9.3.2",
+    "title": "图 9.3.2 是单传感器涡街流量计抗强振动干扰的系统软件结构框图，采用模",
+    "page_index": 227,
+    "page_number": 228,
+    "image": "figures/fig_9_3_2.webp",
+    "width": 478,
+    "height": 394,
+    "aspect_ratio": 1.213
+  },
+  {
+    "num": "9.3.3",
+    "title": "图 9.3.3 主监控程序软件流程图",
+    "page_index": 227,
+    "page_number": 228,
+    "image": "figures/fig_9_3_3.webp",
+    "width": 472,
+    "height": 429,
+    "aspect_ratio": 1.1
+  },
+  {
+    "num": "9.4.1",
+    "title": "图 9.4.1 作者所在实验室抗强振动干扰实验平台实物图",
+    "page_index": 228,
+    "page_number": 229,
+    "image": "figures/fig_9_4_1.webp",
+    "width": 723,
+    "height": 498,
+    "aspect_ratio": 1.452
+  },
+  {
+    "num": "9.4.2",
+    "title": "图 9.4.2 重庆川仪自动化股份有限公司测试中心抗强振动干扰实验平台实物图",
+    "page_index": 228,
+    "page_number": 229,
+    "image": "figures/fig_9_4_2.webp",
+    "width": 755,
+    "height": 443,
+    "aspect_ratio": 1.704
+  },
+  {
+    "num": "10.1.1",
+    "title": "图 10.1.1 重庆川仪公司 DN25 涡街流量传感器输出信号的波形",
+    "page_index": 234,
+    "page_number": 235,
+    "image": "figures/fig_10_1_1.webp",
+    "width": 871,
+    "height": 622,
+    "aspect_ratio": 1.4
+  },
+  {
+    "num": "10.1.2",
+    "title": "图 10.1.2 重庆川仪公司 DN25 涡街流量传感器输出信号的平均幅值谱",
+    "page_index": 235,
+    "page_number": 236,
+    "image": "figures/fig_10_1_2.webp",
+    "width": 807,
+    "height": 593,
+    "aspect_ratio": 1.361
+  },
+  {
+    "num": "10.1.3",
+    "title": "图 10.1.3 重庆川仪公司 DN25 涡街流量传感器输出信号的幅值谱中峰值频率的分布",
+    "page_index": 237,
+    "page_number": 238,
+    "image": "figures/fig_10_1_3.webp",
+    "width": 583,
+    "height": 1159,
+    "aspect_ratio": 0.503
+  },
+  {
+    "num": "10.1.4",
+    "title": "图 10.1.4 重庆川仪公司 DN25 涡街流量传感器输出信号的频率方差",
+    "page_index": 239,
+    "page_number": 240,
+    "image": "figures/fig_10_1_4.webp",
+    "width": 618,
+    "height": 430,
+    "aspect_ratio": 1.437
+  },
+  {
+    "num": "10.1.5",
+    "title": "图 10.1.5 不同涡街流量传感器输出的不同频率的涡街流量信号的频率方差",
+    "page_index": 240,
+    "page_number": 241,
+    "image": "figures/fig_10_1_5.webp",
+    "width": 595,
+    "height": 430,
+    "aspect_ratio": 1.384
+  },
+  {
+    "num": "10.1.6",
+    "title": "图 10.1.6 不同涡街流量传感器输出的不同频率的同频信号的频率方差",
+    "page_index": 240,
+    "page_number": 241,
+    "image": "figures/fig_10_1_6.webp",
+    "width": 609,
+    "height": 440,
+    "aspect_ratio": 1.384
+  },
+  {
+    "num": "10.1.7",
+    "title": "图 10.1.7 不同涡街流量传感器输出的不同频率的振动噪声信号的频率方差",
+    "page_index": 241,
+    "page_number": 242,
+    "image": "figures/fig_10_1_7.webp",
+    "width": 817,
+    "height": 605,
+    "aspect_ratio": 1.35
+  },
+  {
+    "num": "10.1.8",
+    "title": "图 10.1.8 重庆川仪公司 DN25 涡街流量传感器输出涡街流量信号的频谱幅值分布",
+    "page_index": 242,
+    "page_number": 243,
+    "image": "figures/fig_10_1_8.webp",
+    "width": 855,
+    "height": 899,
+    "aspect_ratio": 0.951
+  },
+  {
+    "num": "10.1.9",
+    "title": "图 10.1.9 重庆川仪公司 DN25 涡街流量传感器中涡街流量信号的频率",
+    "page_index": 243,
+    "page_number": 244,
+    "image": "figures/fig_10_1_9.webp",
+    "width": 928,
+    "height": 1134,
+    "aspect_ratio": 0.818
+  },
+  {
+    "num": "10.1.10",
+    "title": "图 10.1.10 重庆川仪公司 DN25 涡街流量传感器输出的不同振动干扰的频谱幅值",
+    "page_index": 245,
+    "page_number": 246,
+    "image": "figures/fig_10_1_10.webp",
+    "width": 890,
+    "height": 362,
+    "aspect_ratio": 2.459
+  },
+  {
+    "num": "10.1.12",
+    "title": "图 10.1.12 涡街流量传感器输出的同频信号和涡街流量信号的频谱幅值分布",
+    "page_index": 246,
+    "page_number": 247,
+    "image": "figures/fig_10_1_12.webp",
+    "width": 634,
+    "height": 404,
+    "aspect_ratio": 1.569
+  },
+  {
+    "num": "10.1.13",
+    "title": "图 10.1.13 不同振动干扰下重庆川仪公司 DN25 涡街流量计输出信号的平均幅值谱",
+    "page_index": 247,
+    "page_number": 248,
+    "image": "figures/fig_10_1_13.webp",
+    "width": 467,
+    "height": 627,
+    "aspect_ratio": 0.745
+  },
+  {
+    "num": "10.2.1",
+    "title": "图 10.2.1 频率方差计算与幅值",
+    "page_index": 248,
+    "page_number": 249,
+    "image": "figures/fig_10_2_1.webp",
+    "width": 273,
+    "height": 541,
+    "aspect_ratio": 0.505
+  },
+  {
+    "num": "10.2.2",
+    "title": "图 10.2.2 重庆川仪公司 DN25 涡街流量传感器在三种工况下的平均幅值谱",
+    "page_index": 253,
+    "page_number": 254,
+    "image": "figures/fig_10_2_2.webp",
+    "width": 556,
+    "height": 370,
+    "aspect_ratio": 1.503
+  },
+  {
+    "num": "10.2.3",
+    "title": "图 10.2.3 峰值频率方差的计算结果",
+    "page_index": 253,
+    "page_number": 254,
+    "image": "figures/fig_10_2_3.webp",
+    "width": 544,
+    "height": 752,
+    "aspect_ratio": 0.723
+  },
+  {
+    "num": "10.2.4",
+    "title": "图 10.2.4 保持流量不变，在不同振动噪声信号下的平均幅值谱",
+    "page_index": 255,
+    "page_number": 256,
+    "image": "figures/fig_10_2_4.webp",
+    "width": 485,
+    "height": 694,
+    "aspect_ratio": 0.699
+  },
+  {
+    "num": "10.2.5",
+    "title": "图 10.2.5 保持流量不变，在不同振动干扰下实际峰值的频率方差",
+    "page_index": 257,
+    "page_number": 258,
+    "image": "figures/fig_10_2_5.webp",
+    "width": 568,
+    "height": 835,
+    "aspect_ratio": 0.68
+  },
+  {
+    "num": "10.2.7",
+    "title": "图 10.2.7 涡街流量信号和同频信号的频谱幅值",
+    "page_index": 260,
+    "page_number": 261,
+    "image": "figures/fig_10_2_7.webp",
+    "width": 534,
+    "height": 844,
+    "aspect_ratio": 0.633
+  },
+  {
+    "num": "10.3.1",
+    "title": "图 10.3.1 主监控程序流程图",
+    "page_index": 263,
+    "page_number": 264,
+    "image": "figures/fig_10_3_1.webp",
+    "width": 851,
+    "height": 1153,
+    "aspect_ratio": 0.738
+  },
+  {
+    "num": "10.4.1",
+    "title": "图 10.4.1 重庆川仪公司测试中心的涡街流量计抗管道振动实验平台",
+    "page_index": 266,
+    "page_number": 267,
+    "image": "figures/fig_10_4_1.webp",
+    "width": 706,
+    "height": 873,
+    "aspect_ratio": 0.809
+  },
+  {
+    "num": "11.2.1",
+    "title": "图 11.2.1 瞬态冲击干扰实验平台示意图",
+    "page_index": 275,
+    "page_number": 276,
+    "image": "figures/fig_11_2_1.webp",
+    "width": 635,
+    "height": 341,
+    "aspect_ratio": 1.862
+  },
+  {
+    "num": "11.2.2",
+    "title": "图 11.2.2 橡胶锤水平敲击的时频域分析",
+    "page_index": 277,
+    "page_number": 278,
+    "image": "figures/fig_11_2_2.webp",
+    "width": 815,
+    "height": 516,
+    "aspect_ratio": 1.579
+  },
+  {
+    "num": "11.2.3",
+    "title": "图 11.2.3 不同瞬态冲击干扰的时频域分析",
+    "page_index": 279,
+    "page_number": 280,
+    "image": "figures/fig_11_2_3.webp",
+    "width": 824,
+    "height": 1236,
+    "aspect_ratio": 0.667
+  },
+  {
+    "num": "11.2.4",
+    "title": "图 11.2.4 单自由度有阻尼弹性系统",
+    "page_index": 280,
+    "page_number": 281,
+    "image": "figures/fig_11_2_4.webp",
+    "width": 688,
+    "height": 326,
+    "aspect_ratio": 2.11
+  },
+  {
+    "num": "11.2.5",
+    "title": "图 11.2.5 瞬态冲击干扰时域波形对比",
+    "page_index": 281,
+    "page_number": 282,
+    "image": "figures/fig_11_2_5.webp",
+    "width": 926,
+    "height": 919,
+    "aspect_ratio": 1.008
+  },
+  {
+    "num": "11.2.6",
+    "title": "图 11.2.6 瞬态冲击干扰幅值谱对比图",
+    "page_index": 282,
+    "page_number": 283,
+    "image": "figures/fig_11_2_6.webp",
+    "width": 804,
+    "height": 261,
+    "aspect_ratio": 3.08
+  },
+  {
+    "num": "11.3.1",
+    "title": "图 11.3.1 抗强瞬态冲击振动的研究思路和内容",
+    "page_index": 284,
+    "page_number": 285,
+    "image": "figures/fig_11_3_1.webp",
+    "width": 836,
+    "height": 279,
+    "aspect_ratio": 2.996
+  },
+  {
+    "num": "11.3.2",
+    "title": "图 11.3.2 突变阈值设置示意图",
+    "page_index": 285,
+    "page_number": 286,
+    "image": "figures/fig_11_3_2.webp",
+    "width": 694,
+    "height": 421,
+    "aspect_ratio": 1.648
+  },
+  {
+    "num": "11.3.3",
+    "title": "图 11.3.3 查找包含瞬态冲击数据段的示意图",
+    "page_index": 285,
+    "page_number": 286,
+    "image": "figures/fig_11_3_3.webp",
+    "width": 696,
+    "height": 417,
+    "aspect_ratio": 1.669
+  },
+  {
+    "num": "11.3.8",
+    "title": "图 11.3.8 每段数据的突变阈值",
+    "page_index": 290,
+    "page_number": 291,
+    "image": "figures/fig_11_3_8.webp",
+    "width": 659,
+    "height": 1282,
+    "aspect_ratio": 0.514
+  },
+  {
+    "num": "11.3.9",
+    "title": "图 11.3.9 幅值谱中最大峰值频率对比",
+    "page_index": 291,
+    "page_number": 292,
+    "image": "figures/fig_11_3_9.webp",
+    "width": 581,
+    "height": 341,
+    "aspect_ratio": 1.704
+  },
+  {
+    "num": "11.3.10",
+    "title": "图 11.3.10 Q- thV 关系曲线",
+    "page_index": 292,
+    "page_number": 293,
+    "image": "figures/fig_11_3_10.webp",
+    "width": 689,
+    "height": 397,
+    "aspect_ratio": 1.736
+  },
+  {
+    "num": "11.3.11",
+    "title": "图 11.3.11 实际信号时域波形中包含瞬态冲击数据段示意图",
+    "page_index": 292,
+    "page_number": 293,
+    "image": "figures/fig_11_3_11.webp",
+    "width": 652,
+    "height": 404,
+    "aspect_ratio": 1.614
+  },
+  {
+    "num": "11.3.12",
+    "title": "图 11.3.12 包含瞬态冲击的数据段滤波前后幅值谱对比",
+    "page_index": 293,
+    "page_number": 294,
+    "image": "figures/fig_11_3_12.webp",
+    "width": 763,
+    "height": 905,
+    "aspect_ratio": 0.843
+  },
+  {
+    "num": "11.3.13",
+    "title": "图 11.3.13 时域波形中包含瞬态冲击数据段滤波后示意图",
+    "page_index": 294,
+    "page_number": 295,
+    "image": "figures/fig_11_3_13.webp",
+    "width": 604,
+    "height": 357,
+    "aspect_ratio": 1.692
+  },
+  {
+    "num": "11.3.14",
+    "title": "图 11.3.14 滤波前后频域幅值谱对比",
+    "page_index": 294,
+    "page_number": 295,
+    "image": "figures/fig_11_3_14.webp",
+    "width": 770,
+    "height": 546,
+    "aspect_ratio": 1.41
+  },
+  {
+    "num": "11.4.1",
+    "title": "图 11.4.1 主监控程序流程图",
+    "page_index": 298,
+    "page_number": 299,
+    "image": "figures/fig_11_4_1.webp",
+    "width": 310,
+    "height": 813,
+    "aspect_ratio": 0.381
+  },
+  {
+    "num": "11.5.1",
+    "title": "图 11.5.1 空气流量涡街流量计抗强瞬态冲击干扰实验平台",
+    "page_index": 299,
+    "page_number": 300,
+    "image": "figures/fig_11_5_1.webp",
+    "width": 574,
+    "height": 516,
+    "aspect_ratio": 1.112
+  }
+]
