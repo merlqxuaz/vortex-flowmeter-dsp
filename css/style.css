@@ -626,19 +626,17 @@ body {
 
 /* Embedded Formulas inside Text View */
 .formula-card {
-  margin: 20px auto;
+  margin: 22px auto;
   background: var(--bg-card);
   border: 1px solid var(--border-color);
   border-left: 3px solid var(--primary);
   border-radius: 8px;
-  padding: 10px 16px;
+  padding: 12px 16px;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 16px;
+  flex-direction: column;
+  gap: 10px;
   box-shadow: var(--shadow-sm);
   max-width: 100%;
-  overflow-x: auto;
   text-indent: 0 !important;
   transition: box-shadow 0.2s ease, border-color 0.2s ease;
 }
@@ -646,6 +644,14 @@ body {
 .formula-card:hover {
   box-shadow: var(--shadow-md);
   border-color: var(--primary);
+}
+
+.formula-main-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  width: 100%;
 }
 
 .formula-img-wrap {
@@ -691,6 +697,61 @@ body {
   font-size: 13px;
   font-weight: 700;
   color: var(--text-muted);
+}
+
+.formula-ocr-box {
+  background: var(--bg-app);
+  border: 1px dashed var(--border-color);
+  border-radius: 6px;
+  padding: 6px 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  font-size: 12.5px;
+}
+
+.formula-ocr-tag {
+  background: rgba(37, 99, 235, 0.1);
+  color: var(--primary);
+  font-size: 10px;
+  font-weight: 700;
+  padding: 2px 6px;
+  border-radius: 4px;
+  flex-shrink: 0;
+  letter-spacing: 0.5px;
+}
+
+.formula-ocr-code {
+  flex: 1;
+  font-family: var(--font-family-mono);
+  color: var(--text-main);
+  line-height: 1.4;
+  word-break: break-all;
+}
+
+.btn-copy-formula {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  color: var(--text-muted);
+  border-radius: 4px;
+  padding: 3px 8px;
+  font-size: 11px;
+  cursor: pointer;
+  flex-shrink: 0;
+  transition: all 0.2s ease;
+}
+
+.btn-copy-formula:hover {
+  background: var(--primary);
+  color: #ffffff;
+  border-color: var(--primary);
+}
+
+.btn-copy-formula.copied {
+  background: #10b981;
+  color: #ffffff;
+  border-color: #10b981;
 }
 
 /* Embedded Figures inside Text View */

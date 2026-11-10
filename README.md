@@ -79,4 +79,6 @@ python -m http.server 8080
 
 - `scripts/export_all_pages.py`: 提取 PDF 矢量文字流与高清 WebP 页面。
 - `scripts/parse_toc.py`: 解析原书目录并构建结构化 TOC JSON。
+- `scripts/extract_all_formulas.py`: 提取全书 128 个独立公式高精度裁剪图 (formulas/*.webp)。
+- `scripts/process_all_formulas_ocr.py`: 使用 PaddleOCR PP-OCRv6 对全书 128 个数学公式进行批量 OCR 识别与结构化提取，生成 `data/formulas.json`。
 - `scripts/run_sample_ocr.py`: 调用 PaddleOCR PP-OCRv6 进行样页检测识别并输出置信度。

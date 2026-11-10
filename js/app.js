@@ -230,12 +230,39 @@ function isHeaderOrFooter(line) {
   return false;
 }
 
+// Formula raw text filter (to prevent formula dumps from leaking into paragraphs)
+function isRawFormulaText(line) {
+  const t = line.trim();
+  if (!t) return false;
+  if (/\(\s*\d+[\.\-]\d+(?:[\.\-]\d+)?\s*\)\s*$/.test(t)) return true;
+  const chinese = (t.match(/[\u4e00-\u9fa5]/g) || []).length;
+  if (chinese > 3) return false;
+  const mathTokens = [
+    '=', '\uf03d', '\uf04c', '\uf02b', '\uf02d', '+', '/', '()', '( )',
+    'x n', 'u n', 'X k', 'b u', 'a x', 'sin', 'cos', 'π', 'pi', 'min',
+    'max', 'exp', '', '', 'ˆ', '', '', 'Sr', 'Re', '01 1 0', 'hl /', 'vv m'
+  ];
+  return mathTokens.some(tok => t.includes(tok));
+}
+
+const SYMBOL_MAP = {
+  '\uf028': '(', '\uf029': ')', '\uf02b': '+', '\uf02d': '-', '\uf02f': '/',
+  '\uf03c': '<', '\uf03d': '=', '\uf03e': '>', '\uf044': 'Δ', '\uf04c': '…',
+  '\uf061': 'α', '\uf062': 'β', '\uf067': 'γ', '\uf064': 'δ', '\uf065': 'ε',
+  '\uf068': 'θ', '\uf06c': 'λ', '\uf06d': 'μ', '\uf070': 'π', '\uf072': 'ρ',
+  '\uf073': 'σ', '\uf074': 'τ', '\uf075': 'υ', '\uf076': 'φ', '\uf077': 'ω',
+  '\uf0a5': '∞', '\uf0b4': '×', '\uf0e5': '∑',
+  '\uf0e6': '(', '\uf0e7': '(', '\uf0e8': '(', '\uf0f6': ')', '\uf0f7': ')', '\uf0f8': ')',
+  '': '=', '': '…', '': '×', '': '∑'
+};
+
 // Clean and normalize inline variables and typography
 function normalizeTypography(text) {
-  return text
-    .replace(//g, '=')
-    .replace(//g, '…')
-    .replace(//g, '×')
+  if (!text) return '';
+  let out = text.replace(/[\uf000-\uf8ff]/g, ch => SYMBOL_MAP[ch] || '');
+  out = out.replace(/01\s*0\s*1\{\s*,\s*,,,,,,[^\u4e00-\u9fa5]*\}\s*mkbb\s*b\s*aa\s*a[\s\uf000-\uf8ff]*/g, '{b₀, b₁, …, b_m, a₀, a₁, …, a_k} ');
+
+  return out
     .replace(/\b1v\b/g, 'v₁')
     .replace(/\b2v\b/g, 'v₂')
     .replace(/\b0b\b/g, 'b₀')
@@ -251,6 +278,44 @@ function normalizeTypography(text) {
     .replace(/\s*；\s*/g, '；')
     .replace(/\s*：\s*/g, '：');
 }
+
+// Copy formula text helper
+window.copyFormulaText = function(btn) {
+  const codeEl = btn.parentElement ? btn.parentElement.querySelector('.formula-ocr-code') : null;
+  const text = codeEl ? codeEl.textContent : '';
+  if (!text) return;
+
+  function markSuccess() {
+    const old = btn.textContent;
+    btn.textContent = '已复制';
+    btn.classList.add('copied');
+    setTimeout(() => {
+      btn.textContent = old;
+      btn.classList.remove('copied');
+    }, 1500);
+  }
+
+  if (navigator.clipboard && navigator.clipboard.writeText) {
+    navigator.clipboard.writeText(text).then(markSuccess).catch(() => {
+      fallbackCopy(text);
+      markSuccess();
+    });
+  } else {
+    fallbackCopy(text);
+    markSuccess();
+  }
+
+  function fallbackCopy(val) {
+    const ta = document.createElement('textarea');
+    ta.value = val;
+    ta.style.position = 'fixed';
+    ta.style.opacity = '0';
+    document.body.appendChild(ta);
+    ta.select();
+    document.execCommand('copy');
+    document.body.removeChild(ta);
+  }
+};
 
 // Render Text Stream with Natural Paragraphs, Embedded Formulas and Figures
 function renderTextStream() {
@@ -273,13 +338,42 @@ function renderTextStream() {
 
     function flushPara() {
       if (!currentPara.trim()) return;
-      const cleanPara = normalizeTypography(currentPara.trim());
+      // Clean up any formula expression remnants from paragraph end
+      let pText = currentPara.trim();
+      pText = pText.replace(/(公式为|关系为|表示为|可得)\s*[^。！？\u4e00-\u9fa5]{4,}.*$/, '$1：');
+      const cleanPara = normalizeTypography(pText);
       if (/^[①②③④⑤⑥⑦⑧⑨⑩]|^（[0-9]+）|^\([0-9]+\)/.test(cleanPara)) {
         bodyHtml += `<div class="list-step-item">${escapeHtml(cleanPara)}</div>`;
       } else {
         bodyHtml += `<p class="book-paragraph">${escapeHtml(cleanPara)}</p>`;
       }
       currentPara = '';
+    }
+
+    function buildFormulaCard(eqObj) {
+      renderedFormNums.add(eqObj.num);
+      const ocrBoxHtml = eqObj.ocr_text ? `
+        <div class="formula-ocr-box">
+          <span class="formula-ocr-tag">OCR公式</span>
+          <code class="formula-ocr-code">${escapeHtml(eqObj.ocr_text)}</code>
+          <button class="btn-copy-formula" onclick="copyFormulaText(this)" title="复制公式文本">复制</button>
+        </div>
+      ` : '';
+
+      return `
+        <div class="formula-card" data-eq-num="${eqObj.num}">
+          <div class="formula-main-row">
+            <div class="formula-img-wrap" onclick="openLightbox('${eqObj.image}', '公式 (${eqObj.num})')">
+              <img src="${eqObj.image}" alt="公式 (${eqObj.num})" loading="lazy" />
+            </div>
+            <div class="formula-tag">
+              <span class="formula-badge">公式</span>
+              <span class="formula-num">(${eqObj.num})</span>
+            </div>
+          </div>
+          ${ocrBoxHtml}
+        </div>
+      `;
     }
 
     rawLines.forEach(line => {
@@ -308,23 +402,23 @@ function renderTextStream() {
         flushPara();
 
         if (eqObj) {
-          renderedFormNums.add(eqObj.num);
-          bodyHtml += `
-            <div class="formula-card" data-eq-num="${eqObj.num}">
-              <div class="formula-img-wrap" onclick="openLightbox('${eqObj.image}', '公式 (${eqObj.num})')">
-                <img src="${eqObj.image}" alt="公式 (${eqObj.num})" loading="lazy" />
-              </div>
-              <div class="formula-tag">
-                <span class="formula-badge">公式</span>
-                <span class="formula-num">(${eqObj.num})</span>
-              </div>
-            </div>
-          `;
+          bodyHtml += buildFormulaCard(eqObj);
           return;
         }
       }
 
-      // 3. Check for Figure Card match
+      // 3. Check for standalone raw formula lines (math dumps that don't belong to prose)
+      if (isRawFormulaText(lineTrim)) {
+        if (currentPara) {
+          if (/(公式为|关系为|表示为|可得|即)$/.test(currentPara.trim())) {
+            currentPara = currentPara.trim() + '：';
+          }
+          flushPara();
+        }
+        return;
+      }
+
+      // 4. Check for Figure Card match
       const mFig = lineTrim.match(/^图\s*(\d+\.\d+(?:\.\d+)?)\s*(.*)$/);
       if (mFig && !['所示', '见图', '如图', '表明', '中的', '中“', '由图', '从图'].some(w => lineTrim.includes(w))) {
         flushPara();
@@ -348,7 +442,7 @@ function renderTextStream() {
         }
       }
 
-      // 4. Headings
+      // 5. Headings
       if (/^第\s*\d+\s*章\s+(.*)$/.test(lineTrim)) {
         flushPara();
         bodyHtml += `<h2 class="book-chap-title">${escapeHtml(lineTrim)}</h2>`;
@@ -365,7 +459,7 @@ function renderTextStream() {
         return;
       }
 
-      // 5. Paragraph Flow: natural Chinese joining
+      // 6. Paragraph Flow: natural Chinese joining
       if (!currentPara) {
         currentPara = lineTrim;
       } else {
@@ -407,17 +501,7 @@ function renderTextStream() {
     // Catch-up any formulas on this page not yet inlined
     pageForms.forEach(eq => {
       if (!renderedFormNums.has(eq.num)) {
-        bodyHtml += `
-          <div class="formula-card" data-eq-num="${eq.num}">
-            <div class="formula-img-wrap" onclick="openLightbox('${eq.image}', '公式 (${eq.num})')">
-              <img src="${eq.image}" alt="公式 (${eq.num})" loading="lazy" />
-            </div>
-            <div class="formula-tag">
-              <span class="formula-badge">公式</span>
-              <span class="formula-num">(${eq.num})</span>
-            </div>
-          </div>
-        `;
+        bodyHtml += buildFormulaCard(eq);
       }
     });
 

@@ -5,9 +5,10 @@
     "page_index": 13,
     "page_num": 14,
     "image": "formulas/eq_1_2_1.webp",
-    "width": 927,
-    "height": 35,
-    "raw_line": "hl / 0.2806  (1.2.1)"
+    "width": 538,
+    "height": 33,
+    "raw_line": "hl / 0.2806  (1.2.1)",
+    "ocr_text": "h / l = 0.2806 (1.2.1)"
   },
   {
     "num": "1.2.2",
@@ -15,9 +16,10 @@
     "page_index": 13,
     "page_num": 14,
     "image": "formulas/eq_1_2_2.webp",
-    "width": 877,
+    "width": 873,
     "height": 36,
-    "raw_line": "d  (1.2.2)"
+    "raw_line": "d  (1.2.2)",
+    "ocr_text": "对于卡门涡街，产生的旋涡频率f与发生体两侧的平均流速v满足式(1.2.2)"
   },
   {
     "num": "1.2.3",
@@ -25,9 +27,10 @@
     "page_index": 13,
     "page_num": 14,
     "image": "formulas/eq_1_2_3.webp",
-    "width": 508,
-    "height": 57,
-    "raw_line": "m (1.2.3)"
+    "width": 504,
+    "height": 58,
+    "raw_line": "m (1.2.3)",
+    "ocr_text": "v v1 = (1.2.3) m"
   },
   {
     "num": "1.2.4",
@@ -35,9 +38,10 @@
     "page_index": 13,
     "page_num": 14,
     "image": "formulas/eq_1_2_4.webp",
-    "width": 819,
-    "height": 89,
-    "raw_line": "v f Sr md  (1.2.4)"
+    "width": 525,
+    "height": 58,
+    "raw_line": "v f Sr md  (1.2.4)",
+    "ocr_text": "f = Sr v (1.2.4) md"
   },
   {
     "num": "1.2.5",
@@ -45,9 +49,10 @@
     "page_index": 14,
     "page_num": 15,
     "image": "formulas/eq_1_2_5.webp",
-    "width": 814,
-    "height": 96,
-    "raw_line": "     (1.2.5)"
+    "width": 626,
+    "height": 73,
+    "raw_line": "     (1.2.5)",
+    "ocr_text": "D 2 πD2 f qv = π v = -mdf = (1.2.5) 2 4Sr K"
   },
   {
     "num": "2.1.1",
@@ -55,9 +60,10 @@
     "page_index": 30,
     "page_num": 31,
     "image": "formulas/eq_2_1_1.webp",
-    "width": 868,
+    "width": 864,
     "height": 76,
-    "raw_line": "(2.1.1)"
+    "raw_line": "(2.1.1)",
+    "ocr_text": "x(n) = (b0u(n) + b1u(n − 1) + · · + bmu(n − m) − a1x(n − 1) − · · · − akx(n − k)) / a0 (2.1.1)"
   },
   {
     "num": "2.1.2",
@@ -65,9 +71,10 @@
     "page_index": 31,
     "page_num": 32,
     "image": "formulas/eq_2_1_2.webp",
-    "width": 570,
-    "height": 63,
-    "raw_line": "N  (2.1.2)"
+    "width": 566,
+    "height": 64,
+    "raw_line": "N  (2.1.2)",
+    "ocr_text": "δxx(k) = 1 |X(k)|2 (2.1.2) N"
   },
   {
     "num": "2.1.3",
@@ -75,9 +82,10 @@
     "page_index": 31,
     "page_num": 32,
     "image": "formulas/eq_2_1_3.webp",
-    "width": 821,
-    "height": 108,
-    "raw_line": "  ， kN  0,1, , 1   (2.1.3)"
+    "width": 674,
+    "height": 74,
+    "raw_line": "  ， kN  0,1, , 1   (2.1.3)",
+    "ocr_text": "N-1 X(k) = ∑ x(n)W nk, k = 0,1, · · · , N −1 (2.1.3) n=0"
   },
   {
     "num": "2.1.4",
@@ -85,9 +93,10 @@
     "page_index": 31,
     "page_num": 32,
     "image": "formulas/eq_2_1_4.webp",
-    "width": 766,
-    "height": 225,
-    "raw_line": " (2.1.4)"
+    "width": 720,
+    "height": 141,
+    "raw_line": " (2.1.4)",
+    "ocr_text": "N/2-1 N/2-1 X(k) = ∑ x(2n)W 2nk ∑ x(2n + 1)W (2n+1)k 十 N N n=0 n=0 N/2-1 N/2-1 = ∑ x e (n)W nk +W 不 ∑ x_0 (n)W nk (2.1.4) N/2 N/2"
   },
   {
     "num": "2.1.5",
@@ -95,9 +104,10 @@
     "page_index": 31,
     "page_num": 32,
     "image": "formulas/eq_2_1_5.webp",
-    "width": 700,
-    "height": 34,
-    "raw_line": "( ) ( ) j ( ), eo g n xn xn  nN  0,1, , / 2 1   (2.1.5)"
+    "width": 696,
+    "height": 35,
+    "raw_line": "( ) ( ) j ( ), eo g n xn xn  nN  0,1, , / 2 1   (2.1.5)",
+    "ocr_text": "g(n) = xe (n) + jx (n), n = 0,1, · ··, N / 2 −1 (2.1.5)"
   },
   {
     "num": "2.1.6",
@@ -105,9 +115,10 @@
     "page_index": 31,
     "page_num": 32,
     "image": "formulas/eq_2_1_6.webp",
-    "width": 592,
-    "height": 34,
-    "raw_line": "() () j () Gk X k X k  eo  (2.1.6)"
+    "width": 588,
+    "height": 35,
+    "raw_line": "() () j () Gk X k X k  eo  (2.1.6)",
+    "ocr_text": "G(k) = Xe(k) + jX0(k) (2.1.6)"
   },
   {
     "num": "2.1.7",
@@ -115,9 +126,10 @@
     "page_index": 31,
     "page_num": 32,
     "image": "formulas/eq_2_1_7.webp",
-    "width": 828,
-    "height": 67,
-    "raw_line": "( /2 ) ( ) j ( ) GN k Xk Xk   eo (2.1.7)"
+    "width": 632,
+    "height": 41,
+    "raw_line": "( /2 ) ( ) j ( ) GN k Xk Xk   eo (2.1.7)",
+    "ocr_text": "G(N / 2 − k) = Xe(k) − jX0(k) (2.1.7)"
   },
   {
     "num": "2.1.8",
@@ -125,9 +137,10 @@
     "page_index": 32,
     "page_num": 33,
     "image": "formulas/eq_2_1_8.webp",
-    "width": 626,
-    "height": 155,
-    "raw_line": "Gk G N k Xk    (2.1.8)"
+    "width": 622,
+    "height": 67,
+    "raw_line": "Gk G N k Xk    (2.1.8)",
+    "ocr_text": "G(k) + G* (N / 2 − k) Xe(k) = (2.1.8) 2"
   },
   {
     "num": "2.1.9",
@@ -135,9 +148,10 @@
     "page_index": 32,
     "page_num": 33,
     "image": "formulas/eq_2_1_9.webp",
-    "width": 626,
-    "height": 155,
-    "raw_line": "Gk G N k Xk    (2.1.9)"
+    "width": 622,
+    "height": 76,
+    "raw_line": "Gk G N k Xk    (2.1.9)",
+    "ocr_text": "G(k) − G(N / 2 − k) X0(k) = (2.1.9) 2j"
   },
   {
     "num": "2.1.10",
@@ -145,9 +159,10 @@
     "page_index": 32,
     "page_num": 33,
     "image": "formulas/eq_2_1_10.webp",
-    "width": 538,
-    "height": 66,
-    "raw_line": "ˆ / v ss f  nf N (2.1.10)"
+    "width": 534,
+    "height": 42,
+    "raw_line": "ˆ / v ss f  nf N (2.1.10)",
+    "ocr_text": "fv = nf s / Ns (2.1.10)"
   },
   {
     "num": "2.1.11",
@@ -155,9 +170,10 @@
     "page_index": 33,
     "page_num": 34,
     "image": "formulas/eq_2_1_11.webp",
-    "width": 612,
-    "height": 139,
-    "raw_line": "(2.1.11)"
+    "width": 608,
+    "height": 68,
+    "raw_line": "(2.1.11)",
+    "ocr_text": "nY(n) + (n + 1)Y(n + 1) n = (2.1.11) Y(n) + Y(n + 1)"
   },
   {
     "num": "2.1.12",
@@ -165,9 +181,10 @@
     "page_index": 33,
     "page_num": 34,
     "image": "formulas/eq_2_1_12.webp",
-    "width": 612,
-    "height": 139,
-    "raw_line": "ˆ ˆ / s s f  nf N (2.1.12)"
+    "width": 529,
+    "height": 42,
+    "raw_line": "ˆ ˆ / s s f  nf N (2.1.12)",
+    "ocr_text": "f = nf s / Ns (2.1.12)"
   },
   {
     "num": "2.1.13",
@@ -175,9 +192,10 @@
     "page_index": 33,
     "page_num": 34,
     "image": "formulas/eq_2_1_13.webp",
-    "width": 875,
-    "height": 35,
-    "raw_line": "01 x( ) sin(2 t ft ft  π ) 0.5sin(2  π ) (2.1.13)"
+    "width": 632,
+    "height": 34,
+    "raw_line": "01 x( ) sin(2 t ft ft  π ) 0.5sin(2  π ) (2.1.13)",
+    "ocr_text": "x(t) = sin(2πf0t) + 0.5sin(2πf1t) (2.1.13)"
   },
   {
     "num": "2.2.1",
@@ -185,9 +203,10 @@
     "page_index": 40,
     "page_num": 41,
     "image": "formulas/eq_2_2_1.webp",
-    "width": 877,
-    "height": 35,
-    "raw_line": "FR 3600 fre /   k (2.2.1)"
+    "width": 925,
+    "height": 143,
+    "raw_line": "FR 3600 fre /   k (2.2.1)",
+    "ocr_text": "频率进行频谱校止，获得精度较高的信号频率； 对多次计算结果进行平均。整个系统处理流程如 图2.2.4信号处理算法流程图 图2.2.4所示。 根据涡街流量计工作原理，流体流量与涡街频率成正比，因此可由式(2.2.1)计"
   },
   {
     "num": "2.2.2",
@@ -195,9 +214,10 @@
     "page_index": 41,
     "page_num": 42,
     "image": "formulas/eq_2_2_2.webp",
-    "width": 547,
-    "height": 69,
-    "raw_line": "qq P T  (2.2.2)"
+    "width": 543,
+    "height": 70,
+    "raw_line": "qq P T  (2.2.2)",
+    "ocr_text": "Pn Tw qw = qn (2.2.2) Pw Tn"
   },
   {
     "num": "2.2.3",
@@ -205,9 +225,10 @@
     "page_index": 41,
     "page_num": 42,
     "image": "formulas/eq_2_2_3.webp",
-    "width": 929,
-    "height": 35,
-    "raw_line": "(2.2.3)"
+    "width": 925,
+    "height": 144,
+    "raw_line": "(2.2.3)",
+    "ocr_text": "压力、工况温度和标况温度。大然气的流量的温压补偿实现过程：首先对流量进 行工况到标况的转换，然后根据面板设置的天然气相对密度计算天然气的质量流 量。对于热水、过热蒸汽和饱和蒸汽，则采用查表和插值的方法，通过各自的温 度、压力和密度表，对流量进行补偿；液氨的密度随温度、压力变化有如式(2.2.3)"
   },
   {
     "num": "2.2.4",
@@ -215,9 +236,10 @@
     "page_index": 43,
     "page_num": 44,
     "image": "formulas/eq_2_2_4.webp",
-    "width": 938,
-    "height": 151,
-    "raw_line": "FR   k (2.2.4)"
+    "width": 577,
+    "height": 63,
+    "raw_line": "FR   k (2.2.4)",
+    "ocr_text": "CLK TxPR = ×k −1 (2.2.4) FR"
   },
   {
     "num": "2.2.5",
@@ -225,9 +247,10 @@
     "page_index": 43,
     "page_num": 44,
     "image": "formulas/eq_2_2_5.webp",
-    "width": 938,
-    "height": 151,
-    "raw_line": "TxCMPR 0.5 TxPR   (2.2.5)"
+    "width": 591,
+    "height": 32,
+    "raw_line": "TxCMPR 0.5 TxPR   (2.2.5)",
+    "ocr_text": "TxCMPR = 0.5 × TxPR (2.2.5)"
   },
   {
     "num": "2.3.1",
@@ -235,9 +258,10 @@
     "page_index": 45,
     "page_num": 46,
     "image": "formulas/eq_2_3_1.webp",
-    "width": 617,
-    "height": 184,
-    "raw_line": "(2.3.1)"
+    "width": 560,
+    "height": 143,
+    "raw_line": "(2.3.1)",
+    "ocr_text": "Kmax−Kmin El = (2.3.1) Kmax +Kmin Σ (Ki − K)2 /(n−1) n"
   },
   {
     "num": "2.3.2",
@@ -245,9 +269,10 @@
     "page_index": 45,
     "page_num": 46,
     "image": "formulas/eq_2_3_2.webp",
-    "width": 617,
-    "height": 184,
-    "raw_line": "(2.3.2)"
+    "width": 613,
+    "height": 146,
+    "raw_line": "(2.3.2)",
+    "ocr_text": "E1= Kmax +Kmin (2.5.1) ∑(Ki − K)² n (n−1) Er = i=1 (2.3.2) K"
   },
   {
     "num": "3.1.1",
@@ -255,9 +280,10 @@
     "page_index": 49,
     "page_num": 50,
     "image": "formulas/eq_3_1_1.webp",
-    "width": 877,
-    "height": 35,
-    "raw_line": "(3.1.1)"
+    "width": 616,
+    "height": 77,
+    "raw_line": "(3.1.1)",
+    "ocr_text": "1+ a z−1 + z−2 H(z−1) = (3.1.1) 1 + ραz−1 + ρ2 z−2"
   },
   {
     "num": "3.1.2",
@@ -265,9 +291,10 @@
     "page_index": 51,
     "page_num": 52,
     "image": "formulas/eq_3_1_2.webp",
-    "width": 621,
-    "height": 86,
-    "raw_line": "(3.1.2)"
+    "width": 925,
+    "height": 138,
+    "raw_line": "(3.1.2)",
+    "ocr_text": "频率处增益为零。若将分子多项式也改为分母多项式的形式，且使其根在单位圆 内，那么陷波器在陷阱频率处增益就可以不为零。于是，将式(3.1.1)改写为 1+ 1α z−1 + ρ2 z-2 H(z-1) = (3.1.2)"
   },
   {
     "num": "3.1.3",
@@ -275,9 +302,10 @@
     "page_index": 52,
     "page_num": 53,
     "image": "formulas/eq_3_1_3.webp",
-    "width": 929,
-    "height": 96,
-    "raw_line": "2    a bw cw (3.1.3)"
+    "width": 556,
+    "height": 39,
+    "raw_line": "2    a bw cw (3.1.3)",
+    "ocr_text": "ρ = a + bw + cw2 (3.1.3)"
   },
   {
     "num": "3.1.4",
@@ -285,9 +313,10 @@
     "page_index": 53,
     "page_num": 54,
     "image": "formulas/eq_3_1_4.webp",
-    "width": 876,
-    "height": 89,
-    "raw_line": "2    a bw cw (3.1.4)"
+    "width": 560,
+    "height": 40,
+    "raw_line": "2    a bw cw (3.1.4)",
+    "ocr_text": "ρ2 = a + bw + cw2 (3.1.4)"
   },
   {
     "num": "3.1.5",
@@ -295,9 +324,10 @@
     "page_index": 54,
     "page_num": 55,
     "image": "formulas/eq_3_1_5.webp",
-    "width": 938,
-    "height": 307,
-    "raw_line": "(3.1.5)"
+    "width": 737,
+    "height": 122,
+    "raw_line": "(3.1.5)",
+    "ocr_text": "|H(z−1)| = 1 + ρ2αz−1 + ρ2z−2 (1−2ρ2 + ρ1)−4ρ1(1−2ρ1 + ρ2)cos2 ω0 (3.1.5) 二"
   },
   {
     "num": "3.1.6",
@@ -305,9 +335,10 @@
     "page_index": 54,
     "page_num": 55,
     "image": "formulas/eq_3_1_6.webp",
-    "width": 595,
-    "height": 180,
-    "raw_line": "(3.1.6)"
+    "width": 591,
+    "height": 166,
+    "raw_line": "(3.1.6)",
+    "ocr_text": "(1 − ρ1)2 |H(z−1)| ≈, √(1 − ρ2)2 (3.1.6) 1-P1 1-ρ2"
   },
   {
     "num": "3.1.7",
@@ -315,9 +346,10 @@
     "page_index": 54,
     "page_num": 55,
     "image": "formulas/eq_3_1_7.webp",
-    "width": 927,
-    "height": 325,
-    "raw_line": "(3.1.7)"
+    "width": 924,
+    "height": 145,
+    "raw_line": "(3.1.7)",
+    "ocr_text": "二 1-P2 可见，陷阱深度由1、ρ2决定，而受ω影响很小。而当ω在0、π、2π附 近时cos²a≈1，所以式(3.1.5)不能用式(3.1.6)的简化公式，而应该用式(3.1.7):"
   },
   {
     "num": "3.1.8",
@@ -325,9 +357,10 @@
     "page_index": 54,
     "page_num": 55,
     "image": "formulas/eq_3_1_8.webp",
-    "width": 845,
-    "height": 87,
-    "raw_line": "   (3.1.8)"
+    "width": 521,
+    "height": 70,
+    "raw_line": "   (3.1.8)",
+    "ocr_text": "1-P1 d = (3.1.8) 1-ρ2"
   },
   {
     "num": "3.1.9",
@@ -335,9 +368,10 @@
     "page_index": 55,
     "page_num": 56,
     "image": "formulas/eq_3_1_9.webp",
-    "width": 622,
-    "height": 258,
-    "raw_line": "(3.1.9)"
+    "width": 618,
+    "height": 77,
+    "raw_line": "(3.1.9)",
+    "ocr_text": "1+ ρ1az−1 + ρ2z−2 H(z−1) = (3.1.9) 1+ ρ2αz−1 + ρ2z−2"
   },
   {
     "num": "3.1.10",
@@ -345,9 +379,10 @@
     "page_index": 55,
     "page_num": 56,
     "image": "formulas/eq_3_1_10.webp",
-    "width": 622,
-    "height": 258,
-    "raw_line": "0  2cos (3.1.10)"
+    "width": 537,
+    "height": 34,
+    "raw_line": "0  2cos (3.1.10)",
+    "ocr_text": "α = −2 cos ω0 (3.1.10)"
   },
   {
     "num": "3.1.11",
@@ -355,9 +390,10 @@
     "page_index": 55,
     "page_num": 56,
     "image": "formulas/eq_3_1_11.webp",
-    "width": 622,
-    "height": 258,
-    "raw_line": "2    a bw cw (3.1.11)"
+    "width": 560,
+    "height": 40,
+    "raw_line": "2    a bw cw (3.1.11)",
+    "ocr_text": "ρ2 = a + bw + cw2 (3.1.11)"
   },
   {
     "num": "3.1.12",
@@ -365,9 +401,10 @@
     "page_index": 55,
     "page_num": 56,
     "image": "formulas/eq_3_1_12.webp",
-    "width": 622,
-    "height": 258,
-    "raw_line": "   (3.1.12)"
+    "width": 521,
+    "height": 69,
+    "raw_line": "   (3.1.12)",
+    "ocr_text": "1-ρ1 d = (3.1.12) 1-ρ2"
   },
   {
     "num": "3.1.13",
@@ -375,9 +412,10 @@
     "page_index": 55,
     "page_num": 56,
     "image": "formulas/eq_3_1_13.webp",
-    "width": 542,
-    "height": 80,
-    "raw_line": "00 2π / s   f f (3.1.13)"
+    "width": 538,
+    "height": 34,
+    "raw_line": "00 2π / s   f f (3.1.13)",
+    "ocr_text": "ω0 = 2πf0 / fs (3.1.13)"
   },
   {
     "num": "3.1.14",
@@ -385,9 +423,10 @@
     "page_index": 55,
     "page_num": 56,
     "image": "formulas/eq_3_1_14.webp",
-    "width": 542,
-    "height": 80,
-    "raw_line": "/ wlf  s (3.1.14)"
+    "width": 514,
+    "height": 35,
+    "raw_line": "/ wlf  s (3.1.14)",
+    "ocr_text": "w = l / f s (3.1.14)"
   },
   {
     "num": "3.1.15",
@@ -395,9 +434,10 @@
     "page_index": 60,
     "page_num": 61,
     "image": "formulas/eq_3_1_15.webp",
-    "width": 708,
-    "height": 259,
-    "raw_line": "(3.1.15)"
+    "width": 704,
+    "height": 147,
+    "raw_line": "(3.1.15)",
+    "ocr_text": "y = ys + yn = a sin(ωt + φ) + bsin(ωt) = a sin(ωt)cos φ + a cos(ωt )sin φ + b sin(ωt) = (a cos φ + b)sin(ωt) + a sin φcos(ωt) (3.1.15)"
   },
   {
     "num": "3.1.16",
@@ -405,9 +445,10 @@
     "page_index": 60,
     "page_num": 61,
     "image": "formulas/eq_3_1_16.webp",
-    "width": 534,
-    "height": 57,
-    "raw_line": "b   (3.1.16)"
+    "width": 530,
+    "height": 47,
+    "raw_line": "b   (3.1.16)",
+    "ocr_text": "a coS φ > - (3.1.16) 2h"
   },
   {
     "num": "3.1.17",
@@ -415,9 +456,10 @@
     "page_index": 60,
     "page_num": 61,
     "image": "formulas/eq_3_1_17.webp",
-    "width": 766,
-    "height": 77,
-    "raw_line": "b    (3.1.17)"
+    "width": 923,
+    "height": 146,
+    "raw_line": "b    (3.1.17)",
+    "ocr_text": "只有在干扰信号能量大于涡街流量信号能量时才需要使用陷波器，即b≥a 时。那么，式(3.1.16)满足： a 1 cos φ >- ≥- (3.1.17) 2h 2"
   },
   {
     "num": "3.1.18",
@@ -425,9 +467,10 @@
     "page_index": 60,
     "page_num": 61,
     "image": "formulas/eq_3_1_18.webp",
-    "width": 537,
-    "height": 63,
-    "raw_line": "  (3.1.18)"
+    "width": 921,
+    "height": 146,
+    "raw_line": "  (3.1.18)",
+    "ocr_text": "coSφ>- (3.1.17) 2b 2 由此可以得到 2π 4π ≤ φ ≤ (3.1.18) 3 3"
   },
   {
     "num": "3.1.19",
@@ -435,9 +478,10 @@
     "page_index": 62,
     "page_num": 63,
     "image": "formulas/eq_3_1_19.webp",
-    "width": 928,
-    "height": 121,
-    "raw_line": " (3.1.19)"
+    "width": 510,
+    "height": 66,
+    "raw_line": " (3.1.19)",
+    "ocr_text": "fs ∆f = (3.1.19) N"
   },
   {
     "num": "3.1.20",
@@ -445,9 +489,10 @@
     "page_index": 62,
     "page_num": 63,
     "image": "formulas/eq_3_1_20.webp",
-    "width": 524,
-    "height": 33,
-    "raw_line": "max 2 sf  f (3.1.20)"
+    "width": 520,
+    "height": 34,
+    "raw_line": "max 2 sf  f (3.1.20)",
+    "ocr_text": "fs > 2fmax (3.1.20)"
   },
   {
     "num": "3.1.21",
@@ -455,9 +500,10 @@
     "page_index": 63,
     "page_num": 64,
     "image": "formulas/eq_3_1_21.webp",
-    "width": 928,
-    "height": 233,
-    "raw_line": "(3.1.21)"
+    "width": 924,
+    "height": 146,
+    "raw_line": "(3.1.21)",
+    "ocr_text": "最简单的校正方法是重心校正法，如式(3.1.21)所示： (kyk + (k + 1)yk+1 , yk-1 < yk+1 yk + yk+1 k′= yk, yk−1 = yk+1 (3.1.21)"
   },
   {
     "num": "3.1.22",
@@ -465,9 +511,10 @@
     "page_index": 63,
     "page_num": 64,
     "image": "formulas/eq_3_1_22.webp",
-    "width": 928,
-    "height": 113,
-    "raw_line": "  (3.1.22)"
+    "width": 924,
+    "height": 147,
+    "raw_line": "  (3.1.22)",
+    "ocr_text": "波的幅值；yk-1是k-1次谐波的幅值；yk+1是k+1次谐波的幅值。经过校正后， 就可以计算出涡街频率，如式(3.1.22)所示： k'fs f = (3.1.22) N"
   },
   {
     "num": "3.1.23",
@@ -475,9 +522,10 @@
     "page_index": 63,
     "page_num": 64,
     "image": "formulas/eq_3_1_23.webp",
-    "width": 623,
-    "height": 68,
-    "raw_line": "     (3.1.23)"
+    "width": 924,
+    "height": 147,
+    "raw_line": "     (3.1.23)",
+    "ocr_text": "准确就会影响涡街流量信号的辨别。 为此，通过幅值校正来提高幅值测量精度，幅值校正公式为 ∆kπyk (k − k′)πyk A= (3.1.23) sin(∆kπ) sin((k − k′)π)"
   },
   {
     "num": "4.1.1",
@@ -485,9 +533,10 @@
     "page_index": 84,
     "page_num": 85,
     "image": "formulas/eq_4_1_1.webp",
-    "width": 760,
-    "height": 150,
-    "raw_line": "    12 2 1 2 V R R R RR 1.235 / 1.235 1.235 /         (4.1.1)"
+    "width": 743,
+    "height": 46,
+    "raw_line": "    12 2 1 2 V R R R RR 1.235 / 1.235 1.235 /         (4.1.1)",
+    "ocr_text": "V+ =1.235×[(R1 + R2)/ R2]=1.235+1.235×(R1/R2) (4.1.1)"
   },
   {
     "num": "4.1.2",
@@ -495,9 +544,10 @@
     "page_index": 84,
     "page_num": 85,
     "image": "formulas/eq_4_1_2.webp",
-    "width": 760,
-    "height": 150,
-    "raw_line": "(4.1.2)"
+    "width": 869,
+    "height": 147,
+    "raw_line": "(4.1.2)",
+    "ocr_text": "V+ =1.235×[(R1 + R2)/ R2]=1.235+1.235×(R1/R2) (4.1.1) V =[1.235 −[R1 /(R1 + R2)]× VDD]×[(R1 + R2)/ R2] (4.1.2)"
   },
   {
     "num": "4.1.3",
@@ -505,9 +555,10 @@
     "page_index": 89,
     "page_num": 90,
     "image": "formulas/eq_4_1_3.webp",
-    "width": 693,
-    "height": 85,
-    "raw_line": "(4.1.3)"
+    "width": 689,
+    "height": 86,
+    "raw_line": "(4.1.3)",
+    "ocr_text": "≈ I 1 > 99Iin I0= sys sys sys (4.1.3) + I =100I I ≤ 99Ii sys q sys in"
   },
   {
     "num": "4.1.4",
@@ -515,9 +566,10 @@
     "page_index": 90,
     "page_num": 91,
     "image": "formulas/eq_4_1_4.webp",
-    "width": 527,
-    "height": 32,
-    "raw_line": "Y aX b   (4.1.4)"
+    "width": 523,
+    "height": 33,
+    "raw_line": "Y aX b   (4.1.4)",
+    "ocr_text": "Y = aX + b (4.1.4)"
   },
   {
     "num": "4.1.5",
@@ -525,9 +577,10 @@
     "page_index": 90,
     "page_num": 91,
     "image": "formulas/eq_4_1_5.webp",
-    "width": 524,
-    "height": 64,
-    "raw_line": "  (4.1.5)"
+    "width": 520,
+    "height": 65,
+    "raw_line": "  (4.1.5)",
+    "ocr_text": "Y-b X = (4.1.5) a"
   },
   {
     "num": "4.1.6",
@@ -535,9 +588,10 @@
     "page_index": 91,
     "page_num": 92,
     "image": "formulas/eq_4_1_6.webp",
-    "width": 574,
-    "height": 74,
-    "raw_line": "(4.1.6)"
+    "width": 570,
+    "height": 75,
+    "raw_line": "(4.1.6)",
+    "ocr_text": "V0×I0 η= (4.1.6) V0 ×I0 + Vi ×Iq"
   },
   {
     "num": "4.1.7",
@@ -545,9 +599,10 @@
     "page_index": 91,
     "page_num": 92,
     "image": "formulas/eq_4_1_7.webp",
-    "width": 568,
-    "height": 34,
-    "raw_line": "VI V I ii oo     (4.1.7)"
+    "width": 564,
+    "height": 35,
+    "raw_line": "VI V I ii oo     (4.1.7)",
+    "ocr_text": "Vi × Ii × η = V0 × I0 (4.1.7)"
   },
   {
     "num": "4.1.8",
@@ -555,9 +610,10 @@
     "page_index": 94,
     "page_num": 95,
     "image": "formulas/eq_4_1_8.webp",
-    "width": 938,
-    "height": 107,
-    "raw_line": "   (4.1.8)"
+    "width": 543,
+    "height": 71,
+    "raw_line": "   (4.1.8)",
+    "ocr_text": "Vi×Ii×η I0 = (4.1.8) Vo"
   },
   {
     "num": "4.2.1",
@@ -565,9 +621,10 @@
     "page_index": 99,
     "page_num": 100,
     "image": "formulas/eq_4_2_1.webp",
-    "width": 530,
-    "height": 88,
-    "raw_line": "N  (4.2.1)"
+    "width": 526,
+    "height": 71,
+    "raw_line": "N  (4.2.1)",
+    "ocr_text": "Ns Fs (4.2.1)"
   },
   {
     "num": "4.3.1",
@@ -575,9 +632,10 @@
     "page_index": 101,
     "page_num": 102,
     "image": "formulas/eq_4_3_1.webp",
-    "width": 548,
-    "height": 64,
-    "raw_line": "  (4.3.1)"
+    "width": 544,
+    "height": 65,
+    "raw_line": "  (4.3.1)",
+    "ocr_text": "(k + d)f s f_0 = (4.3.1) N"
   },
   {
     "num": "4.4.1",
@@ -585,9 +643,10 @@
     "page_index": 109,
     "page_num": 110,
     "image": "formulas/eq_4_4_1.webp",
-    "width": 532,
-    "height": 88,
-    "raw_line": "N  (4.4.1)"
+    "width": 528,
+    "height": 71,
+    "raw_line": "N  (4.4.1)",
+    "ocr_text": "Fs} Fx Nx 二 (4.4.1) Ns"
   },
   {
     "num": "5.2.1",
@@ -595,9 +654,10 @@
     "page_index": 116,
     "page_num": 117,
     "image": "formulas/eq_5_2_1.webp",
-    "width": 570,
-    "height": 32,
-    "raw_line": "yr() = g()r + j() hr (5.2.1)"
+    "width": 566,
+    "height": 33,
+    "raw_line": "yr() = g()r + j() hr (5.2.1)",
+    "ocr_text": "y(r)=g(r)+jh(r) (5.2.1)"
   },
   {
     "num": "5.2.2",
@@ -605,9 +665,10 @@
     "page_index": 116,
     "page_num": 117,
     "image": "formulas/eq_5_2_2.webp",
-    "width": 762,
-    "height": 397,
-    "raw_line": "(5.2.2)"
+    "width": 705,
+    "height": 144,
+    "raw_line": "(5.2.2)",
+    "ocr_text": "N-1 2π kr = ∑(g(r) + jh(r))e N r=0 N-1 2π 2π 二 ∑ g(r)cos kr + h(r)sin kr (5.2.2) N N"
   },
   {
     "num": "5.2.3",
@@ -615,9 +676,10 @@
     "page_index": 117,
     "page_num": 118,
     "image": "formulas/eq_5_2_3.webp",
-    "width": 767,
-    "height": 296,
-    "raw_line": " (5.2.3)"
+    "width": 746,
+    "height": 145,
+    "raw_line": " (5.2.3)",
+    "ocr_text": "G(k) =∑g(r)e N-1 2π kr N r=0 N-1 2π 2π = ∑ g(r) COS kr − jsin kr (5.2.3) N N r=0"
   },
   {
     "num": "5.2.4",
@@ -625,9 +687,10 @@
     "page_index": 117,
     "page_num": 118,
     "image": "formulas/eq_5_2_4.webp",
-    "width": 751,
-    "height": 250,
-    "raw_line": "(5.2.4)"
+    "width": 747,
+    "height": 117,
+    "raw_line": "(5.2.4)",
+    "ocr_text": "N-1 2π 2π H(k)=∑h(r) coS kr - jsin kr N N r=0 = Yei(k) − jYor(k) (5.2.4)"
   },
   {
     "num": "5.2.5",
@@ -635,9 +698,10 @@
     "page_index": 117,
     "page_num": 118,
     "image": "formulas/eq_5_2_5.webp",
-    "width": 715,
-    "height": 226,
-    "raw_line": "(5.2.5)"
+    "width": 701,
+    "height": 139,
+    "raw_line": "(5.2.5)",
+    "ocr_text": "N-1 N-1 X(k)=∑x(2r)W k·2r ∑x(2r +1)W k(2r+1) 十 2N 2N r=0 r=0 N-1 N-1 =∑g(r)W k·r +W k ∑h(r)W k·r N (5.2.5) 2N N"
   },
   {
     "num": "5.2.6",
@@ -645,9 +709,10 @@
     "page_index": 118,
     "page_num": 119,
     "image": "formulas/eq_5_2_6.webp",
-    "width": 763,
-    "height": 162,
-    "raw_line": "(5.2.6)"
+    "width": 749,
+    "height": 57,
+    "raw_line": "(5.2.6)",
+    "ocr_text": "X(k)_real=G(k)_real+ H(k)_real× cos(2kπ / 2048) (5.2.6) + H(k) image × sin(2kπ / 2048)"
   },
   {
     "num": "5.2.7",
@@ -655,9 +720,10 @@
     "page_index": 118,
     "page_num": 119,
     "image": "formulas/eq_5_2_7.webp",
-    "width": 763,
-    "height": 162,
-    "raw_line": "(5.2.7)"
+    "width": 759,
+    "height": 52,
+    "raw_line": "(5.2.7)",
+    "ocr_text": "X(k)_image=G(k)_image + H(k)_image× cos(2kπ / 2048) (5.2.7) (b)peel+sin(2k= /2048)"
   },
   {
     "num": "5.2.8",
@@ -665,9 +731,10 @@
     "page_index": 122,
     "page_num": 123,
     "image": "formulas/eq_5_2_8.webp",
-    "width": 938,
-    "height": 122,
-    "raw_line": "2 R    100 (1 ) At Bt (5.2.8)"
+    "width": 588,
+    "height": 39,
+    "raw_line": "2 R    100 (1 ) At Bt (5.2.8)",
+    "ocr_text": "R =100×(1+ At + Bt2) (5.2.8)"
   },
   {
     "num": "5.2.9",
@@ -675,9 +742,10 @@
     "page_index": 123,
     "page_num": 124,
     "image": "formulas/eq_5_2_9.webp",
-    "width": 938,
-    "height": 105,
-    "raw_line": "(5.2.9)"
+    "width": 622,
+    "height": 69,
+    "raw_line": "(5.2.9)",
+    "ocr_text": "(273.15 + ts)(Ps + P) fo = ×f (5.2.9) (273.15+t)×101.3"
   },
   {
     "num": "5.2.10",
@@ -685,9 +753,10 @@
     "page_index": 123,
     "page_num": 124,
     "image": "formulas/eq_5_2_10.webp",
-    "width": 930,
-    "height": 35,
-    "raw_line": "(5.2.10)"
+    "width": 768,
+    "height": 61,
+    "raw_line": "(5.2.10)",
+    "ocr_text": "1+0.424805×√133-t+0.015938×(133-t) Pya (5.2.10) 4.2830 +0.813055×./133=t −0.008286×(133−t)"
   },
   {
     "num": "5.2.11",
@@ -695,9 +764,10 @@
     "page_index": 124,
     "page_num": 125,
     "image": "formulas/eq_5_2_11.webp",
-    "width": 527,
-    "height": 32,
-    "raw_line": "Y aX b   (5.2.11)"
+    "width": 523,
+    "height": 33,
+    "raw_line": "Y aX b   (5.2.11)",
+    "ocr_text": "Y = aX + b (5.2.11)"
   },
   {
     "num": "5.2.12",
@@ -705,9 +775,10 @@
     "page_index": 124,
     "page_num": 125,
     "image": "formulas/eq_5_2_12.webp",
-    "width": 523,
-    "height": 62,
-    "raw_line": "  (5.2.12)"
+    "width": 519,
+    "height": 63,
+    "raw_line": "  (5.2.12)",
+    "ocr_text": "Y-b X = (5.2.12) a"
   },
   {
     "num": "5.2.13",
@@ -715,9 +786,10 @@
     "page_index": 125,
     "page_num": 126,
     "image": "formulas/eq_5_2_13.webp",
-    "width": 581,
-    "height": 62,
-    "raw_line": "f c     (5.2.13)"
+    "width": 577,
+    "height": 63,
+    "raw_line": "f c     (5.2.13)",
+    "ocr_text": "(f−9.5)×16 c = +4 (5.2.13) 180.5"
   },
   {
     "num": "6.1.1",
@@ -725,9 +797,10 @@
     "page_index": 132,
     "page_num": 133,
     "image": "formulas/eq_6_1_1.webp",
-    "width": 938,
-    "height": 110,
-    "raw_line": "C C C KC C      ） (6.1.1)"
+    "width": 680,
+    "height": 73,
+    "raw_line": "C C C KC C      ） (6.1.1)",
+    "ocr_text": "KQ Q Uo =- ≈ (6.1.1) Ca + Cc + Ci + (1 + K) Cf Cf"
   },
   {
     "num": "6.1.2",
@@ -735,9 +808,10 @@
     "page_index": 133,
     "page_num": 134,
     "image": "formulas/eq_6_1_2.webp",
-    "width": 625,
-    "height": 71,
-    "raw_line": "S RCS R C S  (6.1.2)"
+    "width": 621,
+    "height": 72,
+    "raw_line": "S RCS R C S  (6.1.2)",
+    "ocr_text": "S0 R1C2S (6.1.2) S+ (R1C1S+1)(R2C2S+1)"
   },
   {
     "num": "6.1.3",
@@ -745,9 +819,10 @@
     "page_index": 137,
     "page_num": 138,
     "image": "formulas/eq_6_1_3.webp",
-    "width": 647,
-    "height": 224,
-    "raw_line": "(6.1.3)"
+    "width": 643,
+    "height": 104,
+    "raw_line": "(6.1.3)",
+    "ocr_text": "jωCsZ -Us= 1 Un Us 二 (6.1.3) jωCsZ+1 1 1+ jωCsZ"
   },
   {
     "num": "6.1.4",
@@ -755,9 +830,10 @@
     "page_index": 137,
     "page_num": 138,
     "image": "formulas/eq_6_1_4.webp",
-    "width": 647,
-    "height": 224,
-    "raw_line": "(6.1.4)"
+    "width": 615,
+    "height": 102,
+    "raw_line": "(6.1.4)",
+    "ocr_text": "RL 1 Z= = (6.1.4) jωRLCL+1 1 + jωCL RL"
   },
   {
     "num": "6.1.5",
@@ -765,9 +841,10 @@
     "page_index": 138,
     "page_num": 139,
     "image": "formulas/eq_6_1_5.webp",
-    "width": 533,
-    "height": 62,
-    "raw_line": "(6.1.5)"
+    "width": 925,
+    "height": 147,
+    "raw_line": "(6.1.5)",
+    "ocr_text": "上产生的电流为I,则受干扰回路上由于磁场耦合 干扰的模型 所产生的感应电动势UN为 dI UN = M (6.1.5) dt"
   },
   {
     "num": "6.2.1",
@@ -775,9 +852,10 @@
     "page_index": 145,
     "page_num": 146,
     "image": "formulas/eq_6_2_1.webp",
-    "width": 821,
-    "height": 80,
-    "raw_line": "  (6.2.1)"
+    "width": 924,
+    "height": 147,
+    "raw_line": "  (6.2.1)",
+    "ocr_text": "CHART，对 HART OUT 引脚输出的正弦波电压信号进行分压。假设 HART OUT 引脚输出信号的峰峰值为 VOUTP-P，则 CSLEW 和 CHART需满足： VOUTP-P = CSLEW + CHART (6.2.1) 111"
   },
   {
     "num": "6.2.2",
@@ -785,9 +863,10 @@
     "page_index": 145,
     "page_num": 146,
     "image": "formulas/eq_6_2_2.webp",
-    "width": 556,
-    "height": 34,
-    "raw_line": " =RC DAC SLEW  (6.2.2)"
+    "width": 924,
+    "height": 143,
+    "raw_line": " =RC DAC SLEW  (6.2.2)",
+    "ocr_text": "111 CHART 此外，电容CsLEW 与 AD5421 内部 DAC 的输出电阻 RDAC一起形成了一个时 间常数τ。该时间常数决定了环路电流的响应速度，其表达式为 τ=RDAC×CSLEW (6.2.2)"
   },
   {
     "num": "6.3.1",
@@ -795,9 +874,10 @@
     "page_index": 162,
     "page_num": 163,
     "image": "formulas/eq_6_3_1.webp",
-    "width": 923,
-    "height": 120,
-    "raw_line": "      (6.3.1)"
+    "width": 692,
+    "height": 102,
+    "raw_line": "      (6.3.1)",
+    "ocr_text": "1 1 1 n 2 (Er)i ∑(Kij − Ki)2 ×100% (6.3.1) Ki (n−1) j=1"
   },
   {
     "num": "6.3.2",
@@ -805,9 +885,10 @@
     "page_index": 162,
     "page_num": 163,
     "image": "formulas/eq_6_3_2.webp",
-    "width": 856,
-    "height": 72,
-    "raw_line": "  max rr i EE      (6.3.2)"
+    "width": 550,
+    "height": 51,
+    "raw_line": "  max rr i EE      (6.3.2)",
+    "ocr_text": "Er =[(Er)i]max (6.3.2)"
   },
   {
     "num": "7.1.1",
@@ -815,9 +896,10 @@
     "page_index": 166,
     "page_num": 167,
     "image": "formulas/eq_7_1_1.webp",
-    "width": 614,
-    "height": 94,
-    "raw_line": "      11 x n sn n n  (7.1.1)"
+    "width": 572,
+    "height": 38,
+    "raw_line": "      11 x n sn n n  (7.1.1)",
+    "ocr_text": "x1(n)= s(n)+ n1(n) (7.1.1)"
   },
   {
     "num": "7.1.2",
@@ -825,9 +907,10 @@
     "page_index": 166,
     "page_num": 167,
     "image": "formulas/eq_7_1_2.webp",
-    "width": 614,
-    "height": 94,
-    "raw_line": "x22 n sn M n n         (7.1.2)"
+    "width": 610,
+    "height": 39,
+    "raw_line": "x22 n sn M n n         (7.1.2)",
+    "ocr_text": "x2(n)= αs(n − M)+ n2(n) (7.1.2)"
   },
   {
     "num": "7.1.3",
@@ -835,9 +918,10 @@
     "page_index": 166,
     "page_num": 167,
     "image": "formulas/eq_7_1_3.webp",
-    "width": 860,
-    "height": 156,
-    "raw_line": " (7.1.3)"
+    "width": 787,
+    "height": 81,
+    "raw_line": " (7.1.3)",
+    "ocr_text": "1 N−1-|m| ^12(m)= ∑ x1(n)x2(n+m) N (7.1.3) n=0"
   },
   {
     "num": "7.1.4",
@@ -845,9 +929,10 @@
     "page_index": 166,
     "page_num": 167,
     "image": "formulas/eq_7_1_4.webp",
-    "width": 904,
-    "height": 79,
-    "raw_line": "ˆˆ R m R mM   ss (7.1.4)"
+    "width": 590,
+    "height": 43,
+    "raw_line": "ˆˆ R m R mM   ss (7.1.4)",
+    "ocr_text": "¯12(m)=αRss(m−M) (7.1.4)"
   },
   {
     "num": "7.1.5",
@@ -855,9 +940,10 @@
     "page_index": 166,
     "page_num": 167,
     "image": "formulas/eq_7_1_5.webp",
-    "width": 843,
-    "height": 66,
-    "raw_line": "  0 ˆ ˆ Rm R ss  ss (7.1.5)"
+    "width": 925,
+    "height": 143,
+    "raw_line": "  0 ˆ ˆ Rm R ss  ss (7.1.5)",
+    "ocr_text": "12 (m) = α ss (m − M ) (7.1.4) 式中，Rss(m−M)为涡街流量信号s(n)的自相关函数，而自相关函数具有以下性质： Rss (m) ≤ ss (0) (7.1.5)"
   },
   {
     "num": "7.2.1",
@@ -865,9 +951,10 @@
     "page_index": 167,
     "page_num": 168,
     "image": "formulas/eq_7_2_1.webp",
-    "width": 531,
-    "height": 68,
-    "raw_line": "  (7.2.1)"
+    "width": 527,
+    "height": 69,
+    "raw_line": "  (7.2.1)",
+    "ocr_text": "v d λ= (7.2.1) f Sr"
   },
   {
     "num": "7.3.1",
@@ -875,9 +962,10 @@
     "page_index": 168,
     "page_num": 169,
     "image": "formulas/eq_7_3_1.webp",
-    "width": 724,
-    "height": 122,
-    "raw_line": "  有偏估计 (7.3.1)"
+    "width": 705,
+    "height": 81,
+    "raw_line": "  有偏估计 (7.3.1)",
+    "ocr_text": "N-1-|m| ^12(m)= 1 ∑ x1(n)x2(n+m)(有偏估计) (7.3.1) N n=0"
   },
   {
     "num": "7.3.2",
@@ -885,9 +973,10 @@
     "page_index": 168,
     "page_num": 169,
     "image": "formulas/eq_7_3_2.webp",
-    "width": 734,
-    "height": 126,
-    "raw_line": "   无偏估计 (7.3.2)"
+    "width": 730,
+    "height": 84,
+    "raw_line": "   无偏估计 (7.3.2)",
+    "ocr_text": "N-1-|m| 12(m)= 1 ∑ x1(n)x2(n+m)(无偏估计) (7.3.2) N −|m| n=0"
   },
   {
     "num": "7.4.1",
@@ -895,9 +984,10 @@
     "page_index": 172,
     "page_num": 173,
     "image": "formulas/eq_7_4_1.webp",
-    "width": 783,
-    "height": 143,
-    "raw_line": "11 0, ,2 , , 0,1,2, , 1 jj x n x n n s s N s n Ns  ，；     (7.4.1)"
+    "width": 778,
+    "height": 46,
+    "raw_line": "11 0, ,2 , , 0,1,2, , 1 jj x n x n n s s N s n Ns  ，；     (7.4.1)",
+    "ocr_text": "x1(nj)=x1(n), n=0,s,2s,·,N −s; nj =0,1,2,··,N/s−1 (7.4.1)"
   },
   {
     "num": "7.4.2",
@@ -905,9 +995,10 @@
     "page_index": 172,
     "page_num": 173,
     "image": "formulas/eq_7_4_2.webp",
-    "width": 783,
-    "height": 84,
-    "raw_line": "22 0, ,2 , , 0,1,2, , 1 jj x n x n n s s N s n Ns  ，；     (7.4.2)"
+    "width": 779,
+    "height": 46,
+    "raw_line": "22 0, ,2 , , 0,1,2, , 1 jj x n x n n s s N s n Ns  ，；     (7.4.2)",
+    "ocr_text": "x2(nj)=x2(n), n =0,s,2s,·,N −s; nj =0,1,2,,N/s−1 (7.4.2)"
   },
   {
     "num": "7.6.1",
@@ -915,9 +1006,10 @@
     "page_index": 179,
     "page_num": 180,
     "image": "formulas/eq_7_6_1.webp",
-    "width": 535,
-    "height": 35,
-    "raw_line": "Re vd    (7.6.1)"
+    "width": 925,
+    "height": 142,
+    "raw_line": "Re vd    (7.6.1)",
+    "ocr_text": "在合肥奥巴尔目动化控制系统有限公可标定站，采用标准表方法进行水流量 标定实验，标定结果如表7.6.2所示。由于测量误差是可以通过软件进行修正的， 这里只考虑重复性。而雷诺数Re的计算公式为 Re = ρvd/η (7.6.1)"
   },
   {
     "num": "8.1.1",
@@ -925,9 +1017,10 @@
     "page_index": 182,
     "page_num": 183,
     "image": "formulas/eq_8_1_1.webp",
-    "width": 871,
-    "height": 89,
-    "raw_line": "      (8.1.1)"
+    "width": 925,
+    "height": 147,
+    "raw_line": "      (8.1.1)",
+    "ocr_text": "J0 示为 φ(t) = ωct + k m(λ)dλ。则涡街流量信号模型可表示为 Jo ωct + k et V (t) = A(t)sin(φ(t)) = A(t)sin m(λ)dλ (8.1.1) 0"
   },
   {
     "num": "8.1.2",
@@ -935,9 +1028,10 @@
     "page_index": 185,
     "page_num": 186,
     "image": "formulas/eq_8_1_2.webp",
-    "width": 929,
-    "height": 118,
-    "raw_line": "  (8.1.2)"
+    "width": 566,
+    "height": 74,
+    "raw_line": "  (8.1.2)",
+    "ocr_text": "1 K-1 P(k) = ∑ Pr(k) (8.1.2) K r=0"
   },
   {
     "num": "8.1.3",
@@ -945,9 +1039,10 @@
     "page_index": 186,
     "page_num": 187,
     "image": "formulas/eq_8_1_3.webp",
-    "width": 609,
-    "height": 100,
-    "raw_line": "  (8.1.3)"
+    "width": 605,
+    "height": 101,
+    "raw_line": "  (8.1.3)",
+    "ocr_text": "2π 2 1 N kn Pr(k) = ∑ x(n)e N (8.1.3) N n=1"
   },
   {
     "num": "8.1.4",
@@ -955,9 +1050,10 @@
     "page_index": 188,
     "page_num": 189,
     "image": "formulas/eq_8_1_4.webp",
-    "width": 729,
-    "height": 108,
-    "raw_line": "     (8.1.4)"
+    "width": 725,
+    "height": 109,
+    "raw_line": "     (8.1.4)",
+    "ocr_text": "(x−µ1)2 (x−µ2){2 2σ2 2σ2 e f (x) = α e + (1 − α) 0 < x < +∞ (8.1.4) √2πσ1 √2πσ2"
   },
   {
     "num": "8.1.5",
@@ -965,9 +1061,10 @@
     "page_index": 190,
     "page_num": 191,
     "image": "formulas/eq_8_1_5.webp",
-    "width": 607,
-    "height": 38,
-    "raw_line": "( ) ( )sin ( )   c   t At t t  (8.1.5)"
+    "width": 603,
+    "height": 39,
+    "raw_line": "( ) ( )sin ( )   c   t At t t  (8.1.5)",
+    "ocr_text": "α(t) = A(t)sin(ωct + φ(t)) (8.1.5)"
   },
   {
     "num": "8.1.6",
@@ -975,9 +1072,10 @@
     "page_index": 190,
     "page_num": 191,
     "image": "formulas/eq_8_1_6.webp",
-    "width": 778,
-    "height": 62,
-    "raw_line": "        (8.1.6)"
+    "width": 774,
+    "height": 52,
+    "raw_line": "        (8.1.6)",
+    "ocr_text": "1 d ωc d 1 d f(t) = (ωct + φ(t)) = φ(t) = f c + φ(t) (8.1.6) 十 2π dt 2π 2π dt 2π dt"
   },
   {
     "num": "8.1.7",
@@ -985,9 +1083,10 @@
     "page_index": 191,
     "page_num": 192,
     "image": "formulas/eq_8_1_7.webp",
-    "width": 648,
-    "height": 65,
-    "raw_line": "c yt t t k m         (8.1.7)"
+    "width": 873,
+    "height": 139,
+    "raw_line": "c yt t t k m         (8.1.7)",
+    "ocr_text": "5) 模型的数学表达式 通过以上对涡街流量信号特征的分析，可以将涡街流量信号描述为 y(t) = δ(t)sin ωct + k m(λ)dλ (8.1.7) 0"
   },
   {
     "num": "8.1.8",
@@ -995,9 +1094,10 @@
     "page_index": 196,
     "page_num": 197,
     "image": "formulas/eq_8_1_8.webp",
-    "width": 791,
-    "height": 65,
-    "raw_line": "c s spp yt t t k m A t A t             (8.1.8)"
+    "width": 925,
+    "height": 137,
+    "raw_line": "c s spp yt t t k m A t A t             (8.1.8)",
+    "ocr_text": "号、传感器振动噪声信号和机械振动噪声信号等组成，再依据实验结果，将涡街 流量传感器的输出信号描述为 y(t) = δ(t)sin ωct + k m(λ)dλ + As sin(ω s t) + Ap sin(ωpt) (8.1.8)"
   },
   {
     "num": "8.2.1",
@@ -1005,9 +1105,10 @@
     "page_index": 198,
     "page_num": 199,
     "image": "formulas/eq_8_2_1.webp",
-    "width": 928,
-    "height": 88,
-    "raw_line": "2 Y AX BX C   (8.2.1)"
+    "width": 926,
+    "height": 147,
+    "raw_line": "2 Y AX BX C   (8.2.1)",
+    "ocr_text": "与截止幅值之间的天余式。在测重之前，首元通过止常情优下的标定头验(无振动噪 声)，测得几个频率点对应的幅值，取其一半作为截止幅值，再根据频率与截止幅值之 间对应的数据，用MATLAB拟合出频率与截止幅值之间的关系，如式(8.2.1)所示： Y = AX² + BX + C (8.2.1)"
   },
   {
     "num": "8.2.2",
@@ -1015,9 +1116,10 @@
     "page_index": 202,
     "page_num": 203,
     "image": "formulas/eq_8_2_2.webp",
-    "width": 794,
-    "height": 123,
-    "raw_line": "(8.2.2)"
+    "width": 554,
+    "height": 105,
+    "raw_line": "(8.2.2)",
+    "ocr_text": "N ∑(fi−f)2 D=i=0 (8.2.2) N"
   },
   {
     "num": "9.2.1",
@@ -1025,9 +1127,10 @@
     "page_index": 220,
     "page_num": 221,
     "image": "formulas/eq_9_2_1.webp",
-    "width": 929,
-    "height": 160,
-    "raw_line": "(9.2.1)"
+    "width": 645,
+    "height": 114,
+    "raw_line": "(9.2.1)",
+    "ocr_text": "AX2 + BX + C, a ≤ X ≤ b Y = (9.2.1) 2 V X>b max, 3"
   },
   {
     "num": "9.2.2",
@@ -1035,9 +1138,10 @@
     "page_index": 222,
     "page_num": 223,
     "image": "formulas/eq_9_2_2.webp",
-    "width": 927,
-    "height": 35,
-    "raw_line": "(9.2.2)"
+    "width": 925,
+    "height": 147,
+    "raw_line": "(9.2.2)",
+    "ocr_text": "算8次频率方差。 N ∑(i−f)2 D(f) = (9.2.2) N"
   },
   {
     "num": "9.2.3",
@@ -1045,9 +1149,10 @@
     "page_index": 224,
     "page_num": 225,
     "image": "formulas/eq_9_2_3.webp",
-    "width": 928,
-    "height": 35,
-    "raw_line": "  (9.2.3)"
+    "width": 678,
+    "height": 79,
+    "raw_line": "  (9.2.3)",
+    "ocr_text": "(nM[a]+ M[b])/(n+1), i=2 V[i]= (9.2.3) (nV[i −1]+ M[i])/(n +1), i>2"
   },
   {
     "num": "10.2.1",
@@ -1055,9 +1160,10 @@
     "page_index": 249,
     "page_num": 250,
     "image": "formulas/eq_10_2_1.webp",
-    "width": 649,
-    "height": 115,
-    "raw_line": "(10.2.1)"
+    "width": 645,
+    "height": 116,
+    "raw_line": "(10.2.1)",
+    "ocr_text": "{af2+bf+c, fmin ≤ f < fsat A= (10.2.1) 1 f ≥ fsat 2"
   },
   {
     "num": "10.2.2",
@@ -1065,9 +1171,10 @@
     "page_index": 249,
     "page_num": 250,
     "image": "formulas/eq_10_2_2.webp",
-    "width": 730,
-    "height": 89,
-    "raw_line": "    (10.2.2)"
+    "width": 618,
+    "height": 73,
+    "raw_line": "    (10.2.2)",
+    "ocr_text": "1 1 Varth Varmax +Varmin (10.2.2) 2 2"
   },
   {
     "num": "10.2.3",
@@ -1075,9 +1182,10 @@
     "page_index": 251,
     "page_num": 252,
     "image": "formulas/eq_10_2_3.webp",
-    "width": 870,
-    "height": 48,
-    "raw_line": "11 fa fl V ii   ， i mm  1,2, , 1,  (10.2.3)"
+    "width": 873,
+    "height": 79,
+    "raw_line": "11 fa fl V ii   ， i mm  1,2, , 1,  (10.2.3)",
+    "ocr_text": "(2) 若 m =n，则先取fa₁和fli之间差值的绝对值，记为Vi，即 Vli = |fa1 − fli| , i = 1, 2,··, m − 1, m (10.2.3)"
   },
   {
     "num": "10.2.4",
@@ -1085,9 +1193,10 @@
     "page_index": 251,
     "page_num": 252,
     "image": "formulas/eq_10_2_4.webp",
-    "width": 717,
-    "height": 127,
-    "raw_line": "， i =1,2,…, M1, M (10.2.4)"
+    "width": 925,
+    "height": 140,
+    "raw_line": "， i =1,2,…, M1, M (10.2.4)",
+    "ocr_text": "i=1,2,…,M-1, M，j=1,2,…,N-1,N，则计算实际峰值的频率方差的公式为 N ∑(ij −fi)2 Di(Fi) = j=1 i =1,2,…, M-1, M (10.2.4) N"
   },
   {
     "num": "10.2.5",
@@ -1095,9 +1204,10 @@
     "page_index": 254,
     "page_num": 255,
     "image": "formulas/eq_10_2_5.webp",
-    "width": 656,
-    "height": 92,
-    "raw_line": "(10.2.5)"
+    "width": 925,
+    "height": 146,
+    "raw_line": "(10.2.5)",
+    "ocr_text": "的计算公式为 d}的最大值， i≤5 dc=d的平均值， 5<i<15 (10.2.5)"
   },
   {
     "num": "10.2.6",
@@ -1105,9 +1215,10 @@
     "page_index": 258,
     "page_num": 259,
     "image": "formulas/eq_10_2_6.webp",
-    "width": 655,
-    "height": 47,
-    "raw_line": "～ 的平均值 (10.2.6)"
+    "width": 930,
+    "height": 147,
+    "raw_line": "～ 的平均值 (10.2.6)",
+    "ocr_text": "态截正幅值的比值，将比值结果平均之后再输出，输出的比值记为Rj， j=1,2,…,N−1。Rj的计算方法为 r的平均值， 2≤i<30 Rj= (10.2.6) ~r的平均值 i≥30"
   },
   {
     "num": "11.2.1",
@@ -1115,9 +1226,10 @@
     "page_index": 280,
     "page_num": 281,
     "image": "formulas/eq_11_2_1.webp",
-    "width": 929,
-    "height": 97,
-    "raw_line": "0 00 0 0 e sin 2π t x t a b ft      (11.2.1)"
+    "width": 645,
+    "height": 41,
+    "raw_line": "0 00 0 0 e sin 2π t x t a b ft      (11.2.1)",
+    "ocr_text": "x0(t) = a0 + b0e−ξ0t sin(2πf0t + φ0) (11.2.1)"
   },
   {
     "num": "11.2.2",
@@ -1125,9 +1237,10 @@
     "page_index": 280,
     "page_num": 281,
     "image": "formulas/eq_11_2_2.webp",
-    "width": 827,
-    "height": 101,
-    "raw_line": "  (11.2.2)"
+    "width": 577,
+    "height": 71,
+    "raw_line": "  (11.2.2)",
+    "ocr_text": "n x(t)=∑xi(t)+ ne(t) (11.2.2) i=1"
   },
   {
     "num": "11.2.3",
@@ -1135,9 +1248,10 @@
     "page_index": 282,
     "page_num": 283,
     "image": "formulas/eq_11_2_3.webp",
-    "width": 877,
-    "height": 35,
-    "raw_line": "  (11.2.3)"
+    "width": 871,
+    "height": 29,
+    "raw_line": "  (11.2.3)",
+    "ocr_text": "图11.2.7 瞬态冲击干扰瞬时值 PDF对比 图11.2.8 瞬态冲击干扰瞬时值CDF对比"
   },
   {
     "num": "11.2.4",
@@ -1145,9 +1259,10 @@
     "page_index": 282,
     "page_num": 283,
     "image": "formulas/eq_11_2_4.webp",
-    "width": 928,
-    "height": 35,
-    "raw_line": "  (11.2.4)"
+    "width": 613,
+    "height": 75,
+    "raw_line": "  (11.2.4)",
+    "ocr_text": "cov(x, y) ρxy = (11.2.4) √cov(x,x)√cov(y, y)"
   },
   {
     "num": "11.2.5",
@@ -1155,9 +1270,10 @@
     "page_index": 283,
     "page_num": 284,
     "image": "formulas/eq_11_2_5.webp",
-    "width": 877,
-    "height": 44,
-    "raw_line": "(11.2.5)"
+    "width": 596,
+    "height": 114,
+    "raw_line": "(11.2.5)",
+    "ocr_text": "n ∑(C1(i)−C2(i))2 e2 = i=1 (11.2.5) n"
   },
   {
     "num": "11.3.1",
@@ -1165,9 +1281,10 @@
     "page_index": 288,
     "page_num": 289,
     "image": "formulas/eq_11_3_1.webp",
-    "width": 928,
-    "height": 134,
-    "raw_line": "1 X AX BU G w k kkk   (11.3.1)"
+    "width": 925,
+    "height": 120,
+    "raw_line": "1 X AX BU G w k kkk   (11.3.1)",
+    "ocr_text": "上述目的。并且，卡尔曼滤波器具有计算量小和数据存储量小的优点，便于实 时在线运算。 卡尔曼滤波器的数学公式用状态空间的概念来描述，包含描述状态变量的状"
   },
   {
     "num": "11.3.2",
@@ -1175,9 +1292,10 @@
     "page_index": 288,
     "page_num": 289,
     "image": "formulas/eq_11_3_2.webp",
-    "width": 928,
-    "height": 134,
-    "raw_line": "Y HX Dv k kk 1 11   (11.3.2)"
+    "width": 573,
+    "height": 35,
+    "raw_line": "Y HX Dv k kk 1 11   (11.3.2)",
+    "ocr_text": "Yk+1 = HXk+1 + Dvk+1 (11.3.2)"
   },
   {
     "num": "11.3.3",
@@ -1185,9 +1303,10 @@
     "page_index": 288,
     "page_num": 289,
     "image": "formulas/eq_11_3_3.webp",
-    "width": 631,
-    "height": 93,
-    "raw_line": "Eww k   ， covwQ k kj    (11.3.3)"
+    "width": 627,
+    "height": 41,
+    "raw_line": "Eww k   ， covwQ k kj    (11.3.3)",
+    "ocr_text": "E[wk]=w , cov[wk]=Qδkj (11.3.3)"
   },
   {
     "num": "11.3.4",
@@ -1195,9 +1314,10 @@
     "page_index": 288,
     "page_num": 289,
     "image": "formulas/eq_11_3_4.webp",
-    "width": 631,
-    "height": 93,
-    "raw_line": "Evv k   ， covvR k kj    (11.3.4)"
+    "width": 620,
+    "height": 41,
+    "raw_line": "Evv k   ， covvR k kj    (11.3.4)",
+    "ocr_text": "E[vk]=ν , cov[vk]= Rδkj (11.3.4)"
   },
   {
     "num": "11.3.5",
@@ -1205,9 +1325,10 @@
     "page_index": 289,
     "page_num": 290,
     "image": "formulas/eq_11_3_5.webp",
-    "width": 872,
-    "height": 58,
-    "raw_line": "X AX BU Gw kk k k k k | 1 1| 1 1| 1     (11.3.5)"
+    "width": 645,
+    "height": 38,
+    "raw_line": "X AX BU Gw kk k k k k | 1 1| 1 1| 1     (11.3.5)",
+    "ocr_text": "X k|k−1 = AX k−1|k−1 + BU (11.3.5) k−1|k−1 + Gw"
   },
   {
     "num": "11.3.6",
@@ -1215,9 +1336,10 @@
     "page_index": 289,
     "page_num": 290,
     "image": "formulas/eq_11_3_6.webp",
-    "width": 871,
-    "height": 62,
-    "raw_line": "TT Pkk k k | 1 1| 1    AP A GQG (11.3.6)"
+    "width": 611,
+    "height": 43,
+    "raw_line": "TT Pkk k k | 1 1| 1    AP A GQG (11.3.6)",
+    "ocr_text": "Pk|k−1 = APk−1|k−1AT + GQGT (11.3.6)"
   },
   {
     "num": "11.3.7",
@@ -1225,9 +1347,10 @@
     "page_index": 289,
     "page_num": 290,
     "image": "formulas/eq_11_3_7.webp",
-    "width": 873,
-    "height": 104,
-    "raw_line": "(11.3.7)"
+    "width": 599,
+    "height": 84,
+    "raw_line": "(11.3.7)",
+    "ocr_text": "Pk|k−1HT Kk = (11.3.7) HP Pk|k−1H T + DRDT"
   },
   {
     "num": "11.3.8",
@@ -1235,9 +1358,10 @@
     "page_index": 289,
     "page_num": 290,
     "image": "formulas/eq_11_3_8.webp",
-    "width": 872,
-    "height": 64,
-    "raw_line": "X X K Y HX Dv kk kk k k kk | |1      | 1  (11.3.8)"
+    "width": 664,
+    "height": 46,
+    "raw_line": "X X K Y HX Dv kk kk k k kk | |1      | 1  (11.3.8)",
+    "ocr_text": "Xk|k = Xk|k−1 + Kk(Yk− HXk|k−1 − Dv) (11.3.8)"
   },
   {
     "num": "11.3.9",
@@ -1245,9 +1369,10 @@
     "page_index": 289,
     "page_num": 290,
     "image": "formulas/eq_11_3_9.webp",
-    "width": 871,
-    "height": 63,
-    "raw_line": "  P I KH P kk||  k kk1 (11.3.9)"
+    "width": 579,
+    "height": 41,
+    "raw_line": "  P I KH P kk||  k kk1 (11.3.9)",
+    "ocr_text": "Pk|k =(I − KkH)Pk|k−1 (11.3.9)"
   },
   {
     "num": "11.3.10",
@@ -1255,9 +1380,10 @@
     "page_index": 290,
     "page_num": 291,
     "image": "formulas/eq_11_3_10.webp",
-    "width": 938,
-    "height": 122,
-    "raw_line": "D  (11.3.10)"
+    "width": 562,
+    "height": 88,
+    "raw_line": "D  (11.3.10)",
+    "ocr_text": "max(PPV) D= (11.3.10) min(PPV)"
   },
   {
     "num": "11.3.11",
@@ -1265,9 +1391,10 @@
     "page_index": 291,
     "page_num": 292,
     "image": "formulas/eq_11_3_11.webp",
-    "width": 874,
-    "height": 47,
-    "raw_line": "2 Q AV BV  th th +C (11.3.11)"
+    "width": 925,
+    "height": 117,
+    "raw_line": "2 Q AV BV  th th +C (11.3.11)",
+    "ocr_text": "对于这台50mm口径的涡街流量计，Vth和Q的拟合曲线如图11.3.10所示， 拟合度(R²)为0.9996，具有很高的拟合度。 由图11.3.10可以看出，过程噪声的方差Q与突变阈值Vth近似符合式(11.3.11)"
   },
   {
     "num": "11.3.12",
@@ -1275,8 +1402,9 @@
     "page_index": 293,
     "page_num": 294,
     "image": "formulas/eq_11_3_12.webp",
-    "width": 560,
-    "height": 102,
-    "raw_line": "(11.3.12)"
+    "width": 556,
+    "height": 103,
+    "raw_line": "(11.3.12)",
+    "ocr_text": "∑ (x_ - y)2} T S2=三 (11.3.12) T-1"
   }
 ]
