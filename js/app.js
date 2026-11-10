@@ -5,6 +5,9 @@ let ocrData = [];
 let figuresData = [];
 let figuresByPage = {};
 let figuresByNum = {};
+let formulasData = [];
+let formulasByPage = {};
+let formulasByNum = {};
 
 let currentPageIndex = 0;
 let currentTheme = localStorage.getItem('vortex_reader_theme') || 'light';
@@ -21,6 +24,7 @@ const tocList = document.getElementById('tocList');
 const tocFilterInput = document.getElementById('tocFilterInput');
 const btnToggleToc = document.getElementById('btnToggleToc');
 const btnCloseToc = document.getElementById('btnCloseToc');
+const btnOpenTocEdge = document.getElementById('btnOpenTocEdge');
 const pagesContainer = document.getElementById('pagesContainer');
 const pageJumpInput = document.getElementById('pageJumpInput');
 const btnPrevPage = document.getElementById('btnPrevPage');
@@ -72,14 +76,16 @@ async function init() {
 
   // Load core data
   try {
-    const [pagesRes, tocRes, figsRes] = await Promise.all([
+    const [pagesRes, tocRes, figsRes, formsRes] = await Promise.all([
       fetch('data/pages_data.json').then(r => r.json()),
       fetch('data/toc.json').then(r => r.json()),
-      fetch('data/figures.json').then(r => r.json()).catch(() => [])
+      fetch('data/figures.json').then(r => r.json()).catch(() => []),
+      fetch('data/formulas.json').then(r => r.json()).catch(() => [])
     ]);
     pagesData = pagesRes;
     tocData = tocRes;
     figuresData = figsRes || [];
+    formulasData = formsRes || [];
 
     // Index figures
     figuresData.forEach(fig => {
@@ -89,8 +95,16 @@ async function init() {
       figuresByNum[fig.num] = fig;
     });
 
+    // Index formulas
+    formulasData.forEach(eq => {
+      const pIdx = eq.page_index;
+      if (!formulasByPage[pIdx]) formulasByPage[pIdx] = [];
+      formulasByPage[pIdx].push(eq);
+      formulasByNum[eq.num] = eq;
+    });
+
   } catch (err) {
-    console.error('Failed to load pages or TOC data', err);
+    console.error('Failed to load pages, figures, or formulas data', err);
   }
 
   // Load OCR data
@@ -122,6 +136,7 @@ function openToc() {
     tocSidebar.classList.remove('collapsed');
     localStorage.setItem('vortex_toc_collapsed', 'false');
   }
+  btnToggleToc.classList.add('active');
 }
 
 function closeToc() {
@@ -132,6 +147,7 @@ function closeToc() {
     tocSidebar.classList.add('collapsed');
     localStorage.setItem('vortex_toc_collapsed', 'true');
   }
+  btnToggleToc.classList.remove('active');
 }
 
 function toggleToc() {
@@ -204,7 +220,39 @@ function renderImageStream() {
   });
 }
 
-// Render Text Stream with Embedded Figures
+// Header/footer noise filter
+function isHeaderOrFooter(line) {
+  const t = line.trim();
+  if (/^[·\s]*\d+[·\s]*涡街流量计/.test(t)) return true;
+  if (/^第\s*\d+\s*章.*[·\s]*\d+[·\s]*$/.test(t)) return true;
+  if (/^[·\s]*\d+[·\s]*$/.test(t)) return true;
+  if (/^\d+\s*·\s*涡街流量计/.test(t)) return true;
+  return false;
+}
+
+// Clean and normalize inline variables and typography
+function normalizeTypography(text) {
+  return text
+    .replace(//g, '=')
+    .replace(//g, '…')
+    .replace(//g, '×')
+    .replace(/\b1v\b/g, 'v₁')
+    .replace(/\b2v\b/g, 'v₂')
+    .replace(/\b0b\b/g, 'b₀')
+    .replace(/\b1b\b/g, 'b₁')
+    .replace(/\bmb\b/g, 'b_m')
+    .replace(/\b0a\b/g, 'a₀')
+    .replace(/\b1a\b/g, 'a₁')
+    .replace(/\bka\b/g, 'a_k')
+    .replace(/\s+([，。！？；：、）】”])/g, '$1')
+    .replace(/([（【“])\s+/g, '$1')
+    .replace(/\s*，\s*/g, '，')
+    .replace(/\s*。\s*/g, '。')
+    .replace(/\s*；\s*/g, '；')
+    .replace(/\s*：\s*/g, '：');
+}
+
+// Render Text Stream with Natural Paragraphs, Embedded Formulas and Figures
 function renderTextStream() {
   textContentContainer.innerHTML = '';
 
@@ -215,24 +263,76 @@ function renderTextStream() {
     block.dataset.pageIndex = idx;
 
     const pageFigs = figuresByPage[idx] || [];
+    const pageForms = formulasByPage[idx] || [];
     const renderedFigNums = new Set();
+    const renderedFormNums = new Set();
 
-    // Format body text and embed figures where captions appear
     const rawLines = (page.text || '').split('\n');
     let bodyHtml = '';
+    let currentPara = '';
+
+    function flushPara() {
+      if (!currentPara.trim()) return;
+      const cleanPara = normalizeTypography(currentPara.trim());
+      if (/^[①②③④⑤⑥⑦⑧⑨⑩]|^（[0-9]+）|^\([0-9]+\)/.test(cleanPara)) {
+        bodyHtml += `<div class="list-step-item">${escapeHtml(cleanPara)}</div>`;
+      } else {
+        bodyHtml += `<p class="book-paragraph">${escapeHtml(cleanPara)}</p>`;
+      }
+      currentPara = '';
+    }
 
     rawLines.forEach(line => {
       const lineTrim = line.trim();
-      if (!lineTrim) return;
+      if (!lineTrim) {
+        flushPara();
+        return;
+      }
 
-      // Check if this line is a standalone figure caption
-      const m = lineTrim.match(/^图\s*(\d+\.\d+(?:\.\d+)?)\s*(.*)$/);
-      if (m && !lineTrim.includes('所示') && !lineTrim.includes('见图') && !lineTrim.includes('表明') && !lineTrim.includes('中的')) {
-        const figNum = m[1];
-        const figObj = figuresByNum[figNum];
+      // 1. Skip page headers/footers
+      if (isHeaderOrFooter(lineTrim)) return;
+
+      // 2. Check for Formula Card match: line ending with (x.y.z)
+      const mEq = lineTrim.match(/\((\s*\d+[\.\-]\d+(?:[\.\-]\d+)?\s*)\)\s*$/);
+      if (mEq && !['满足式', '由式', '按式', '见式', '如式', '代入式', '根据式', '基于式'].some(w => lineTrim.includes(w))) {
+        const eqNum = mEq[1].replace(/\s+/g, '');
+        const eqObj = formulasByNum[eqNum] || pageForms.find(f => f.num === eqNum);
+
+        let introText = lineTrim.substring(0, mEq.index).trim();
+        if (introText.includes('公式为') || introText.includes('关系为') || introText.includes('表示为') || introText.includes('可得')) {
+          introText = introText.replace(/(公式为|关系为|表示为|可得).*/, '$1：');
+          if (introText) {
+            currentPara = currentPara ? (currentPara + ' ' + introText) : introText;
+          }
+        }
+        flushPara();
+
+        if (eqObj) {
+          renderedFormNums.add(eqObj.num);
+          bodyHtml += `
+            <div class="formula-card" data-eq-num="${eqObj.num}">
+              <div class="formula-img-wrap" onclick="openLightbox('${eqObj.image}', '公式 (${eqObj.num})')">
+                <img src="${eqObj.image}" alt="公式 (${eqObj.num})" loading="lazy" />
+              </div>
+              <div class="formula-tag">
+                <span class="formula-badge">公式</span>
+                <span class="formula-num">(${eqObj.num})</span>
+              </div>
+            </div>
+          `;
+          return;
+        }
+      }
+
+      // 3. Check for Figure Card match
+      const mFig = lineTrim.match(/^图\s*(\d+\.\d+(?:\.\d+)?)\s*(.*)$/);
+      if (mFig && !['所示', '见图', '如图', '表明', '中的', '中“', '由图', '从图'].some(w => lineTrim.includes(w))) {
+        flushPara();
+        const figNum = mFig[1];
+        const figObj = figuresByNum[figNum] || pageFigs.find(f => f.num === figNum);
 
         if (figObj) {
-          renderedFigNums.add(figNum);
+          renderedFigNums.add(figObj.num);
           bodyHtml += `
             <figure class="text-figure-card" data-fig-num="${figObj.num}">
               <div class="figure-img-wrap" onclick="openLightbox('${figObj.image}', '${escapeHtml(figObj.title)}')">
@@ -248,13 +348,46 @@ function renderTextStream() {
         }
       }
 
-      // Normal paragraph
-      const isHeader = lineTrim.startsWith('第 ') || lineTrim.startsWith('1.') || lineTrim.startsWith('2.') || lineTrim.startsWith('3.') || lineTrim.startsWith('4.') || lineTrim.startsWith('5.') || lineTrim.startsWith('6.') || lineTrim.startsWith('7.') || lineTrim.startsWith('8.') || lineTrim.startsWith('9.') || lineTrim.startsWith('10.') || lineTrim.startsWith('11.');
-      const indentClass = isHeader ? 'no-indent' : '';
-      bodyHtml += `<p class="text-paragraph ${indentClass}">${escapeHtml(lineTrim)}</p>`;
+      // 4. Headings
+      if (/^第\s*\d+\s*章\s+(.*)$/.test(lineTrim)) {
+        flushPara();
+        bodyHtml += `<h2 class="book-chap-title">${escapeHtml(lineTrim)}</h2>`;
+        return;
+      }
+      if (/^\d+\.\d+\s+(.*)$/.test(lineTrim)) {
+        flushPara();
+        bodyHtml += `<h3 class="book-sec-title">${escapeHtml(lineTrim)}</h3>`;
+        return;
+      }
+      if (/^\d+\.\d+\.\d+\s+(.*)$/.test(lineTrim)) {
+        flushPara();
+        bodyHtml += `<h4 class="book-subsec-title">${escapeHtml(lineTrim)}</h4>`;
+        return;
+      }
+
+      // 5. Paragraph Flow: natural Chinese joining
+      if (!currentPara) {
+        currentPara = lineTrim;
+      } else {
+        const lastChar = currentPara.trim().slice(-1);
+        if (['。', '！', '？'].includes(lastChar)) {
+          flushPara();
+          currentPara = lineTrim;
+        } else {
+          if (currentPara.endsWith('-')) {
+            currentPara = currentPara.slice(0, -1) + lineTrim;
+          } else if (/[\u4e00-\u9fa5]/.test(lastChar) && /[\u4e00-\u9fa5]/.test(lineTrim[0])) {
+            currentPara += lineTrim;
+          } else {
+            currentPara += ' ' + lineTrim;
+          }
+        }
+      }
     });
 
-    // Check if there are any figures on this page that weren't inlined yet
+    flushPara();
+
+    // Catch-up any figures on this page not yet inlined
     pageFigs.forEach(fig => {
       if (!renderedFigNums.has(fig.num)) {
         bodyHtml += `
@@ -271,20 +404,41 @@ function renderTextStream() {
       }
     });
 
+    // Catch-up any formulas on this page not yet inlined
+    pageForms.forEach(eq => {
+      if (!renderedFormNums.has(eq.num)) {
+        bodyHtml += `
+          <div class="formula-card" data-eq-num="${eq.num}">
+            <div class="formula-img-wrap" onclick="openLightbox('${eq.image}', '公式 (${eq.num})')">
+              <img src="${eq.image}" alt="公式 (${eq.num})" loading="lazy" />
+            </div>
+            <div class="formula-tag">
+              <span class="formula-badge">公式</span>
+              <span class="formula-num">(${eq.num})</span>
+            </div>
+          </div>
+        `;
+      }
+    });
+
     if (!bodyHtml.trim()) {
-      bodyHtml = '<p class="text-paragraph no-indent">（本页无独立文字流或为纯插图）</p>';
+      bodyHtml = '<p class="book-paragraph no-indent">（本页无独立文字流或为纯图表）</p>';
     }
 
     const figBadgeHtml = pageFigs.length > 0 
-      ? `<span class="page-figs-count-badge">含 ${pageFigs.length} 幅插图</span>` 
+      ? `<span class="page-count-badge">${pageFigs.length} 幅插图</span>` 
+      : '';
+    const formBadgeHtml = pageForms.length > 0 
+      ? `<span class="page-count-badge formula-badge-count">${pageForms.length} 个公式</span>` 
       : '';
 
     block.innerHTML = `
       <div class="text-page-header">
         <strong>第 ${idx + 1} 页 (${getChapterForPage(idx)})</strong>
-        <div>
+        <div class="page-stats-group">
           ${figBadgeHtml}
-          <span style="margin-left: 8px;">${page.char_count} 字符</span>
+          ${formBadgeHtml}
+          <span style="font-variant-numeric: tabular-nums;">${page.char_count} 字符</span>
         </div>
       </div>
       <div class="text-page-body">${bodyHtml}</div>
@@ -588,6 +742,7 @@ function setupEvents() {
   // TOC Button Click Handlers
   btnToggleToc.addEventListener('click', toggleToc);
   btnCloseToc.addEventListener('click', closeToc);
+  if (btnOpenTocEdge) btnOpenTocEdge.addEventListener('click', openToc);
   tocOverlay.addEventListener('click', closeToc);
 
   tocFilterInput.addEventListener('input', (e) => {

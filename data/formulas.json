@@ -1,0 +1,1282 @@
+[
+  {
+    "num": "1.2.1",
+    "clean_num": "1_2_1",
+    "page_index": 13,
+    "page_num": 14,
+    "image": "formulas/eq_1_2_1.webp",
+    "width": 927,
+    "height": 35,
+    "raw_line": "hl / 0.2806  (1.2.1)"
+  },
+  {
+    "num": "1.2.2",
+    "clean_num": "1_2_2",
+    "page_index": 13,
+    "page_num": 14,
+    "image": "formulas/eq_1_2_2.webp",
+    "width": 877,
+    "height": 36,
+    "raw_line": "d  (1.2.2)"
+  },
+  {
+    "num": "1.2.3",
+    "clean_num": "1_2_3",
+    "page_index": 13,
+    "page_num": 14,
+    "image": "formulas/eq_1_2_3.webp",
+    "width": 508,
+    "height": 57,
+    "raw_line": "m (1.2.3)"
+  },
+  {
+    "num": "1.2.4",
+    "clean_num": "1_2_4",
+    "page_index": 13,
+    "page_num": 14,
+    "image": "formulas/eq_1_2_4.webp",
+    "width": 819,
+    "height": 89,
+    "raw_line": "v f Sr md  (1.2.4)"
+  },
+  {
+    "num": "1.2.5",
+    "clean_num": "1_2_5",
+    "page_index": 14,
+    "page_num": 15,
+    "image": "formulas/eq_1_2_5.webp",
+    "width": 814,
+    "height": 96,
+    "raw_line": "     (1.2.5)"
+  },
+  {
+    "num": "2.1.1",
+    "clean_num": "2_1_1",
+    "page_index": 30,
+    "page_num": 31,
+    "image": "formulas/eq_2_1_1.webp",
+    "width": 868,
+    "height": 76,
+    "raw_line": "(2.1.1)"
+  },
+  {
+    "num": "2.1.2",
+    "clean_num": "2_1_2",
+    "page_index": 31,
+    "page_num": 32,
+    "image": "formulas/eq_2_1_2.webp",
+    "width": 570,
+    "height": 63,
+    "raw_line": "N  (2.1.2)"
+  },
+  {
+    "num": "2.1.3",
+    "clean_num": "2_1_3",
+    "page_index": 31,
+    "page_num": 32,
+    "image": "formulas/eq_2_1_3.webp",
+    "width": 821,
+    "height": 108,
+    "raw_line": "  ， kN  0,1, , 1   (2.1.3)"
+  },
+  {
+    "num": "2.1.4",
+    "clean_num": "2_1_4",
+    "page_index": 31,
+    "page_num": 32,
+    "image": "formulas/eq_2_1_4.webp",
+    "width": 766,
+    "height": 225,
+    "raw_line": " (2.1.4)"
+  },
+  {
+    "num": "2.1.5",
+    "clean_num": "2_1_5",
+    "page_index": 31,
+    "page_num": 32,
+    "image": "formulas/eq_2_1_5.webp",
+    "width": 700,
+    "height": 34,
+    "raw_line": "( ) ( ) j ( ), eo g n xn xn  nN  0,1, , / 2 1   (2.1.5)"
+  },
+  {
+    "num": "2.1.6",
+    "clean_num": "2_1_6",
+    "page_index": 31,
+    "page_num": 32,
+    "image": "formulas/eq_2_1_6.webp",
+    "width": 592,
+    "height": 34,
+    "raw_line": "() () j () Gk X k X k  eo  (2.1.6)"
+  },
+  {
+    "num": "2.1.7",
+    "clean_num": "2_1_7",
+    "page_index": 31,
+    "page_num": 32,
+    "image": "formulas/eq_2_1_7.webp",
+    "width": 828,
+    "height": 67,
+    "raw_line": "( /2 ) ( ) j ( ) GN k Xk Xk   eo (2.1.7)"
+  },
+  {
+    "num": "2.1.8",
+    "clean_num": "2_1_8",
+    "page_index": 32,
+    "page_num": 33,
+    "image": "formulas/eq_2_1_8.webp",
+    "width": 626,
+    "height": 155,
+    "raw_line": "Gk G N k Xk    (2.1.8)"
+  },
+  {
+    "num": "2.1.9",
+    "clean_num": "2_1_9",
+    "page_index": 32,
+    "page_num": 33,
+    "image": "formulas/eq_2_1_9.webp",
+    "width": 626,
+    "height": 155,
+    "raw_line": "Gk G N k Xk    (2.1.9)"
+  },
+  {
+    "num": "2.1.10",
+    "clean_num": "2_1_10",
+    "page_index": 32,
+    "page_num": 33,
+    "image": "formulas/eq_2_1_10.webp",
+    "width": 538,
+    "height": 66,
+    "raw_line": "ˆ / v ss f  nf N (2.1.10)"
+  },
+  {
+    "num": "2.1.11",
+    "clean_num": "2_1_11",
+    "page_index": 33,
+    "page_num": 34,
+    "image": "formulas/eq_2_1_11.webp",
+    "width": 612,
+    "height": 139,
+    "raw_line": "(2.1.11)"
+  },
+  {
+    "num": "2.1.12",
+    "clean_num": "2_1_12",
+    "page_index": 33,
+    "page_num": 34,
+    "image": "formulas/eq_2_1_12.webp",
+    "width": 612,
+    "height": 139,
+    "raw_line": "ˆ ˆ / s s f  nf N (2.1.12)"
+  },
+  {
+    "num": "2.1.13",
+    "clean_num": "2_1_13",
+    "page_index": 33,
+    "page_num": 34,
+    "image": "formulas/eq_2_1_13.webp",
+    "width": 875,
+    "height": 35,
+    "raw_line": "01 x( ) sin(2 t ft ft  π ) 0.5sin(2  π ) (2.1.13)"
+  },
+  {
+    "num": "2.2.1",
+    "clean_num": "2_2_1",
+    "page_index": 40,
+    "page_num": 41,
+    "image": "formulas/eq_2_2_1.webp",
+    "width": 877,
+    "height": 35,
+    "raw_line": "FR 3600 fre /   k (2.2.1)"
+  },
+  {
+    "num": "2.2.2",
+    "clean_num": "2_2_2",
+    "page_index": 41,
+    "page_num": 42,
+    "image": "formulas/eq_2_2_2.webp",
+    "width": 547,
+    "height": 69,
+    "raw_line": "qq P T  (2.2.2)"
+  },
+  {
+    "num": "2.2.3",
+    "clean_num": "2_2_3",
+    "page_index": 41,
+    "page_num": 42,
+    "image": "formulas/eq_2_2_3.webp",
+    "width": 929,
+    "height": 35,
+    "raw_line": "(2.2.3)"
+  },
+  {
+    "num": "2.2.4",
+    "clean_num": "2_2_4",
+    "page_index": 43,
+    "page_num": 44,
+    "image": "formulas/eq_2_2_4.webp",
+    "width": 938,
+    "height": 151,
+    "raw_line": "FR   k (2.2.4)"
+  },
+  {
+    "num": "2.2.5",
+    "clean_num": "2_2_5",
+    "page_index": 43,
+    "page_num": 44,
+    "image": "formulas/eq_2_2_5.webp",
+    "width": 938,
+    "height": 151,
+    "raw_line": "TxCMPR 0.5 TxPR   (2.2.5)"
+  },
+  {
+    "num": "2.3.1",
+    "clean_num": "2_3_1",
+    "page_index": 45,
+    "page_num": 46,
+    "image": "formulas/eq_2_3_1.webp",
+    "width": 617,
+    "height": 184,
+    "raw_line": "(2.3.1)"
+  },
+  {
+    "num": "2.3.2",
+    "clean_num": "2_3_2",
+    "page_index": 45,
+    "page_num": 46,
+    "image": "formulas/eq_2_3_2.webp",
+    "width": 617,
+    "height": 184,
+    "raw_line": "(2.3.2)"
+  },
+  {
+    "num": "3.1.1",
+    "clean_num": "3_1_1",
+    "page_index": 49,
+    "page_num": 50,
+    "image": "formulas/eq_3_1_1.webp",
+    "width": 877,
+    "height": 35,
+    "raw_line": "(3.1.1)"
+  },
+  {
+    "num": "3.1.2",
+    "clean_num": "3_1_2",
+    "page_index": 51,
+    "page_num": 52,
+    "image": "formulas/eq_3_1_2.webp",
+    "width": 621,
+    "height": 86,
+    "raw_line": "(3.1.2)"
+  },
+  {
+    "num": "3.1.3",
+    "clean_num": "3_1_3",
+    "page_index": 52,
+    "page_num": 53,
+    "image": "formulas/eq_3_1_3.webp",
+    "width": 929,
+    "height": 96,
+    "raw_line": "2    a bw cw (3.1.3)"
+  },
+  {
+    "num": "3.1.4",
+    "clean_num": "3_1_4",
+    "page_index": 53,
+    "page_num": 54,
+    "image": "formulas/eq_3_1_4.webp",
+    "width": 876,
+    "height": 89,
+    "raw_line": "2    a bw cw (3.1.4)"
+  },
+  {
+    "num": "3.1.5",
+    "clean_num": "3_1_5",
+    "page_index": 54,
+    "page_num": 55,
+    "image": "formulas/eq_3_1_5.webp",
+    "width": 938,
+    "height": 307,
+    "raw_line": "(3.1.5)"
+  },
+  {
+    "num": "3.1.6",
+    "clean_num": "3_1_6",
+    "page_index": 54,
+    "page_num": 55,
+    "image": "formulas/eq_3_1_6.webp",
+    "width": 595,
+    "height": 180,
+    "raw_line": "(3.1.6)"
+  },
+  {
+    "num": "3.1.7",
+    "clean_num": "3_1_7",
+    "page_index": 54,
+    "page_num": 55,
+    "image": "formulas/eq_3_1_7.webp",
+    "width": 927,
+    "height": 325,
+    "raw_line": "(3.1.7)"
+  },
+  {
+    "num": "3.1.8",
+    "clean_num": "3_1_8",
+    "page_index": 54,
+    "page_num": 55,
+    "image": "formulas/eq_3_1_8.webp",
+    "width": 845,
+    "height": 87,
+    "raw_line": "   (3.1.8)"
+  },
+  {
+    "num": "3.1.9",
+    "clean_num": "3_1_9",
+    "page_index": 55,
+    "page_num": 56,
+    "image": "formulas/eq_3_1_9.webp",
+    "width": 622,
+    "height": 258,
+    "raw_line": "(3.1.9)"
+  },
+  {
+    "num": "3.1.10",
+    "clean_num": "3_1_10",
+    "page_index": 55,
+    "page_num": 56,
+    "image": "formulas/eq_3_1_10.webp",
+    "width": 622,
+    "height": 258,
+    "raw_line": "0  2cos (3.1.10)"
+  },
+  {
+    "num": "3.1.11",
+    "clean_num": "3_1_11",
+    "page_index": 55,
+    "page_num": 56,
+    "image": "formulas/eq_3_1_11.webp",
+    "width": 622,
+    "height": 258,
+    "raw_line": "2    a bw cw (3.1.11)"
+  },
+  {
+    "num": "3.1.12",
+    "clean_num": "3_1_12",
+    "page_index": 55,
+    "page_num": 56,
+    "image": "formulas/eq_3_1_12.webp",
+    "width": 622,
+    "height": 258,
+    "raw_line": "   (3.1.12)"
+  },
+  {
+    "num": "3.1.13",
+    "clean_num": "3_1_13",
+    "page_index": 55,
+    "page_num": 56,
+    "image": "formulas/eq_3_1_13.webp",
+    "width": 542,
+    "height": 80,
+    "raw_line": "00 2π / s   f f (3.1.13)"
+  },
+  {
+    "num": "3.1.14",
+    "clean_num": "3_1_14",
+    "page_index": 55,
+    "page_num": 56,
+    "image": "formulas/eq_3_1_14.webp",
+    "width": 542,
+    "height": 80,
+    "raw_line": "/ wlf  s (3.1.14)"
+  },
+  {
+    "num": "3.1.15",
+    "clean_num": "3_1_15",
+    "page_index": 60,
+    "page_num": 61,
+    "image": "formulas/eq_3_1_15.webp",
+    "width": 708,
+    "height": 259,
+    "raw_line": "(3.1.15)"
+  },
+  {
+    "num": "3.1.16",
+    "clean_num": "3_1_16",
+    "page_index": 60,
+    "page_num": 61,
+    "image": "formulas/eq_3_1_16.webp",
+    "width": 534,
+    "height": 57,
+    "raw_line": "b   (3.1.16)"
+  },
+  {
+    "num": "3.1.17",
+    "clean_num": "3_1_17",
+    "page_index": 60,
+    "page_num": 61,
+    "image": "formulas/eq_3_1_17.webp",
+    "width": 766,
+    "height": 77,
+    "raw_line": "b    (3.1.17)"
+  },
+  {
+    "num": "3.1.18",
+    "clean_num": "3_1_18",
+    "page_index": 60,
+    "page_num": 61,
+    "image": "formulas/eq_3_1_18.webp",
+    "width": 537,
+    "height": 63,
+    "raw_line": "  (3.1.18)"
+  },
+  {
+    "num": "3.1.19",
+    "clean_num": "3_1_19",
+    "page_index": 62,
+    "page_num": 63,
+    "image": "formulas/eq_3_1_19.webp",
+    "width": 928,
+    "height": 121,
+    "raw_line": " (3.1.19)"
+  },
+  {
+    "num": "3.1.20",
+    "clean_num": "3_1_20",
+    "page_index": 62,
+    "page_num": 63,
+    "image": "formulas/eq_3_1_20.webp",
+    "width": 524,
+    "height": 33,
+    "raw_line": "max 2 sf  f (3.1.20)"
+  },
+  {
+    "num": "3.1.21",
+    "clean_num": "3_1_21",
+    "page_index": 63,
+    "page_num": 64,
+    "image": "formulas/eq_3_1_21.webp",
+    "width": 928,
+    "height": 233,
+    "raw_line": "(3.1.21)"
+  },
+  {
+    "num": "3.1.22",
+    "clean_num": "3_1_22",
+    "page_index": 63,
+    "page_num": 64,
+    "image": "formulas/eq_3_1_22.webp",
+    "width": 928,
+    "height": 113,
+    "raw_line": "  (3.1.22)"
+  },
+  {
+    "num": "3.1.23",
+    "clean_num": "3_1_23",
+    "page_index": 63,
+    "page_num": 64,
+    "image": "formulas/eq_3_1_23.webp",
+    "width": 623,
+    "height": 68,
+    "raw_line": "     (3.1.23)"
+  },
+  {
+    "num": "4.1.1",
+    "clean_num": "4_1_1",
+    "page_index": 84,
+    "page_num": 85,
+    "image": "formulas/eq_4_1_1.webp",
+    "width": 760,
+    "height": 150,
+    "raw_line": "    12 2 1 2 V R R R RR 1.235 / 1.235 1.235 /         (4.1.1)"
+  },
+  {
+    "num": "4.1.2",
+    "clean_num": "4_1_2",
+    "page_index": 84,
+    "page_num": 85,
+    "image": "formulas/eq_4_1_2.webp",
+    "width": 760,
+    "height": 150,
+    "raw_line": "(4.1.2)"
+  },
+  {
+    "num": "4.1.3",
+    "clean_num": "4_1_3",
+    "page_index": 89,
+    "page_num": 90,
+    "image": "formulas/eq_4_1_3.webp",
+    "width": 693,
+    "height": 85,
+    "raw_line": "(4.1.3)"
+  },
+  {
+    "num": "4.1.4",
+    "clean_num": "4_1_4",
+    "page_index": 90,
+    "page_num": 91,
+    "image": "formulas/eq_4_1_4.webp",
+    "width": 527,
+    "height": 32,
+    "raw_line": "Y aX b   (4.1.4)"
+  },
+  {
+    "num": "4.1.5",
+    "clean_num": "4_1_5",
+    "page_index": 90,
+    "page_num": 91,
+    "image": "formulas/eq_4_1_5.webp",
+    "width": 524,
+    "height": 64,
+    "raw_line": "  (4.1.5)"
+  },
+  {
+    "num": "4.1.6",
+    "clean_num": "4_1_6",
+    "page_index": 91,
+    "page_num": 92,
+    "image": "formulas/eq_4_1_6.webp",
+    "width": 574,
+    "height": 74,
+    "raw_line": "(4.1.6)"
+  },
+  {
+    "num": "4.1.7",
+    "clean_num": "4_1_7",
+    "page_index": 91,
+    "page_num": 92,
+    "image": "formulas/eq_4_1_7.webp",
+    "width": 568,
+    "height": 34,
+    "raw_line": "VI V I ii oo     (4.1.7)"
+  },
+  {
+    "num": "4.1.8",
+    "clean_num": "4_1_8",
+    "page_index": 94,
+    "page_num": 95,
+    "image": "formulas/eq_4_1_8.webp",
+    "width": 938,
+    "height": 107,
+    "raw_line": "   (4.1.8)"
+  },
+  {
+    "num": "4.2.1",
+    "clean_num": "4_2_1",
+    "page_index": 99,
+    "page_num": 100,
+    "image": "formulas/eq_4_2_1.webp",
+    "width": 530,
+    "height": 88,
+    "raw_line": "N  (4.2.1)"
+  },
+  {
+    "num": "4.3.1",
+    "clean_num": "4_3_1",
+    "page_index": 101,
+    "page_num": 102,
+    "image": "formulas/eq_4_3_1.webp",
+    "width": 548,
+    "height": 64,
+    "raw_line": "  (4.3.1)"
+  },
+  {
+    "num": "4.4.1",
+    "clean_num": "4_4_1",
+    "page_index": 109,
+    "page_num": 110,
+    "image": "formulas/eq_4_4_1.webp",
+    "width": 532,
+    "height": 88,
+    "raw_line": "N  (4.4.1)"
+  },
+  {
+    "num": "5.2.1",
+    "clean_num": "5_2_1",
+    "page_index": 116,
+    "page_num": 117,
+    "image": "formulas/eq_5_2_1.webp",
+    "width": 570,
+    "height": 32,
+    "raw_line": "yr() = g()r + j() hr (5.2.1)"
+  },
+  {
+    "num": "5.2.2",
+    "clean_num": "5_2_2",
+    "page_index": 116,
+    "page_num": 117,
+    "image": "formulas/eq_5_2_2.webp",
+    "width": 762,
+    "height": 397,
+    "raw_line": "(5.2.2)"
+  },
+  {
+    "num": "5.2.3",
+    "clean_num": "5_2_3",
+    "page_index": 117,
+    "page_num": 118,
+    "image": "formulas/eq_5_2_3.webp",
+    "width": 767,
+    "height": 296,
+    "raw_line": " (5.2.3)"
+  },
+  {
+    "num": "5.2.4",
+    "clean_num": "5_2_4",
+    "page_index": 117,
+    "page_num": 118,
+    "image": "formulas/eq_5_2_4.webp",
+    "width": 751,
+    "height": 250,
+    "raw_line": "(5.2.4)"
+  },
+  {
+    "num": "5.2.5",
+    "clean_num": "5_2_5",
+    "page_index": 117,
+    "page_num": 118,
+    "image": "formulas/eq_5_2_5.webp",
+    "width": 715,
+    "height": 226,
+    "raw_line": "(5.2.5)"
+  },
+  {
+    "num": "5.2.6",
+    "clean_num": "5_2_6",
+    "page_index": 118,
+    "page_num": 119,
+    "image": "formulas/eq_5_2_6.webp",
+    "width": 763,
+    "height": 162,
+    "raw_line": "(5.2.6)"
+  },
+  {
+    "num": "5.2.7",
+    "clean_num": "5_2_7",
+    "page_index": 118,
+    "page_num": 119,
+    "image": "formulas/eq_5_2_7.webp",
+    "width": 763,
+    "height": 162,
+    "raw_line": "(5.2.7)"
+  },
+  {
+    "num": "5.2.8",
+    "clean_num": "5_2_8",
+    "page_index": 122,
+    "page_num": 123,
+    "image": "formulas/eq_5_2_8.webp",
+    "width": 938,
+    "height": 122,
+    "raw_line": "2 R    100 (1 ) At Bt (5.2.8)"
+  },
+  {
+    "num": "5.2.9",
+    "clean_num": "5_2_9",
+    "page_index": 123,
+    "page_num": 124,
+    "image": "formulas/eq_5_2_9.webp",
+    "width": 938,
+    "height": 105,
+    "raw_line": "(5.2.9)"
+  },
+  {
+    "num": "5.2.10",
+    "clean_num": "5_2_10",
+    "page_index": 123,
+    "page_num": 124,
+    "image": "formulas/eq_5_2_10.webp",
+    "width": 930,
+    "height": 35,
+    "raw_line": "(5.2.10)"
+  },
+  {
+    "num": "5.2.11",
+    "clean_num": "5_2_11",
+    "page_index": 124,
+    "page_num": 125,
+    "image": "formulas/eq_5_2_11.webp",
+    "width": 527,
+    "height": 32,
+    "raw_line": "Y aX b   (5.2.11)"
+  },
+  {
+    "num": "5.2.12",
+    "clean_num": "5_2_12",
+    "page_index": 124,
+    "page_num": 125,
+    "image": "formulas/eq_5_2_12.webp",
+    "width": 523,
+    "height": 62,
+    "raw_line": "  (5.2.12)"
+  },
+  {
+    "num": "5.2.13",
+    "clean_num": "5_2_13",
+    "page_index": 125,
+    "page_num": 126,
+    "image": "formulas/eq_5_2_13.webp",
+    "width": 581,
+    "height": 62,
+    "raw_line": "f c     (5.2.13)"
+  },
+  {
+    "num": "6.1.1",
+    "clean_num": "6_1_1",
+    "page_index": 132,
+    "page_num": 133,
+    "image": "formulas/eq_6_1_1.webp",
+    "width": 938,
+    "height": 110,
+    "raw_line": "C C C KC C      ） (6.1.1)"
+  },
+  {
+    "num": "6.1.2",
+    "clean_num": "6_1_2",
+    "page_index": 133,
+    "page_num": 134,
+    "image": "formulas/eq_6_1_2.webp",
+    "width": 625,
+    "height": 71,
+    "raw_line": "S RCS R C S  (6.1.2)"
+  },
+  {
+    "num": "6.1.3",
+    "clean_num": "6_1_3",
+    "page_index": 137,
+    "page_num": 138,
+    "image": "formulas/eq_6_1_3.webp",
+    "width": 647,
+    "height": 224,
+    "raw_line": "(6.1.3)"
+  },
+  {
+    "num": "6.1.4",
+    "clean_num": "6_1_4",
+    "page_index": 137,
+    "page_num": 138,
+    "image": "formulas/eq_6_1_4.webp",
+    "width": 647,
+    "height": 224,
+    "raw_line": "(6.1.4)"
+  },
+  {
+    "num": "6.1.5",
+    "clean_num": "6_1_5",
+    "page_index": 138,
+    "page_num": 139,
+    "image": "formulas/eq_6_1_5.webp",
+    "width": 533,
+    "height": 62,
+    "raw_line": "(6.1.5)"
+  },
+  {
+    "num": "6.2.1",
+    "clean_num": "6_2_1",
+    "page_index": 145,
+    "page_num": 146,
+    "image": "formulas/eq_6_2_1.webp",
+    "width": 821,
+    "height": 80,
+    "raw_line": "  (6.2.1)"
+  },
+  {
+    "num": "6.2.2",
+    "clean_num": "6_2_2",
+    "page_index": 145,
+    "page_num": 146,
+    "image": "formulas/eq_6_2_2.webp",
+    "width": 556,
+    "height": 34,
+    "raw_line": " =RC DAC SLEW  (6.2.2)"
+  },
+  {
+    "num": "6.3.1",
+    "clean_num": "6_3_1",
+    "page_index": 162,
+    "page_num": 163,
+    "image": "formulas/eq_6_3_1.webp",
+    "width": 923,
+    "height": 120,
+    "raw_line": "      (6.3.1)"
+  },
+  {
+    "num": "6.3.2",
+    "clean_num": "6_3_2",
+    "page_index": 162,
+    "page_num": 163,
+    "image": "formulas/eq_6_3_2.webp",
+    "width": 856,
+    "height": 72,
+    "raw_line": "  max rr i EE      (6.3.2)"
+  },
+  {
+    "num": "7.1.1",
+    "clean_num": "7_1_1",
+    "page_index": 166,
+    "page_num": 167,
+    "image": "formulas/eq_7_1_1.webp",
+    "width": 614,
+    "height": 94,
+    "raw_line": "      11 x n sn n n  (7.1.1)"
+  },
+  {
+    "num": "7.1.2",
+    "clean_num": "7_1_2",
+    "page_index": 166,
+    "page_num": 167,
+    "image": "formulas/eq_7_1_2.webp",
+    "width": 614,
+    "height": 94,
+    "raw_line": "x22 n sn M n n         (7.1.2)"
+  },
+  {
+    "num": "7.1.3",
+    "clean_num": "7_1_3",
+    "page_index": 166,
+    "page_num": 167,
+    "image": "formulas/eq_7_1_3.webp",
+    "width": 860,
+    "height": 156,
+    "raw_line": " (7.1.3)"
+  },
+  {
+    "num": "7.1.4",
+    "clean_num": "7_1_4",
+    "page_index": 166,
+    "page_num": 167,
+    "image": "formulas/eq_7_1_4.webp",
+    "width": 904,
+    "height": 79,
+    "raw_line": "ˆˆ R m R mM   ss (7.1.4)"
+  },
+  {
+    "num": "7.1.5",
+    "clean_num": "7_1_5",
+    "page_index": 166,
+    "page_num": 167,
+    "image": "formulas/eq_7_1_5.webp",
+    "width": 843,
+    "height": 66,
+    "raw_line": "  0 ˆ ˆ Rm R ss  ss (7.1.5)"
+  },
+  {
+    "num": "7.2.1",
+    "clean_num": "7_2_1",
+    "page_index": 167,
+    "page_num": 168,
+    "image": "formulas/eq_7_2_1.webp",
+    "width": 531,
+    "height": 68,
+    "raw_line": "  (7.2.1)"
+  },
+  {
+    "num": "7.3.1",
+    "clean_num": "7_3_1",
+    "page_index": 168,
+    "page_num": 169,
+    "image": "formulas/eq_7_3_1.webp",
+    "width": 724,
+    "height": 122,
+    "raw_line": "  有偏估计 (7.3.1)"
+  },
+  {
+    "num": "7.3.2",
+    "clean_num": "7_3_2",
+    "page_index": 168,
+    "page_num": 169,
+    "image": "formulas/eq_7_3_2.webp",
+    "width": 734,
+    "height": 126,
+    "raw_line": "   无偏估计 (7.3.2)"
+  },
+  {
+    "num": "7.4.1",
+    "clean_num": "7_4_1",
+    "page_index": 172,
+    "page_num": 173,
+    "image": "formulas/eq_7_4_1.webp",
+    "width": 783,
+    "height": 143,
+    "raw_line": "11 0, ,2 , , 0,1,2, , 1 jj x n x n n s s N s n Ns  ，；     (7.4.1)"
+  },
+  {
+    "num": "7.4.2",
+    "clean_num": "7_4_2",
+    "page_index": 172,
+    "page_num": 173,
+    "image": "formulas/eq_7_4_2.webp",
+    "width": 783,
+    "height": 84,
+    "raw_line": "22 0, ,2 , , 0,1,2, , 1 jj x n x n n s s N s n Ns  ，；     (7.4.2)"
+  },
+  {
+    "num": "7.6.1",
+    "clean_num": "7_6_1",
+    "page_index": 179,
+    "page_num": 180,
+    "image": "formulas/eq_7_6_1.webp",
+    "width": 535,
+    "height": 35,
+    "raw_line": "Re vd    (7.6.1)"
+  },
+  {
+    "num": "8.1.1",
+    "clean_num": "8_1_1",
+    "page_index": 182,
+    "page_num": 183,
+    "image": "formulas/eq_8_1_1.webp",
+    "width": 871,
+    "height": 89,
+    "raw_line": "      (8.1.1)"
+  },
+  {
+    "num": "8.1.2",
+    "clean_num": "8_1_2",
+    "page_index": 185,
+    "page_num": 186,
+    "image": "formulas/eq_8_1_2.webp",
+    "width": 929,
+    "height": 118,
+    "raw_line": "  (8.1.2)"
+  },
+  {
+    "num": "8.1.3",
+    "clean_num": "8_1_3",
+    "page_index": 186,
+    "page_num": 187,
+    "image": "formulas/eq_8_1_3.webp",
+    "width": 609,
+    "height": 100,
+    "raw_line": "  (8.1.3)"
+  },
+  {
+    "num": "8.1.4",
+    "clean_num": "8_1_4",
+    "page_index": 188,
+    "page_num": 189,
+    "image": "formulas/eq_8_1_4.webp",
+    "width": 729,
+    "height": 108,
+    "raw_line": "     (8.1.4)"
+  },
+  {
+    "num": "8.1.5",
+    "clean_num": "8_1_5",
+    "page_index": 190,
+    "page_num": 191,
+    "image": "formulas/eq_8_1_5.webp",
+    "width": 607,
+    "height": 38,
+    "raw_line": "( ) ( )sin ( )   c   t At t t  (8.1.5)"
+  },
+  {
+    "num": "8.1.6",
+    "clean_num": "8_1_6",
+    "page_index": 190,
+    "page_num": 191,
+    "image": "formulas/eq_8_1_6.webp",
+    "width": 778,
+    "height": 62,
+    "raw_line": "        (8.1.6)"
+  },
+  {
+    "num": "8.1.7",
+    "clean_num": "8_1_7",
+    "page_index": 191,
+    "page_num": 192,
+    "image": "formulas/eq_8_1_7.webp",
+    "width": 648,
+    "height": 65,
+    "raw_line": "c yt t t k m         (8.1.7)"
+  },
+  {
+    "num": "8.1.8",
+    "clean_num": "8_1_8",
+    "page_index": 196,
+    "page_num": 197,
+    "image": "formulas/eq_8_1_8.webp",
+    "width": 791,
+    "height": 65,
+    "raw_line": "c s spp yt t t k m A t A t             (8.1.8)"
+  },
+  {
+    "num": "8.2.1",
+    "clean_num": "8_2_1",
+    "page_index": 198,
+    "page_num": 199,
+    "image": "formulas/eq_8_2_1.webp",
+    "width": 928,
+    "height": 88,
+    "raw_line": "2 Y AX BX C   (8.2.1)"
+  },
+  {
+    "num": "8.2.2",
+    "clean_num": "8_2_2",
+    "page_index": 202,
+    "page_num": 203,
+    "image": "formulas/eq_8_2_2.webp",
+    "width": 794,
+    "height": 123,
+    "raw_line": "(8.2.2)"
+  },
+  {
+    "num": "9.2.1",
+    "clean_num": "9_2_1",
+    "page_index": 220,
+    "page_num": 221,
+    "image": "formulas/eq_9_2_1.webp",
+    "width": 929,
+    "height": 160,
+    "raw_line": "(9.2.1)"
+  },
+  {
+    "num": "9.2.2",
+    "clean_num": "9_2_2",
+    "page_index": 222,
+    "page_num": 223,
+    "image": "formulas/eq_9_2_2.webp",
+    "width": 927,
+    "height": 35,
+    "raw_line": "(9.2.2)"
+  },
+  {
+    "num": "9.2.3",
+    "clean_num": "9_2_3",
+    "page_index": 224,
+    "page_num": 225,
+    "image": "formulas/eq_9_2_3.webp",
+    "width": 928,
+    "height": 35,
+    "raw_line": "  (9.2.3)"
+  },
+  {
+    "num": "10.2.1",
+    "clean_num": "10_2_1",
+    "page_index": 249,
+    "page_num": 250,
+    "image": "formulas/eq_10_2_1.webp",
+    "width": 649,
+    "height": 115,
+    "raw_line": "(10.2.1)"
+  },
+  {
+    "num": "10.2.2",
+    "clean_num": "10_2_2",
+    "page_index": 249,
+    "page_num": 250,
+    "image": "formulas/eq_10_2_2.webp",
+    "width": 730,
+    "height": 89,
+    "raw_line": "    (10.2.2)"
+  },
+  {
+    "num": "10.2.3",
+    "clean_num": "10_2_3",
+    "page_index": 251,
+    "page_num": 252,
+    "image": "formulas/eq_10_2_3.webp",
+    "width": 870,
+    "height": 48,
+    "raw_line": "11 fa fl V ii   ， i mm  1,2, , 1,  (10.2.3)"
+  },
+  {
+    "num": "10.2.4",
+    "clean_num": "10_2_4",
+    "page_index": 251,
+    "page_num": 252,
+    "image": "formulas/eq_10_2_4.webp",
+    "width": 717,
+    "height": 127,
+    "raw_line": "， i =1,2,…, M1, M (10.2.4)"
+  },
+  {
+    "num": "10.2.5",
+    "clean_num": "10_2_5",
+    "page_index": 254,
+    "page_num": 255,
+    "image": "formulas/eq_10_2_5.webp",
+    "width": 656,
+    "height": 92,
+    "raw_line": "(10.2.5)"
+  },
+  {
+    "num": "10.2.6",
+    "clean_num": "10_2_6",
+    "page_index": 258,
+    "page_num": 259,
+    "image": "formulas/eq_10_2_6.webp",
+    "width": 655,
+    "height": 47,
+    "raw_line": "～ 的平均值 (10.2.6)"
+  },
+  {
+    "num": "11.2.1",
+    "clean_num": "11_2_1",
+    "page_index": 280,
+    "page_num": 281,
+    "image": "formulas/eq_11_2_1.webp",
+    "width": 929,
+    "height": 97,
+    "raw_line": "0 00 0 0 e sin 2π t x t a b ft      (11.2.1)"
+  },
+  {
+    "num": "11.2.2",
+    "clean_num": "11_2_2",
+    "page_index": 280,
+    "page_num": 281,
+    "image": "formulas/eq_11_2_2.webp",
+    "width": 827,
+    "height": 101,
+    "raw_line": "  (11.2.2)"
+  },
+  {
+    "num": "11.2.3",
+    "clean_num": "11_2_3",
+    "page_index": 282,
+    "page_num": 283,
+    "image": "formulas/eq_11_2_3.webp",
+    "width": 877,
+    "height": 35,
+    "raw_line": "  (11.2.3)"
+  },
+  {
+    "num": "11.2.4",
+    "clean_num": "11_2_4",
+    "page_index": 282,
+    "page_num": 283,
+    "image": "formulas/eq_11_2_4.webp",
+    "width": 928,
+    "height": 35,
+    "raw_line": "  (11.2.4)"
+  },
+  {
+    "num": "11.2.5",
+    "clean_num": "11_2_5",
+    "page_index": 283,
+    "page_num": 284,
+    "image": "formulas/eq_11_2_5.webp",
+    "width": 877,
+    "height": 44,
+    "raw_line": "(11.2.5)"
+  },
+  {
+    "num": "11.3.1",
+    "clean_num": "11_3_1",
+    "page_index": 288,
+    "page_num": 289,
+    "image": "formulas/eq_11_3_1.webp",
+    "width": 928,
+    "height": 134,
+    "raw_line": "1 X AX BU G w k kkk   (11.3.1)"
+  },
+  {
+    "num": "11.3.2",
+    "clean_num": "11_3_2",
+    "page_index": 288,
+    "page_num": 289,
+    "image": "formulas/eq_11_3_2.webp",
+    "width": 928,
+    "height": 134,
+    "raw_line": "Y HX Dv k kk 1 11   (11.3.2)"
+  },
+  {
+    "num": "11.3.3",
+    "clean_num": "11_3_3",
+    "page_index": 288,
+    "page_num": 289,
+    "image": "formulas/eq_11_3_3.webp",
+    "width": 631,
+    "height": 93,
+    "raw_line": "Eww k   ， covwQ k kj    (11.3.3)"
+  },
+  {
+    "num": "11.3.4",
+    "clean_num": "11_3_4",
+    "page_index": 288,
+    "page_num": 289,
+    "image": "formulas/eq_11_3_4.webp",
+    "width": 631,
+    "height": 93,
+    "raw_line": "Evv k   ， covvR k kj    (11.3.4)"
+  },
+  {
+    "num": "11.3.5",
+    "clean_num": "11_3_5",
+    "page_index": 289,
+    "page_num": 290,
+    "image": "formulas/eq_11_3_5.webp",
+    "width": 872,
+    "height": 58,
+    "raw_line": "X AX BU Gw kk k k k k | 1 1| 1 1| 1     (11.3.5)"
+  },
+  {
+    "num": "11.3.6",
+    "clean_num": "11_3_6",
+    "page_index": 289,
+    "page_num": 290,
+    "image": "formulas/eq_11_3_6.webp",
+    "width": 871,
+    "height": 62,
+    "raw_line": "TT Pkk k k | 1 1| 1    AP A GQG (11.3.6)"
+  },
+  {
+    "num": "11.3.7",
+    "clean_num": "11_3_7",
+    "page_index": 289,
+    "page_num": 290,
+    "image": "formulas/eq_11_3_7.webp",
+    "width": 873,
+    "height": 104,
+    "raw_line": "(11.3.7)"
+  },
+  {
+    "num": "11.3.8",
+    "clean_num": "11_3_8",
+    "page_index": 289,
+    "page_num": 290,
+    "image": "formulas/eq_11_3_8.webp",
+    "width": 872,
+    "height": 64,
+    "raw_line": "X X K Y HX Dv kk kk k k kk | |1      | 1  (11.3.8)"
+  },
+  {
+    "num": "11.3.9",
+    "clean_num": "11_3_9",
+    "page_index": 289,
+    "page_num": 290,
+    "image": "formulas/eq_11_3_9.webp",
+    "width": 871,
+    "height": 63,
+    "raw_line": "  P I KH P kk||  k kk1 (11.3.9)"
+  },
+  {
+    "num": "11.3.10",
+    "clean_num": "11_3_10",
+    "page_index": 290,
+    "page_num": 291,
+    "image": "formulas/eq_11_3_10.webp",
+    "width": 938,
+    "height": 122,
+    "raw_line": "D  (11.3.10)"
+  },
+  {
+    "num": "11.3.11",
+    "clean_num": "11_3_11",
+    "page_index": 291,
+    "page_num": 292,
+    "image": "formulas/eq_11_3_11.webp",
+    "width": 874,
+    "height": 47,
+    "raw_line": "2 Q AV BV  th th +C (11.3.11)"
+  },
+  {
+    "num": "11.3.12",
+    "clean_num": "11_3_12",
+    "page_index": 293,
+    "page_num": 294,
+    "image": "formulas/eq_11_3_12.webp",
+    "width": 560,
+    "height": 102,
+    "raw_line": "(11.3.12)"
+  }
+]
