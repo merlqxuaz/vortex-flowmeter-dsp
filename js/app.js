@@ -230,19 +230,37 @@ function isHeaderOrFooter(line) {
   return false;
 }
 
-// Formula raw text filter (to prevent formula dumps from leaking into paragraphs)
+// Standalone equation line detector (strictly matches standalone equation line like "(2.2.3)")
+function getStandaloneEquationNumber(line) {
+  const t = line.trim();
+  if (!t) return null;
+  // If line has more than 1 Chinese character, it is prose, NOT a standalone equation line!
+  const chinese = (t.match(/[\u4e00-\u9fa5]/g) || []).length;
+  if (chinese > 1) return null;
+  const m = t.match(/\((\s*\d+[\.\-]\d+(?:[\.\-]\d+)?\s*)\)\s*$/);
+  return m ? m[1].replace(/\s+/g, '') : null;
+}
+
+// Formula raw text filter (to prevent formula character dumps from leaking into paragraphs)
 function isRawFormulaText(line) {
   const t = line.trim();
   if (!t) return false;
-  if (/\(\s*\d+[\.\-]\d+(?:[\.\-]\d+)?\s*\)\s*$/.test(t)) return true;
+  if (getStandaloneEquationNumber(t)) return true;
+  
   const chinese = (t.match(/[\u4e00-\u9fa5]/g) || []).length;
-  if (chinese > 3) return false;
-  const mathTokens = [
-    '=', '\uf03d', '\uf04c', '\uf02b', '\uf02d', '+', '/', '()', '( )',
-    'x n', 'u n', 'X k', 'b u', 'a x', 'sin', 'cos', 'π', 'pi', 'min',
-    'max', 'exp', '', '', 'ˆ', '', '', 'Sr', 'Re', '01 1 0', 'hl /', 'vv m'
-  ];
-  return mathTokens.some(tok => t.includes(tok));
+  // If line contains Chinese prose, it's normal Chinese text
+  if (chinese > 1) return false;
+
+  // Non-Chinese lines: exclude English references or website metadata
+  if (/^\[\d+\]/.test(t) || /^(?:on|and|for|the|in|IEEE|Flow|Measurement|Transactions)\b/i.test(t)) {
+    return false;
+  }
+  if (t.includes('www.') || t.includes('@') || t.includes('ISBN') || t.includes('http')) {
+    return false;
+  }
+
+  // Any other line in this Chinese book with <= 1 Chinese character is math/formula debris
+  return true;
 }
 
 const SYMBOL_MAP = {
@@ -279,18 +297,20 @@ function normalizeTypography(text) {
     .replace(/\s*：\s*/g, '：');
 }
 
-// Copy formula text helper
-window.copyFormulaText = function(btn) {
-  const codeEl = btn.parentElement ? btn.parentElement.querySelector('.formula-ocr-code') : null;
-  const text = codeEl ? codeEl.textContent : '';
+// Copy formula LaTeX / text helper
+window.copyFormulaLatex = function(btn) {
+  const card = btn.closest('.formula-card');
+  const store = card ? card.querySelector('.formula-latex-store') : null;
+  const text = store ? store.value : (card ? card.querySelector('.formula-math-display').textContent.trim() : '');
   if (!text) return;
 
   function markSuccess() {
-    const old = btn.textContent;
-    btn.textContent = '已复制';
+    const span = btn.querySelector('span');
+    const old = span ? span.textContent : btn.textContent;
+    if (span) span.textContent = '已复制';
     btn.classList.add('copied');
     setTimeout(() => {
-      btn.textContent = old;
+      if (span) span.textContent = old;
       btn.classList.remove('copied');
     }, 1500);
   }
@@ -314,6 +334,25 @@ window.copyFormulaText = function(btn) {
     ta.select();
     document.execCommand('copy');
     document.body.removeChild(ta);
+  }
+};
+
+// Toggle original book scan image
+window.toggleScanImage = function(btn) {
+  const card = btn.closest('.formula-card');
+  if (!card) return;
+  const collapsible = card.querySelector('.formula-scan-collapsible');
+  const span = btn.querySelector('span');
+  if (!collapsible) return;
+  const isHidden = collapsible.style.display === 'none' || !collapsible.style.display;
+  if (isHidden) {
+    collapsible.style.display = 'block';
+    if (span) span.textContent = '收起对比';
+    btn.classList.add('active');
+  } else {
+    collapsible.style.display = 'none';
+    if (span) span.textContent = '原书对比';
+    btn.classList.remove('active');
   }
 };
 
@@ -352,26 +391,47 @@ function renderTextStream() {
 
     function buildFormulaCard(eqObj) {
       renderedFormNums.add(eqObj.num);
-      const ocrBoxHtml = eqObj.ocr_text ? `
-        <div class="formula-ocr-box">
-          <span class="formula-ocr-tag">OCR公式</span>
-          <code class="formula-ocr-code">${escapeHtml(eqObj.ocr_text)}</code>
-          <button class="btn-copy-formula" onclick="copyFormulaText(this)" title="复制公式文本">复制</button>
-        </div>
-      ` : '';
+      const latexStr = eqObj.latex || eqObj.ocr_text || '';
+      
+      // Render Web Format Formula using KaTeX
+      let mathHtml = '';
+      if (window.katex && latexStr) {
+        try {
+          mathHtml = window.katex.renderToString(latexStr, {
+            displayMode: true,
+            throwOnError: false
+          });
+        } catch (e) {
+          mathHtml = `<div class="formula-raw-code">${escapeHtml(latexStr)}</div>`;
+        }
+      } else {
+        mathHtml = `<div class="formula-raw-code">${escapeHtml(latexStr)}</div>`;
+      }
 
       return `
         <div class="formula-card" data-eq-num="${eqObj.num}">
-          <div class="formula-main-row">
-            <div class="formula-img-wrap" onclick="openLightbox('${eqObj.image}', '公式 (${eqObj.num})')">
-              <img src="${eqObj.image}" alt="公式 (${eqObj.num})" loading="lazy" />
-            </div>
-            <div class="formula-tag">
-              <span class="formula-badge">公式</span>
-              <span class="formula-num">(${eqObj.num})</span>
+          <div class="formula-card-topbar">
+            <span class="formula-badge">公式 (${eqObj.num})</span>
+            <div class="formula-actions">
+              <button class="btn-copy-formula" onclick="copyFormulaLatex(this)" title="复制公式 (LaTeX / 纯文本)">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                <span>复制公式</span>
+              </button>
+              <button class="btn-toggle-scan" onclick="toggleScanImage(this)" title="展开原书扫描图对比">
+                <span>原书对比</span>
+              </button>
             </div>
           </div>
-          ${ocrBoxHtml}
+          <div class="formula-math-display" onclick="copyFormulaLatex(this.parentElement.querySelector('.btn-copy-formula'))" title="网页可复制公式 (点击快速复制)">
+            ${mathHtml}
+          </div>
+          <div class="formula-scan-collapsible" style="display: none;">
+            <div class="scan-image-wrap" onclick="openLightbox('${eqObj.image}', '公式 (${eqObj.num}) 原书扫描')">
+              <img src="${eqObj.image}" alt="公式 (${eqObj.num}) 原书扫描" loading="lazy" />
+              <div class="scan-image-hint">原书扫描排版截图 (点击放大)</div>
+            </div>
+          </div>
+          <textarea class="formula-latex-store" style="display:none;">${escapeHtml(latexStr)}</textarea>
         </div>
       `;
     }
@@ -386,21 +446,11 @@ function renderTextStream() {
       // 1. Skip page headers/footers
       if (isHeaderOrFooter(lineTrim)) return;
 
-      // 2. Check for Formula Card match: line ending with (x.y.z)
-      const mEq = lineTrim.match(/\((\s*\d+[\.\-]\d+(?:[\.\-]\d+)?\s*)\)\s*$/);
-      if (mEq && !['满足式', '由式', '按式', '见式', '如式', '代入式', '根据式', '基于式'].some(w => lineTrim.includes(w))) {
-        const eqNum = mEq[1].replace(/\s+/g, '');
-        const eqObj = formulasByNum[eqNum] || pageForms.find(f => f.num === eqNum);
-
-        let introText = lineTrim.substring(0, mEq.index).trim();
-        if (introText.includes('公式为') || introText.includes('关系为') || introText.includes('表示为') || introText.includes('可得')) {
-          introText = introText.replace(/(公式为|关系为|表示为|可得).*/, '$1：');
-          if (introText) {
-            currentPara = currentPara ? (currentPara + ' ' + introText) : introText;
-          }
-        }
+      // 2. Check for Standalone Equation Line (e.g. (2.2.3) or f = ... (1.2.2))
+      const standaloneEqNum = getStandaloneEquationNumber(lineTrim);
+      if (standaloneEqNum) {
         flushPara();
-
+        const eqObj = formulasByNum[standaloneEqNum] || pageForms.find(f => f.num === standaloneEqNum);
         if (eqObj) {
           bodyHtml += buildFormulaCard(eqObj);
           return;
@@ -410,8 +460,8 @@ function renderTextStream() {
       // 3. Check for standalone raw formula lines (math dumps that don't belong to prose)
       if (isRawFormulaText(lineTrim)) {
         if (currentPara) {
-          if (/(公式为|关系为|表示为|可得|即)$/.test(currentPara.trim())) {
-            currentPara = currentPara.trim() + '：';
+          if (/(公式为|关系为|表示为|可得|即|补偿：|规律：|如下：?)$/.test(currentPara.trim())) {
+            currentPara = currentPara.trim().replace(/[：:为即有]+$/, '：');
           }
           flushPara();
         }

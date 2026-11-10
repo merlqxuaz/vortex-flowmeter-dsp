@@ -8,7 +8,8 @@
     "width": 538,
     "height": 33,
     "raw_line": "hl / 0.2806  (1.2.1)",
-    "ocr_text": "h / l = 0.2806 (1.2.1)"
+    "ocr_text": "h / l = 0.2806 (1.2.1)",
+    "latex": "\\frac{h}{l} = 0.2806"
   },
   {
     "num": "1.2.2",
@@ -19,7 +20,8 @@
     "width": 873,
     "height": 36,
     "raw_line": "d  (1.2.2)",
-    "ocr_text": "对于卡门涡街，产生的旋涡频率f与发生体两侧的平均流速v满足式(1.2.2)"
+    "ocr_text": "对于卡门涡街，产生的旋涡频率f与发生体两侧的平均流速v满足式(1.2.2)",
+    "latex": "f = \\frac{Sr \\cdot v_1}{d}"
   },
   {
     "num": "1.2.3",
@@ -30,7 +32,8 @@
     "width": 504,
     "height": 58,
     "raw_line": "m (1.2.3)",
-    "ocr_text": "v v1 = (1.2.3) m"
+    "ocr_text": "v v1 = (1.2.3) m",
+    "latex": "v_1 = \\frac{v}{m}"
   },
   {
     "num": "1.2.4",
@@ -41,7 +44,8 @@
     "width": 525,
     "height": 58,
     "raw_line": "v f Sr md  (1.2.4)",
-    "ocr_text": "f = Sr v (1.2.4) md"
+    "ocr_text": "f = Sr v (1.2.4) md",
+    "latex": "f = \\frac{Sr \\cdot v}{m \\cdot d}"
   },
   {
     "num": "1.2.5",
@@ -52,7 +56,8 @@
     "width": 626,
     "height": 73,
     "raw_line": "     (1.2.5)",
-    "ocr_text": "D 2 πD2 f qv = π v = -mdf = (1.2.5) 2 4Sr K"
+    "ocr_text": "D 2 πD2 f qv = π v = -mdf = (1.2.5) 2 4Sr K",
+    "latex": "q_v = \\frac{\\pi D^2}{4} v = \\frac{\\pi D^2 m d f}{4 Sr} = \\frac{f}{K}"
   },
   {
     "num": "2.1.1",
@@ -63,7 +68,8 @@
     "width": 864,
     "height": 76,
     "raw_line": "(2.1.1)",
-    "ocr_text": "x(n) = (b0u(n) + b1u(n − 1) + · · + bmu(n − m) − a1x(n − 1) − · · · − akx(n − k)) / a0 (2.1.1)"
+    "ocr_text": "x(n) = (b0u(n) + b1u(n − 1) + · · + bmu(n − m) − a1x(n − 1) − · · · − akx(n − k)) / a0 (2.1.1)",
+    "latex": "x(n) = \\frac{1}{a_0}\\left[\\sum_{i=0}^m b_i u(n-i) - \\sum_{j=1}^k a_j x(n-j)\\right]"
   },
   {
     "num": "2.1.2",
@@ -74,7 +80,8 @@
     "width": 566,
     "height": 64,
     "raw_line": "N  (2.1.2)",
-    "ocr_text": "δxx(k) = 1 |X(k)|2 (2.1.2) N"
+    "ocr_text": "δxx(k) = 1 |X(k)|2 (2.1.2) N",
+    "latex": "\\delta_{xx}(k) = \\frac{1}{N}|X(k)|^2"
   },
   {
     "num": "2.1.3",
@@ -85,7 +92,8 @@
     "width": 674,
     "height": 74,
     "raw_line": "  ， kN  0,1, , 1   (2.1.3)",
-    "ocr_text": "N-1 X(k) = ∑ x(n)W nk, k = 0,1, · · · , N −1 (2.1.3) n=0"
+    "ocr_text": "N-1 X(k) = ∑ x(n)W nk, k = 0,1, · · · , N −1 (2.1.3) n=0",
+    "latex": "X(k) = \\sum_{n=0}^{N-1} x(n) W_N^{nk}, \\quad k = 0, 1, \\dots, N-1"
   },
   {
     "num": "2.1.4",
@@ -96,7 +104,8 @@
     "width": 720,
     "height": 141,
     "raw_line": " (2.1.4)",
-    "ocr_text": "N/2-1 N/2-1 X(k) = ∑ x(2n)W 2nk ∑ x(2n + 1)W (2n+1)k 十 N N n=0 n=0 N/2-1 N/2-1 = ∑ x e (n)W nk +W 不 ∑ x_0 (n)W nk (2.1.4) N/2 N/2"
+    "ocr_text": "N/2-1 N/2-1 X(k) = ∑ x(2n)W 2nk ∑ x(2n + 1)W (2n+1)k 十 N N n=0 n=0 N/2-1 N/2-1 = ∑ x e (n)W nk +W 不 ∑ x_0 (n)W nk (2.1.4) N/2 N/2",
+    "latex": "X(k) = \\sum_{n=0}^{N/2-1} x_e(n) W_{N/2}^{nk} + W_N^k \\sum_{n=0}^{N/2-1} x_o(n) W_{N/2}^{nk}"
   },
   {
     "num": "2.1.5",
@@ -107,7 +116,8 @@
     "width": 696,
     "height": 35,
     "raw_line": "( ) ( ) j ( ), eo g n xn xn  nN  0,1, , / 2 1   (2.1.5)",
-    "ocr_text": "g(n) = xe (n) + jx (n), n = 0,1, · ··, N / 2 −1 (2.1.5)"
+    "ocr_text": "g(n) = xe (n) + jx (n), n = 0,1, · ··, N / 2 −1 (2.1.5)",
+    "latex": "g(n) = x_e(n) + j x_o(n), \\quad n = 0, 1, \\dots, N/2 - 1"
   },
   {
     "num": "2.1.6",
@@ -118,7 +128,8 @@
     "width": 588,
     "height": 35,
     "raw_line": "() () j () Gk X k X k  eo  (2.1.6)",
-    "ocr_text": "G(k) = Xe(k) + jX0(k) (2.1.6)"
+    "ocr_text": "G(k) = Xe(k) + jX0(k) (2.1.6)",
+    "latex": "G(k) = X_e(k) + j X_o(k)"
   },
   {
     "num": "2.1.7",
@@ -129,7 +140,8 @@
     "width": 632,
     "height": 41,
     "raw_line": "( /2 ) ( ) j ( ) GN k Xk Xk   eo (2.1.7)",
-    "ocr_text": "G(N / 2 − k) = Xe(k) − jX0(k) (2.1.7)"
+    "ocr_text": "G(N / 2 − k) = Xe(k) − jX0(k) (2.1.7)",
+    "latex": "G(N/2 - k) = X_e^*(k) - j X_o^*(k)"
   },
   {
     "num": "2.1.8",
@@ -140,7 +152,8 @@
     "width": 622,
     "height": 67,
     "raw_line": "Gk G N k Xk    (2.1.8)",
-    "ocr_text": "G(k) + G* (N / 2 − k) Xe(k) = (2.1.8) 2"
+    "ocr_text": "G(k) + G* (N / 2 − k) Xe(k) = (2.1.8) 2",
+    "latex": "X_e(k) = \\frac{G(k) + G^*(N/2 - k)}{2}"
   },
   {
     "num": "2.1.9",
@@ -151,7 +164,8 @@
     "width": 622,
     "height": 76,
     "raw_line": "Gk G N k Xk    (2.1.9)",
-    "ocr_text": "G(k) − G(N / 2 − k) X0(k) = (2.1.9) 2j"
+    "ocr_text": "G(k) − G(N / 2 − k) X0(k) = (2.1.9) 2j",
+    "latex": "X_o(k) = \\frac{G(k) - G^*(N/2 - k)}{2j}"
   },
   {
     "num": "2.1.10",
@@ -162,7 +176,8 @@
     "width": 534,
     "height": 42,
     "raw_line": "ˆ / v ss f  nf N (2.1.10)",
-    "ocr_text": "fv = nf s / Ns (2.1.10)"
+    "ocr_text": "fv = nf s / Ns (2.1.10)",
+    "latex": "f_v = \\frac{n \\cdot f_s}{N_s}"
   },
   {
     "num": "2.1.11",
@@ -173,7 +188,8 @@
     "width": 608,
     "height": 68,
     "raw_line": "(2.1.11)",
-    "ocr_text": "nY(n) + (n + 1)Y(n + 1) n = (2.1.11) Y(n) + Y(n + 1)"
+    "ocr_text": "nY(n) + (n + 1)Y(n + 1) n = (2.1.11) Y(n) + Y(n + 1)",
+    "latex": "n = \\frac{n Y(n) + (n+1) Y(n+1)}{Y(n) + Y(n+1)}"
   },
   {
     "num": "2.1.12",
@@ -184,7 +200,8 @@
     "width": 529,
     "height": 42,
     "raw_line": "ˆ ˆ / s s f  nf N (2.1.12)",
-    "ocr_text": "f = nf s / Ns (2.1.12)"
+    "ocr_text": "f = nf s / Ns (2.1.12)",
+    "latex": "f = \\frac{n \\cdot f_s}{N_s}"
   },
   {
     "num": "2.1.13",
@@ -195,7 +212,8 @@
     "width": 632,
     "height": 34,
     "raw_line": "01 x( ) sin(2 t ft ft  π ) 0.5sin(2  π ) (2.1.13)",
-    "ocr_text": "x(t) = sin(2πf0t) + 0.5sin(2πf1t) (2.1.13)"
+    "ocr_text": "x(t) = sin(2πf0t) + 0.5sin(2πf1t) (2.1.13)",
+    "latex": "x(t) = \\sin(2\\pi f_0 t) + 0.5 \\sin(2\\pi f_1 t)"
   },
   {
     "num": "2.2.1",
@@ -206,7 +224,8 @@
     "width": 925,
     "height": 143,
     "raw_line": "FR 3600 fre /   k (2.2.1)",
-    "ocr_text": "频率进行频谱校止，获得精度较高的信号频率； 对多次计算结果进行平均。整个系统处理流程如 图2.2.4信号处理算法流程图 图2.2.4所示。 根据涡街流量计工作原理，流体流量与涡街频率成正比，因此可由式(2.2.1)计"
+    "ocr_text": "频率进行频谱校止，获得精度较高的信号频率； 对多次计算结果进行平均。整个系统处理流程如 图2.2.4信号处理算法流程图 图2.2.4所示。 根据涡街流量计工作原理，流体流量与涡街频率成正比，因此可由式(2.2.1)计",
+    "latex": "FR = \\frac{3600 \\cdot fre}{k}"
   },
   {
     "num": "2.2.2",
@@ -217,7 +236,8 @@
     "width": 543,
     "height": 70,
     "raw_line": "qq P T  (2.2.2)",
-    "ocr_text": "Pn Tw qw = qn (2.2.2) Pw Tn"
+    "ocr_text": "Pn Tw qw = qn (2.2.2) Pw Tn",
+    "latex": "q_w = q_n \\frac{P_n T_w}{P_w T_n}"
   },
   {
     "num": "2.2.3",
@@ -228,7 +248,8 @@
     "width": 925,
     "height": 144,
     "raw_line": "(2.2.3)",
-    "ocr_text": "压力、工况温度和标况温度。大然气的流量的温压补偿实现过程：首先对流量进 行工况到标况的转换，然后根据面板设置的天然气相对密度计算天然气的质量流 量。对于热水、过热蒸汽和饱和蒸汽，则采用查表和插值的方法，通过各自的温 度、压力和密度表，对流量进行补偿；液氨的密度随温度、压力变化有如式(2.2.3)"
+    "ocr_text": "压力、工况温度和标况温度。大然气的流量的温压补偿实现过程：首先对流量进 行工况到标况的转换，然后根据面板设置的天然气相对密度计算天然气的质量流 量。对于热水、过热蒸汽和饱和蒸汽，则采用查表和插值的方法，通过各自的温 度、压力和密度表，对流量进行补偿；液氨的密度随温度、压力变化有如式(2.2.3)",
+    "latex": "\\rho_{ya} = \\frac{1 + 0.424805 \\sqrt{133-t} + 0.015938(133-t)}{4.2830 + 0.813055 \\sqrt{133-t} - 0.008286(133-t)}"
   },
   {
     "num": "2.2.4",
@@ -239,7 +260,8 @@
     "width": 577,
     "height": 63,
     "raw_line": "FR   k (2.2.4)",
-    "ocr_text": "CLK TxPR = ×k −1 (2.2.4) FR"
+    "ocr_text": "CLK TxPR = ×k −1 (2.2.4) FR",
+    "latex": "TxPR = \\frac{CLK}{FR} \\times k - 1"
   },
   {
     "num": "2.2.5",
@@ -250,7 +272,8 @@
     "width": 591,
     "height": 32,
     "raw_line": "TxCMPR 0.5 TxPR   (2.2.5)",
-    "ocr_text": "TxCMPR = 0.5 × TxPR (2.2.5)"
+    "ocr_text": "TxCMPR = 0.5 × TxPR (2.2.5)",
+    "latex": "TxCMPR = 0.5 \\times TxPR"
   },
   {
     "num": "2.3.1",
@@ -261,7 +284,8 @@
     "width": 560,
     "height": 143,
     "raw_line": "(2.3.1)",
-    "ocr_text": "Kmax−Kmin El = (2.3.1) Kmax +Kmin Σ (Ki − K)2 /(n−1) n"
+    "ocr_text": "Kmax−Kmin El = (2.3.1) Kmax +Kmin Σ (Ki − K)2 /(n−1) n",
+    "latex": "E_l = \\frac{K_{\\max} - K_{\\min}}{K_{\\max} + K_{\\min}} \\times 100\\%"
   },
   {
     "num": "2.3.2",
@@ -272,7 +296,8 @@
     "width": 613,
     "height": 146,
     "raw_line": "(2.3.2)",
-    "ocr_text": "E1= Kmax +Kmin (2.5.1) ∑(Ki − K)² n (n−1) Er = i=1 (2.3.2) K"
+    "ocr_text": "E1= Kmax +Kmin (2.5.1) ∑(Ki − K)² n (n−1) Er = i=1 (2.3.2) K",
+    "latex": "E_r = \\frac{1}{\\bar{K}} \\sqrt{\\frac{\\sum_{i=1}^n (K_i - \\bar{K})^2}{n-1}} \\times 100\\%"
   },
   {
     "num": "3.1.1",
@@ -283,7 +308,8 @@
     "width": 616,
     "height": 77,
     "raw_line": "(3.1.1)",
-    "ocr_text": "1+ a z−1 + z−2 H(z−1) = (3.1.1) 1 + ραz−1 + ρ2 z−2"
+    "ocr_text": "1+ a z−1 + z−2 H(z−1) = (3.1.1) 1 + ραz−1 + ρ2 z−2",
+    "latex": "H(z^{-1}) = \\frac{1 + \\alpha z^{-1} + z^{-2}}{1 + \\rho \\alpha z^{-1} + \\rho^2 z^{-2}}"
   },
   {
     "num": "3.1.2",
@@ -294,7 +320,8 @@
     "width": 925,
     "height": 138,
     "raw_line": "(3.1.2)",
-    "ocr_text": "频率处增益为零。若将分子多项式也改为分母多项式的形式，且使其根在单位圆 内，那么陷波器在陷阱频率处增益就可以不为零。于是，将式(3.1.1)改写为 1+ 1α z−1 + ρ2 z-2 H(z-1) = (3.1.2)"
+    "ocr_text": "频率处增益为零。若将分子多项式也改为分母多项式的形式，且使其根在单位圆 内，那么陷波器在陷阱频率处增益就可以不为零。于是，将式(3.1.1)改写为 1+ 1α z−1 + ρ2 z-2 H(z-1) = (3.1.2)",
+    "latex": "H(z^{-1}) = \\frac{1 + \\rho_1 \\alpha z^{-1} + \\rho_1^2 z^{-2}}{1 + \\rho_2 \\alpha z^{-1} + \\rho_2^2 z^{-2}}"
   },
   {
     "num": "3.1.3",
@@ -305,7 +332,8 @@
     "width": 556,
     "height": 39,
     "raw_line": "2    a bw cw (3.1.3)",
-    "ocr_text": "ρ = a + bw + cw2 (3.1.3)"
+    "ocr_text": "ρ = a + bw + cw2 (3.1.3)",
+    "latex": "\\rho_1 = a + b\\omega + c\\omega^2"
   },
   {
     "num": "3.1.4",
@@ -316,7 +344,8 @@
     "width": 560,
     "height": 40,
     "raw_line": "2    a bw cw (3.1.4)",
-    "ocr_text": "ρ2 = a + bw + cw2 (3.1.4)"
+    "ocr_text": "ρ2 = a + bw + cw2 (3.1.4)",
+    "latex": "\\rho_2 = a + b\\omega + c\\omega^2"
   },
   {
     "num": "3.1.5",
@@ -327,7 +356,8 @@
     "width": 737,
     "height": 122,
     "raw_line": "(3.1.5)",
-    "ocr_text": "|H(z−1)| = 1 + ρ2αz−1 + ρ2z−2 (1−2ρ2 + ρ1)−4ρ1(1−2ρ1 + ρ2)cos2 ω0 (3.1.5) 二"
+    "ocr_text": "|H(z−1)| = 1 + ρ2αz−1 + ρ2z−2 (1−2ρ2 + ρ1)−4ρ1(1−2ρ1 + ρ2)cos2 ω0 (3.1.5) 二",
+    "latex": "|H(e^{j\\omega_0})| = \\frac{\\sqrt{(1-2\\rho_1+\\rho_1^2)-4\\rho_1(1-2\\rho_1+\\rho_1^2)\\cos^2\\omega_0}}{\\sqrt{(1-2\\rho_2+\\rho_2^2)-4\\rho_2(1-2\\rho_2+\\rho_2^2)\\cos^2\\omega_0}}"
   },
   {
     "num": "3.1.6",
@@ -338,7 +368,8 @@
     "width": 591,
     "height": 166,
     "raw_line": "(3.1.6)",
-    "ocr_text": "(1 − ρ1)2 |H(z−1)| ≈, √(1 − ρ2)2 (3.1.6) 1-P1 1-ρ2"
+    "ocr_text": "(1 − ρ1)2 |H(z−1)| ≈, √(1 − ρ2)2 (3.1.6) 1-P1 1-ρ2",
+    "latex": "|H(e^{j\\omega_0})| \\approx \\frac{1 - \\rho_1}{1 - \\rho_2}"
   },
   {
     "num": "3.1.7",
@@ -349,7 +380,8 @@
     "width": 924,
     "height": 145,
     "raw_line": "(3.1.7)",
-    "ocr_text": "二 1-P2 可见，陷阱深度由1、ρ2决定，而受ω影响很小。而当ω在0、π、2π附 近时cos²a≈1，所以式(3.1.5)不能用式(3.1.6)的简化公式，而应该用式(3.1.7):"
+    "ocr_text": "二 1-P2 可见，陷阱深度由1、ρ2决定，而受ω影响很小。而当ω在0、π、2π附 近时cos²a≈1，所以式(3.1.5)不能用式(3.1.6)的简化公式，而应该用式(3.1.7):",
+    "latex": "|H(e^{j\\omega_0})|^2 \\approx \\left(\\frac{1 - \\rho_1}{1 - \\rho_2}\\right)^2"
   },
   {
     "num": "3.1.8",
@@ -360,7 +392,8 @@
     "width": 521,
     "height": 70,
     "raw_line": "   (3.1.8)",
-    "ocr_text": "1-P1 d = (3.1.8) 1-ρ2"
+    "ocr_text": "1-P1 d = (3.1.8) 1-ρ2",
+    "latex": "d = \\frac{1 - \\rho_1}{1 - \\rho_2}"
   },
   {
     "num": "3.1.9",
@@ -371,7 +404,8 @@
     "width": 618,
     "height": 77,
     "raw_line": "(3.1.9)",
-    "ocr_text": "1+ ρ1az−1 + ρ2z−2 H(z−1) = (3.1.9) 1+ ρ2αz−1 + ρ2z−2"
+    "ocr_text": "1+ ρ1az−1 + ρ2z−2 H(z−1) = (3.1.9) 1+ ρ2αz−1 + ρ2z−2",
+    "latex": "H(z^{-1}) = \\frac{1 + \\rho_1 \\alpha z^{-1} + \\rho_1^2 z^{-2}}{1 + \\rho_2 \\alpha z^{-1} + \\rho_2^2 z^{-2}}"
   },
   {
     "num": "3.1.10",
@@ -382,7 +416,8 @@
     "width": 537,
     "height": 34,
     "raw_line": "0  2cos (3.1.10)",
-    "ocr_text": "α = −2 cos ω0 (3.1.10)"
+    "ocr_text": "α = −2 cos ω0 (3.1.10)",
+    "latex": "\\alpha = -2\\cos\\omega_0"
   },
   {
     "num": "3.1.11",
@@ -393,7 +428,8 @@
     "width": 560,
     "height": 40,
     "raw_line": "2    a bw cw (3.1.11)",
-    "ocr_text": "ρ2 = a + bw + cw2 (3.1.11)"
+    "ocr_text": "ρ2 = a + bw + cw2 (3.1.11)",
+    "latex": "\\rho_2 = a + b\\omega + c\\omega^2"
   },
   {
     "num": "3.1.12",
@@ -404,7 +440,8 @@
     "width": 521,
     "height": 69,
     "raw_line": "   (3.1.12)",
-    "ocr_text": "1-ρ1 d = (3.1.12) 1-ρ2"
+    "ocr_text": "1-ρ1 d = (3.1.12) 1-ρ2",
+    "latex": "d = \\frac{1 - \\rho_1}{1 - \\rho_2}"
   },
   {
     "num": "3.1.13",
@@ -415,7 +452,8 @@
     "width": 538,
     "height": 34,
     "raw_line": "00 2π / s   f f (3.1.13)",
-    "ocr_text": "ω0 = 2πf0 / fs (3.1.13)"
+    "ocr_text": "ω0 = 2πf0 / fs (3.1.13)",
+    "latex": "\\omega_0 = \\frac{2\\pi f_0}{f_s}"
   },
   {
     "num": "3.1.14",
@@ -426,7 +464,8 @@
     "width": 514,
     "height": 35,
     "raw_line": "/ wlf  s (3.1.14)",
-    "ocr_text": "w = l / f s (3.1.14)"
+    "ocr_text": "w = l / f s (3.1.14)",
+    "latex": "w = 1 / f_s"
   },
   {
     "num": "3.1.15",
@@ -437,7 +476,8 @@
     "width": 704,
     "height": 147,
     "raw_line": "(3.1.15)",
-    "ocr_text": "y = ys + yn = a sin(ωt + φ) + bsin(ωt) = a sin(ωt)cos φ + a cos(ωt )sin φ + b sin(ωt) = (a cos φ + b)sin(ωt) + a sin φcos(ωt) (3.1.15)"
+    "ocr_text": "y = ys + yn = a sin(ωt + φ) + bsin(ωt) = a sin(ωt)cos φ + a cos(ωt )sin φ + b sin(ωt) = (a cos φ + b)sin(ωt) + a sin φcos(ωt) (3.1.15)",
+    "latex": "y = y_s + y_n = a\\sin(\\omega t + \\phi) + b\\sin(\\omega t) = (a\\cos\\phi + b)\\sin(\\omega t) + a\\sin\\phi\\cos(\\omega t)"
   },
   {
     "num": "3.1.16",
@@ -448,7 +488,8 @@
     "width": 530,
     "height": 47,
     "raw_line": "b   (3.1.16)",
-    "ocr_text": "a coS φ > - (3.1.16) 2h"
+    "ocr_text": "a coS φ > - (3.1.16) 2h",
+    "latex": "\\cos\\phi > -\\frac{a}{2b}"
   },
   {
     "num": "3.1.17",
@@ -459,7 +500,8 @@
     "width": 923,
     "height": 146,
     "raw_line": "b    (3.1.17)",
-    "ocr_text": "只有在干扰信号能量大于涡街流量信号能量时才需要使用陷波器，即b≥a 时。那么，式(3.1.16)满足： a 1 cos φ >- ≥- (3.1.17) 2h 2"
+    "ocr_text": "只有在干扰信号能量大于涡街流量信号能量时才需要使用陷波器，即b≥a 时。那么，式(3.1.16)满足： a 1 cos φ >- ≥- (3.1.17) 2h 2",
+    "latex": "\\cos\\phi > -\\frac{a}{2b} \\ge -\\frac{1}{2}"
   },
   {
     "num": "3.1.18",
@@ -470,7 +512,8 @@
     "width": 921,
     "height": 146,
     "raw_line": "  (3.1.18)",
-    "ocr_text": "coSφ>- (3.1.17) 2b 2 由此可以得到 2π 4π ≤ φ ≤ (3.1.18) 3 3"
+    "ocr_text": "coSφ>- (3.1.17) 2b 2 由此可以得到 2π 4π ≤ φ ≤ (3.1.18) 3 3",
+    "latex": "\\frac{2\\pi}{3} \\le \\phi \\le \\frac{4\\pi}{3}"
   },
   {
     "num": "3.1.19",
@@ -481,7 +524,8 @@
     "width": 510,
     "height": 66,
     "raw_line": " (3.1.19)",
-    "ocr_text": "fs ∆f = (3.1.19) N"
+    "ocr_text": "fs ∆f = (3.1.19) N",
+    "latex": "\\Delta f = \\frac{f_s}{N}"
   },
   {
     "num": "3.1.20",
@@ -492,7 +536,8 @@
     "width": 520,
     "height": 34,
     "raw_line": "max 2 sf  f (3.1.20)",
-    "ocr_text": "fs > 2fmax (3.1.20)"
+    "ocr_text": "fs > 2fmax (3.1.20)",
+    "latex": "f_s > 2 f_{\\max}"
   },
   {
     "num": "3.1.21",
@@ -503,7 +548,8 @@
     "width": 924,
     "height": 146,
     "raw_line": "(3.1.21)",
-    "ocr_text": "最简单的校正方法是重心校正法，如式(3.1.21)所示： (kyk + (k + 1)yk+1 , yk-1 < yk+1 yk + yk+1 k′= yk, yk−1 = yk+1 (3.1.21)"
+    "ocr_text": "最简单的校正方法是重心校正法，如式(3.1.21)所示： (kyk + (k + 1)yk+1 , yk-1 < yk+1 yk + yk+1 k′= yk, yk−1 = yk+1 (3.1.21)",
+    "latex": "k' = \\begin{cases} \\frac{k y_k + (k+1)y_{k+1}}{y_k + y_{k+1}}, & y_{k-1} < y_{k+1} \\\\ \\frac{k y_k + (k-1)y_{k-1}}{y_k + y_{k-1}}, & y_{k-1} \\ge y_{k+1} \\end{cases}"
   },
   {
     "num": "3.1.22",
@@ -514,7 +560,8 @@
     "width": 924,
     "height": 147,
     "raw_line": "  (3.1.22)",
-    "ocr_text": "波的幅值；yk-1是k-1次谐波的幅值；yk+1是k+1次谐波的幅值。经过校正后， 就可以计算出涡街频率，如式(3.1.22)所示： k'fs f = (3.1.22) N"
+    "ocr_text": "波的幅值；yk-1是k-1次谐波的幅值；yk+1是k+1次谐波的幅值。经过校正后， 就可以计算出涡街频率，如式(3.1.22)所示： k'fs f = (3.1.22) N",
+    "latex": "f = \\frac{k' f_s}{N}"
   },
   {
     "num": "3.1.23",
@@ -525,7 +572,8 @@
     "width": 924,
     "height": 147,
     "raw_line": "     (3.1.23)",
-    "ocr_text": "准确就会影响涡街流量信号的辨别。 为此，通过幅值校正来提高幅值测量精度，幅值校正公式为 ∆kπyk (k − k′)πyk A= (3.1.23) sin(∆kπ) sin((k − k′)π)"
+    "ocr_text": "准确就会影响涡街流量信号的辨别。 为此，通过幅值校正来提高幅值测量精度，幅值校正公式为 ∆kπyk (k − k′)πyk A= (3.1.23) sin(∆kπ) sin((k − k′)π)",
+    "latex": "A = \\frac{\\Delta k \\pi y_k}{\\sin(\\Delta k \\pi)} = \\frac{(k - k')\\pi y_k}{\\sin((k - k')\\pi)}"
   },
   {
     "num": "4.1.1",
@@ -536,7 +584,8 @@
     "width": 743,
     "height": 46,
     "raw_line": "    12 2 1 2 V R R R RR 1.235 / 1.235 1.235 /         (4.1.1)",
-    "ocr_text": "V+ =1.235×[(R1 + R2)/ R2]=1.235+1.235×(R1/R2) (4.1.1)"
+    "ocr_text": "V+ =1.235×[(R1 + R2)/ R2]=1.235+1.235×(R1/R2) (4.1.1)",
+    "latex": "V_+ = 1.235 \\times \\frac{R_1 + R_2}{R_2} = 1.235 + 1.235 \\times \\frac{R_1}{R_2}"
   },
   {
     "num": "4.1.2",
@@ -547,7 +596,8 @@
     "width": 869,
     "height": 147,
     "raw_line": "(4.1.2)",
-    "ocr_text": "V+ =1.235×[(R1 + R2)/ R2]=1.235+1.235×(R1/R2) (4.1.1) V =[1.235 −[R1 /(R1 + R2)]× VDD]×[(R1 + R2)/ R2] (4.1.2)"
+    "ocr_text": "V+ =1.235×[(R1 + R2)/ R2]=1.235+1.235×(R1/R2) (4.1.1) V =[1.235 −[R1 /(R1 + R2)]× VDD]×[(R1 + R2)/ R2] (4.1.2)",
+    "latex": "V_- = \\left[1.235 - \\frac{R_1}{R_1 + R_2} V_{DD}\\right] \\times \\frac{R_1 + R_2}{R_2}"
   },
   {
     "num": "4.1.3",
@@ -558,7 +608,8 @@
     "width": 689,
     "height": 86,
     "raw_line": "(4.1.3)",
-    "ocr_text": "≈ I 1 > 99Iin I0= sys sys sys (4.1.3) + I =100I I ≤ 99Ii sys q sys in"
+    "ocr_text": "≈ I 1 > 99Iin I0= sys sys sys (4.1.3) + I =100I I ≤ 99Ii sys q sys in",
+    "latex": "I_0 = \\begin{cases} I_{sys}, & I_{sys} > 99 I_{in} \\\\ 100 I_{in}, & I_{sys} \\le 99 I_{in} \\end{cases}"
   },
   {
     "num": "4.1.4",
@@ -569,7 +620,8 @@
     "width": 523,
     "height": 33,
     "raw_line": "Y aX b   (4.1.4)",
-    "ocr_text": "Y = aX + b (4.1.4)"
+    "ocr_text": "Y = aX + b (4.1.4)",
+    "latex": "Y = a X + b"
   },
   {
     "num": "4.1.5",
@@ -580,7 +632,8 @@
     "width": 520,
     "height": 65,
     "raw_line": "  (4.1.5)",
-    "ocr_text": "Y-b X = (4.1.5) a"
+    "ocr_text": "Y-b X = (4.1.5) a",
+    "latex": "X = \\frac{Y - b}{a}"
   },
   {
     "num": "4.1.6",
@@ -591,7 +644,8 @@
     "width": 570,
     "height": 75,
     "raw_line": "(4.1.6)",
-    "ocr_text": "V0×I0 η= (4.1.6) V0 ×I0 + Vi ×Iq"
+    "ocr_text": "V0×I0 η= (4.1.6) V0 ×I0 + Vi ×Iq",
+    "latex": "\\eta = \\frac{V_0 \\times I_0}{V_0 \\times I_0 + V_i \\times I_q}"
   },
   {
     "num": "4.1.7",
@@ -602,7 +656,8 @@
     "width": 564,
     "height": 35,
     "raw_line": "VI V I ii oo     (4.1.7)",
-    "ocr_text": "Vi × Ii × η = V0 × I0 (4.1.7)"
+    "ocr_text": "Vi × Ii × η = V0 × I0 (4.1.7)",
+    "latex": "V_i \\times I_i \\times \\eta = V_0 \\times I_0"
   },
   {
     "num": "4.1.8",
@@ -613,7 +668,8 @@
     "width": 543,
     "height": 71,
     "raw_line": "   (4.1.8)",
-    "ocr_text": "Vi×Ii×η I0 = (4.1.8) Vo"
+    "ocr_text": "Vi×Ii×η I0 = (4.1.8) Vo",
+    "latex": "I_0 = \\frac{V_i \\times I_i \\times \\eta}{V_0}"
   },
   {
     "num": "4.2.1",
@@ -624,7 +680,8 @@
     "width": 526,
     "height": 71,
     "raw_line": "N  (4.2.1)",
-    "ocr_text": "Ns Fs (4.2.1)"
+    "ocr_text": "Ns Fs (4.2.1)",
+    "latex": "f_s = N_s F_s"
   },
   {
     "num": "4.3.1",
@@ -635,7 +692,8 @@
     "width": 544,
     "height": 65,
     "raw_line": "  (4.3.1)",
-    "ocr_text": "(k + d)f s f_0 = (4.3.1) N"
+    "ocr_text": "(k + d)f s f_0 = (4.3.1) N",
+    "latex": "f_0 = \\frac{(k + d)f_s}{N}"
   },
   {
     "num": "4.4.1",
@@ -646,7 +704,8 @@
     "width": 528,
     "height": 71,
     "raw_line": "N  (4.4.1)",
-    "ocr_text": "Fs} Fx Nx 二 (4.4.1) Ns"
+    "ocr_text": "Fs} Fx Nx 二 (4.4.1) Ns",
+    "latex": "\\frac{F_x}{N_x} = \\frac{F_s}{N_s}"
   },
   {
     "num": "5.2.1",
@@ -657,7 +716,8 @@
     "width": 566,
     "height": 33,
     "raw_line": "yr() = g()r + j() hr (5.2.1)",
-    "ocr_text": "y(r)=g(r)+jh(r) (5.2.1)"
+    "ocr_text": "y(r)=g(r)+jh(r) (5.2.1)",
+    "latex": "y(r) = g(r) + j h(r)"
   },
   {
     "num": "5.2.2",
@@ -668,7 +728,8 @@
     "width": 705,
     "height": 144,
     "raw_line": "(5.2.2)",
-    "ocr_text": "N-1 2π kr = ∑(g(r) + jh(r))e N r=0 N-1 2π 2π 二 ∑ g(r)cos kr + h(r)sin kr (5.2.2) N N"
+    "ocr_text": "N-1 2π kr = ∑(g(r) + jh(r))e N r=0 N-1 2π 2π 二 ∑ g(r)cos kr + h(r)sin kr (5.2.2) N N",
+    "latex": "Y(k) = \\sum_{r=0}^{N-1} [g(r) + j h(r)] e^{-j\\frac{2\\pi}{N}kr}"
   },
   {
     "num": "5.2.3",
@@ -679,7 +740,8 @@
     "width": 746,
     "height": 145,
     "raw_line": " (5.2.3)",
-    "ocr_text": "G(k) =∑g(r)e N-1 2π kr N r=0 N-1 2π 2π = ∑ g(r) COS kr − jsin kr (5.2.3) N N r=0"
+    "ocr_text": "G(k) =∑g(r)e N-1 2π kr N r=0 N-1 2π 2π = ∑ g(r) COS kr − jsin kr (5.2.3) N N r=0",
+    "latex": "G(k) = \\frac{1}{2}[Y(k) + Y^*(N-k)]"
   },
   {
     "num": "5.2.4",
@@ -690,7 +752,8 @@
     "width": 747,
     "height": 117,
     "raw_line": "(5.2.4)",
-    "ocr_text": "N-1 2π 2π H(k)=∑h(r) coS kr - jsin kr N N r=0 = Yei(k) − jYor(k) (5.2.4)"
+    "ocr_text": "N-1 2π 2π H(k)=∑h(r) coS kr - jsin kr N N r=0 = Yei(k) − jYor(k) (5.2.4)",
+    "latex": "H(k) = \\frac{1}{2j}[Y(k) - Y^*(N-k)]"
   },
   {
     "num": "5.2.5",
@@ -701,7 +764,8 @@
     "width": 701,
     "height": 139,
     "raw_line": "(5.2.5)",
-    "ocr_text": "N-1 N-1 X(k)=∑x(2r)W k·2r ∑x(2r +1)W k(2r+1) 十 2N 2N r=0 r=0 N-1 N-1 =∑g(r)W k·r +W k ∑h(r)W k·r N (5.2.5) 2N N"
+    "ocr_text": "N-1 N-1 X(k)=∑x(2r)W k·2r ∑x(2r +1)W k(2r+1) 十 2N 2N r=0 r=0 N-1 N-1 =∑g(r)W k·r +W k ∑h(r)W k·r N (5.2.5) 2N N",
+    "latex": "X(k)_{real} = G(k)_{real} + H(k)_{real}\\cos\\frac{2k\\pi}{2048} + H(k)_{image}\\sin\\frac{2k\\pi}{2048}"
   },
   {
     "num": "5.2.6",
@@ -712,7 +776,8 @@
     "width": 749,
     "height": 57,
     "raw_line": "(5.2.6)",
-    "ocr_text": "X(k)_real=G(k)_real+ H(k)_real× cos(2kπ / 2048) (5.2.6) + H(k) image × sin(2kπ / 2048)"
+    "ocr_text": "X(k)_real=G(k)_real+ H(k)_real× cos(2kπ / 2048) (5.2.6) + H(k) image × sin(2kπ / 2048)",
+    "latex": "X(k)_{image} = G(k)_{image} - H(k)_{real}\\sin\\frac{2k\\pi}{2048} + H(k)_{image}\\cos\\frac{2k\\pi}{2048}"
   },
   {
     "num": "5.2.7",
@@ -723,7 +788,8 @@
     "width": 759,
     "height": 52,
     "raw_line": "(5.2.7)",
-    "ocr_text": "X(k)_image=G(k)_image + H(k)_image× cos(2kπ / 2048) (5.2.7) (b)peel+sin(2k= /2048)"
+    "ocr_text": "X(k)_image=G(k)_image + H(k)_image× cos(2kπ / 2048) (5.2.7) (b)peel+sin(2k= /2048)",
+    "latex": "e(k) = d(k) - y(k) = d(k) - \\mathbf{W}^T(k) \\mathbf{X}(k)"
   },
   {
     "num": "5.2.8",
@@ -734,7 +800,8 @@
     "width": 588,
     "height": 39,
     "raw_line": "2 R    100 (1 ) At Bt (5.2.8)",
-    "ocr_text": "R =100×(1+ At + Bt2) (5.2.8)"
+    "ocr_text": "R =100×(1+ At + Bt2) (5.2.8)",
+    "latex": "\\mathbf{W}(k+1) = \\mathbf{W}(k) + 2\\mu e(k) \\mathbf{X}(k)"
   },
   {
     "num": "5.2.9",
@@ -745,7 +812,8 @@
     "width": 622,
     "height": 69,
     "raw_line": "(5.2.9)",
-    "ocr_text": "(273.15 + ts)(Ps + P) fo = ×f (5.2.9) (273.15+t)×101.3"
+    "ocr_text": "(273.15 + ts)(Ps + P) fo = ×f (5.2.9) (273.15+t)×101.3",
+    "latex": "0 < \\mu < \\frac{1}{\\lambda_{\\max}}"
   },
   {
     "num": "5.2.10",
@@ -756,7 +824,8 @@
     "width": 768,
     "height": 61,
     "raw_line": "(5.2.10)",
-    "ocr_text": "1+0.424805×√133-t+0.015938×(133-t) Pya (5.2.10) 4.2830 +0.813055×./133=t −0.008286×(133−t)"
+    "ocr_text": "1+0.424805×√133-t+0.015938×(133-t) Pya (5.2.10) 4.2830 +0.813055×./133=t −0.008286×(133−t)",
+    "latex": "0 < \\mu < \\frac{1}{\\text{tr}[\\mathbf{R}]}"
   },
   {
     "num": "5.2.11",
@@ -767,7 +836,8 @@
     "width": 523,
     "height": 33,
     "raw_line": "Y aX b   (5.2.11)",
-    "ocr_text": "Y = aX + b (5.2.11)"
+    "ocr_text": "Y = aX + b (5.2.11)",
+    "latex": "\\text{tr}[\\mathbf{R}] = (L+1)\\sigma_x^2"
   },
   {
     "num": "5.2.12",
@@ -778,7 +848,8 @@
     "width": 519,
     "height": 63,
     "raw_line": "  (5.2.12)",
-    "ocr_text": "Y-b X = (5.2.12) a"
+    "ocr_text": "Y-b X = (5.2.12) a",
+    "latex": "0 < \\mu < \\frac{1}{(L+1)\\sigma_x^2}"
   },
   {
     "num": "5.2.13",
@@ -789,7 +860,8 @@
     "width": 577,
     "height": 63,
     "raw_line": "f c     (5.2.13)",
-    "ocr_text": "(f−9.5)×16 c = +4 (5.2.13) 180.5"
+    "ocr_text": "(f−9.5)×16 c = +4 (5.2.13) 180.5",
+    "latex": "E[\\mathbf{W}(k)] = [\\mathbf{I} - 2\\mu\\mathbf{R}]^k \\mathbf{W}(0) + \\mathbf{W}^*"
   },
   {
     "num": "6.1.1",
@@ -800,7 +872,8 @@
     "width": 680,
     "height": 73,
     "raw_line": "C C C KC C      ） (6.1.1)",
-    "ocr_text": "KQ Q Uo =- ≈ (6.1.1) Ca + Cc + Ci + (1 + K) Cf Cf"
+    "ocr_text": "KQ Q Uo =- ≈ (6.1.1) Ca + Cc + Ci + (1 + K) Cf Cf",
+    "latex": "WT(a, \\tau) = \\frac{1}{\\sqrt{a}} \\int_{-\\infty}^{+\\infty} f(t) \\psi^*\\left(\\frac{t-\\tau}{a}\\right) dt"
   },
   {
     "num": "6.1.2",
@@ -811,7 +884,8 @@
     "width": 621,
     "height": 72,
     "raw_line": "S RCS R C S  (6.1.2)",
-    "ocr_text": "S0 R1C2S (6.1.2) S+ (R1C1S+1)(R2C2S+1)"
+    "ocr_text": "S0 R1C2S (6.1.2) S+ (R1C1S+1)(R2C2S+1)",
+    "latex": "c_j(k) = \\sum_{m} h(m-2k) c_{j-1}(m)"
   },
   {
     "num": "6.1.3",
@@ -822,7 +896,8 @@
     "width": 643,
     "height": 104,
     "raw_line": "(6.1.3)",
-    "ocr_text": "jωCsZ -Us= 1 Un Us 二 (6.1.3) jωCsZ+1 1 1+ jωCsZ"
+    "ocr_text": "jωCsZ -Us= 1 Un Us 二 (6.1.3) jωCsZ+1 1 1+ jωCsZ",
+    "latex": "d_j(k) = \\sum_{m} g(m-2k) c_{j-1}(m)"
   },
   {
     "num": "6.1.4",
@@ -833,7 +908,8 @@
     "width": 615,
     "height": 102,
     "raw_line": "(6.1.4)",
-    "ocr_text": "RL 1 Z= = (6.1.4) jωRLCL+1 1 + jωCL RL"
+    "ocr_text": "RL 1 Z= = (6.1.4) jωRLCL+1 1 + jωCL RL",
+    "latex": "c_{j-1}(m) = \\sum_{k} h(m-2k) c_j(k) + \\sum_{k} g(m-2k) d_j(k)"
   },
   {
     "num": "6.1.5",
@@ -844,7 +920,8 @@
     "width": 925,
     "height": 147,
     "raw_line": "(6.1.5)",
-    "ocr_text": "上产生的电流为I,则受干扰回路上由于磁场耦合 干扰的模型 所产生的感应电动势UN为 dI UN = M (6.1.5) dt"
+    "ocr_text": "上产生的电流为I,则受干扰回路上由于磁场耦合 干扰的模型 所产生的感应电动势UN为 dI UN = M (6.1.5) dt",
+    "latex": "U_N = M \\frac{dI}{dt}"
   },
   {
     "num": "6.2.1",
@@ -855,7 +932,8 @@
     "width": 924,
     "height": 147,
     "raw_line": "  (6.2.1)",
-    "ocr_text": "CHART，对 HART OUT 引脚输出的正弦波电压信号进行分压。假设 HART OUT 引脚输出信号的峰峰值为 VOUTP-P，则 CSLEW 和 CHART需满足： VOUTP-P = CSLEW + CHART (6.2.1) 111"
+    "ocr_text": "CHART，对 HART OUT 引脚输出的正弦波电压信号进行分压。假设 HART OUT 引脚输出信号的峰峰值为 VOUTP-P，则 CSLEW 和 CHART需满足： VOUTP-P = CSLEW + CHART (6.2.1) 111",
+    "latex": "V_{HART} = V_{OUTP-P} \\cdot \\frac{C_{SLEW}}{C_{SLEW} + C_{HART}}"
   },
   {
     "num": "6.2.2",
@@ -866,7 +944,8 @@
     "width": 924,
     "height": 143,
     "raw_line": " =RC DAC SLEW  (6.2.2)",
-    "ocr_text": "111 CHART 此外，电容CsLEW 与 AD5421 内部 DAC 的输出电阻 RDAC一起形成了一个时 间常数τ。该时间常数决定了环路电流的响应速度，其表达式为 τ=RDAC×CSLEW (6.2.2)"
+    "ocr_text": "111 CHART 此外，电容CsLEW 与 AD5421 内部 DAC 的输出电阻 RDAC一起形成了一个时 间常数τ。该时间常数决定了环路电流的响应速度，其表达式为 τ=RDAC×CSLEW (6.2.2)",
+    "latex": "\\tau = R_{DAC} \\cdot (C_{SLEW} + C_{HART})"
   },
   {
     "num": "6.3.1",
@@ -877,7 +956,8 @@
     "width": 692,
     "height": 102,
     "raw_line": "      (6.3.1)",
-    "ocr_text": "1 1 1 n 2 (Er)i ∑(Kij − Ki)2 ×100% (6.3.1) Ki (n−1) j=1"
+    "ocr_text": "1 1 1 n 2 (Er)i ∑(Kij − Ki)2 ×100% (6.3.1) Ki (n−1) j=1",
+    "latex": "(E_r)_i = \\frac{1}{\\bar{K}_i}\\sqrt{\\frac{\\sum_{j=1}^n (K_{ij} - \\bar{K}_i)^2}{n-1}} \\times 100\\%"
   },
   {
     "num": "6.3.2",
@@ -888,7 +968,8 @@
     "width": 550,
     "height": 51,
     "raw_line": "  max rr i EE      (6.3.2)",
-    "ocr_text": "Er =[(Er)i]max (6.3.2)"
+    "ocr_text": "Er =[(Er)i]max (6.3.2)",
+    "latex": "E_r = \\max\\{(E_r)_i\\}"
   },
   {
     "num": "7.1.1",
@@ -899,7 +980,8 @@
     "width": 572,
     "height": 38,
     "raw_line": "      11 x n sn n n  (7.1.1)",
-    "ocr_text": "x1(n)= s(n)+ n1(n) (7.1.1)"
+    "ocr_text": "x1(n)= s(n)+ n1(n) (7.1.1)",
+    "latex": "x_1(n) = s(n) + n_1(n)"
   },
   {
     "num": "7.1.2",
@@ -910,7 +992,8 @@
     "width": 610,
     "height": 39,
     "raw_line": "x22 n sn M n n         (7.1.2)",
-    "ocr_text": "x2(n)= αs(n − M)+ n2(n) (7.1.2)"
+    "ocr_text": "x2(n)= αs(n − M)+ n2(n) (7.1.2)",
+    "latex": "x_2(n) = \\alpha s(n - M) + n_2(n)"
   },
   {
     "num": "7.1.3",
@@ -921,7 +1004,8 @@
     "width": 787,
     "height": 81,
     "raw_line": " (7.1.3)",
-    "ocr_text": "1 N−1-|m| ^12(m)= ∑ x1(n)x2(n+m) N (7.1.3) n=0"
+    "ocr_text": "1 N−1-|m| ^12(m)= ∑ x1(n)x2(n+m) N (7.1.3) n=0",
+    "latex": "\\hat{R}_{12}(m) = \\frac{1}{N}\\sum_{n=0}^{N-1-|m|} x_1(n) x_2(n+m)"
   },
   {
     "num": "7.1.4",
@@ -932,7 +1016,8 @@
     "width": 590,
     "height": 43,
     "raw_line": "ˆˆ R m R mM   ss (7.1.4)",
-    "ocr_text": "¯12(m)=αRss(m−M) (7.1.4)"
+    "ocr_text": "¯12(m)=αRss(m−M) (7.1.4)",
+    "latex": "\\bar{R}_{12}(m) = \\alpha R_{ss}(m - M)"
   },
   {
     "num": "7.1.5",
@@ -943,7 +1028,8 @@
     "width": 925,
     "height": 143,
     "raw_line": "  0 ˆ ˆ Rm R ss  ss (7.1.5)",
-    "ocr_text": "12 (m) = α ss (m − M ) (7.1.4) 式中，Rss(m−M)为涡街流量信号s(n)的自相关函数，而自相关函数具有以下性质： Rss (m) ≤ ss (0) (7.1.5)"
+    "ocr_text": "12 (m) = α ss (m − M ) (7.1.4) 式中，Rss(m−M)为涡街流量信号s(n)的自相关函数，而自相关函数具有以下性质： Rss (m) ≤ ss (0) (7.1.5)",
+    "latex": "R_{ss}(m) \\le R_{ss}(0)"
   },
   {
     "num": "7.2.1",
@@ -954,7 +1040,8 @@
     "width": 527,
     "height": 69,
     "raw_line": "  (7.2.1)",
-    "ocr_text": "v d λ= (7.2.1) f Sr"
+    "ocr_text": "v d λ= (7.2.1) f Sr",
+    "latex": "\\lambda = \\frac{v}{f} = \\frac{d}{Sr}"
   },
   {
     "num": "7.3.1",
@@ -965,7 +1052,8 @@
     "width": 705,
     "height": 81,
     "raw_line": "  有偏估计 (7.3.1)",
-    "ocr_text": "N-1-|m| ^12(m)= 1 ∑ x1(n)x2(n+m)(有偏估计) (7.3.1) N n=0"
+    "ocr_text": "N-1-|m| ^12(m)= 1 ∑ x1(n)x2(n+m)(有偏估计) (7.3.1) N n=0",
+    "latex": "\\hat{R}_{12}(m) = \\frac{1}{N}\\sum_{n=0}^{N-1-|m|} x_1(n) x_2(n+m)"
   },
   {
     "num": "7.3.2",
@@ -976,7 +1064,8 @@
     "width": 730,
     "height": 84,
     "raw_line": "   无偏估计 (7.3.2)",
-    "ocr_text": "N-1-|m| 12(m)= 1 ∑ x1(n)x2(n+m)(无偏估计) (7.3.2) N −|m| n=0"
+    "ocr_text": "N-1-|m| 12(m)= 1 ∑ x1(n)x2(n+m)(无偏估计) (7.3.2) N −|m| n=0",
+    "latex": "\\hat{R}_{12}(m) = \\frac{1}{N-|m|}\\sum_{n=0}^{N-1-|m|} x_1(n) x_2(n+m)"
   },
   {
     "num": "7.4.1",
@@ -987,7 +1076,8 @@
     "width": 778,
     "height": 46,
     "raw_line": "11 0, ,2 , , 0,1,2, , 1 jj x n x n n s s N s n Ns  ，；     (7.4.1)",
-    "ocr_text": "x1(nj)=x1(n), n=0,s,2s,·,N −s; nj =0,1,2,··,N/s−1 (7.4.1)"
+    "ocr_text": "x1(nj)=x1(n), n=0,s,2s,·,N −s; nj =0,1,2,··,N/s−1 (7.4.1)",
+    "latex": "x_1(n_j) = x_1(n), \\quad n=0, s, 2s, \\dots, N-s"
   },
   {
     "num": "7.4.2",
@@ -998,7 +1088,8 @@
     "width": 779,
     "height": 46,
     "raw_line": "22 0, ,2 , , 0,1,2, , 1 jj x n x n n s s N s n Ns  ，；     (7.4.2)",
-    "ocr_text": "x2(nj)=x2(n), n =0,s,2s,·,N −s; nj =0,1,2,,N/s−1 (7.4.2)"
+    "ocr_text": "x2(nj)=x2(n), n =0,s,2s,·,N −s; nj =0,1,2,,N/s−1 (7.4.2)",
+    "latex": "x_2(n_j) = x_2(n), \\quad n=0, s, 2s, \\dots, N-s"
   },
   {
     "num": "7.6.1",
@@ -1009,7 +1100,8 @@
     "width": 925,
     "height": 142,
     "raw_line": "Re vd    (7.6.1)",
-    "ocr_text": "在合肥奥巴尔目动化控制系统有限公可标定站，采用标准表方法进行水流量 标定实验，标定结果如表7.6.2所示。由于测量误差是可以通过软件进行修正的， 这里只考虑重复性。而雷诺数Re的计算公式为 Re = ρvd/η (7.6.1)"
+    "ocr_text": "在合肥奥巴尔目动化控制系统有限公可标定站，采用标准表方法进行水流量 标定实验，标定结果如表7.6.2所示。由于测量误差是可以通过软件进行修正的， 这里只考虑重复性。而雷诺数Re的计算公式为 Re = ρvd/η (7.6.1)",
+    "latex": "Re = \\frac{\\rho v d}{\\eta}"
   },
   {
     "num": "8.1.1",
@@ -1020,7 +1112,8 @@
     "width": 925,
     "height": 147,
     "raw_line": "      (8.1.1)",
-    "ocr_text": "J0 示为 φ(t) = ωct + k m(λ)dλ。则涡街流量信号模型可表示为 Jo ωct + k et V (t) = A(t)sin(φ(t)) = A(t)sin m(λ)dλ (8.1.1) 0"
+    "ocr_text": "J0 示为 φ(t) = ωct + k m(λ)dλ。则涡街流量信号模型可表示为 Jo ωct + k et V (t) = A(t)sin(φ(t)) = A(t)sin m(λ)dλ (8.1.1) 0",
+    "latex": "V(t) = A(t)\\sin\\left(\\omega_c t + k\\int_0^t m(\\lambda)d\\lambda\\right)"
   },
   {
     "num": "8.1.2",
@@ -1031,7 +1124,8 @@
     "width": 566,
     "height": 74,
     "raw_line": "  (8.1.2)",
-    "ocr_text": "1 K-1 P(k) = ∑ Pr(k) (8.1.2) K r=0"
+    "ocr_text": "1 K-1 P(k) = ∑ Pr(k) (8.1.2) K r=0",
+    "latex": "P(k) = \\frac{1}{K}\\sum_{r=0}^{K-1} P_r(k)"
   },
   {
     "num": "8.1.3",
@@ -1042,7 +1136,8 @@
     "width": 605,
     "height": 101,
     "raw_line": "  (8.1.3)",
-    "ocr_text": "2π 2 1 N kn Pr(k) = ∑ x(n)e N (8.1.3) N n=1"
+    "ocr_text": "2π 2 1 N kn Pr(k) = ∑ x(n)e N (8.1.3) N n=1",
+    "latex": "P_r(k) = \\frac{1}{N}\\left|\\sum_{n=1}^N x(n) e^{-j\\frac{2\\pi}{N}kn}\\right|^2"
   },
   {
     "num": "8.1.4",
@@ -1053,7 +1148,8 @@
     "width": 725,
     "height": 109,
     "raw_line": "     (8.1.4)",
-    "ocr_text": "(x−µ1)2 (x−µ2){2 2σ2 2σ2 e f (x) = α e + (1 − α) 0 < x < +∞ (8.1.4) √2πσ1 √2πσ2"
+    "ocr_text": "(x−µ1)2 (x−µ2){2 2σ2 2σ2 e f (x) = α e + (1 − α) 0 < x < +∞ (8.1.4) √2πσ1 √2πσ2",
+    "latex": "f(x) = \\frac{\\alpha}{\\sqrt{2\\pi}\\sigma_1} e^{-\\frac{(x-\\mu_1)^2}{2\\sigma_1^2}} + \\frac{1-\\alpha}{\\sqrt{2\\pi}\\sigma_2} e^{-\\frac{(x-\\mu_2)^2}{2\\sigma_2^2}}"
   },
   {
     "num": "8.1.5",
@@ -1064,7 +1160,8 @@
     "width": 603,
     "height": 39,
     "raw_line": "( ) ( )sin ( )   c   t At t t  (8.1.5)",
-    "ocr_text": "α(t) = A(t)sin(ωct + φ(t)) (8.1.5)"
+    "ocr_text": "α(t) = A(t)sin(ωct + φ(t)) (8.1.5)",
+    "latex": "\\alpha(t) = A(t)\\sin(\\omega_c t + \\phi(t))"
   },
   {
     "num": "8.1.6",
@@ -1075,7 +1172,8 @@
     "width": 774,
     "height": 52,
     "raw_line": "        (8.1.6)",
-    "ocr_text": "1 d ωc d 1 d f(t) = (ωct + φ(t)) = φ(t) = f c + φ(t) (8.1.6) 十 2π dt 2π 2π dt 2π dt"
+    "ocr_text": "1 d ωc d 1 d f(t) = (ωct + φ(t)) = φ(t) = f c + φ(t) (8.1.6) 十 2π dt 2π 2π dt 2π dt",
+    "latex": "f(t) = \\frac{1}{2\\pi}\\frac{d}{dt}[\\omega_c t + \\phi(t)] = f_c + \\frac{1}{2\\pi}\\frac{d\\phi(t)}{dt}"
   },
   {
     "num": "8.1.7",
@@ -1086,7 +1184,8 @@
     "width": 873,
     "height": 139,
     "raw_line": "c yt t t k m         (8.1.7)",
-    "ocr_text": "5) 模型的数学表达式 通过以上对涡街流量信号特征的分析，可以将涡街流量信号描述为 y(t) = δ(t)sin ωct + k m(λ)dλ (8.1.7) 0"
+    "ocr_text": "5) 模型的数学表达式 通过以上对涡街流量信号特征的分析，可以将涡街流量信号描述为 y(t) = δ(t)sin ωct + k m(λ)dλ (8.1.7) 0",
+    "latex": "y(t) = \\delta(t)\\sin\\left(\\omega_c t + k\\int_0^t m(\\lambda)d\\lambda\\right)"
   },
   {
     "num": "8.1.8",
@@ -1097,7 +1196,8 @@
     "width": 925,
     "height": 137,
     "raw_line": "c s spp yt t t k m A t A t             (8.1.8)",
-    "ocr_text": "号、传感器振动噪声信号和机械振动噪声信号等组成，再依据实验结果，将涡街 流量传感器的输出信号描述为 y(t) = δ(t)sin ωct + k m(λ)dλ + As sin(ω s t) + Ap sin(ωpt) (8.1.8)"
+    "ocr_text": "号、传感器振动噪声信号和机械振动噪声信号等组成，再依据实验结果，将涡街 流量传感器的输出信号描述为 y(t) = δ(t)sin ωct + k m(λ)dλ + As sin(ω s t) + Ap sin(ωpt) (8.1.8)",
+    "latex": "y(t) = \\delta(t)\\sin\\left(\\omega_c t + k\\int_0^t m(\\lambda)d\\lambda\\right) + A_s\\sin(\\omega_s t) + A_p\\sin(\\omega_p t)"
   },
   {
     "num": "8.2.1",
@@ -1108,7 +1208,8 @@
     "width": 926,
     "height": 147,
     "raw_line": "2 Y AX BX C   (8.2.1)",
-    "ocr_text": "与截止幅值之间的天余式。在测重之前，首元通过止常情优下的标定头验(无振动噪 声)，测得几个频率点对应的幅值，取其一半作为截止幅值，再根据频率与截止幅值之 间对应的数据，用MATLAB拟合出频率与截止幅值之间的关系，如式(8.2.1)所示： Y = AX² + BX + C (8.2.1)"
+    "ocr_text": "与截止幅值之间的天余式。在测重之前，首元通过止常情优下的标定头验(无振动噪 声)，测得几个频率点对应的幅值，取其一半作为截止幅值，再根据频率与截止幅值之 间对应的数据，用MATLAB拟合出频率与截止幅值之间的关系，如式(8.2.1)所示： Y = AX² + BX + C (8.2.1)",
+    "latex": "Y = A X^2 + B X + C"
   },
   {
     "num": "8.2.2",
@@ -1119,7 +1220,8 @@
     "width": 554,
     "height": 105,
     "raw_line": "(8.2.2)",
-    "ocr_text": "N ∑(fi−f)2 D=i=0 (8.2.2) N"
+    "ocr_text": "N ∑(fi−f)2 D=i=0 (8.2.2) N",
+    "latex": "D = \\frac{1}{N}\\sum_{i=0}^{N-1} (f_i - \\bar{f})^2"
   },
   {
     "num": "9.2.1",
@@ -1130,7 +1232,8 @@
     "width": 645,
     "height": 114,
     "raw_line": "(9.2.1)",
-    "ocr_text": "AX2 + BX + C, a ≤ X ≤ b Y = (9.2.1) 2 V X>b max, 3"
+    "ocr_text": "AX2 + BX + C, a ≤ X ≤ b Y = (9.2.1) 2 V X>b max, 3",
+    "latex": "Y = \\begin{cases} A X^2 + B X + C, & a \\le X \\le b \\\\ \\frac{2}{3} V_{\\max}, & X > b \\end{cases}"
   },
   {
     "num": "9.2.2",
@@ -1141,7 +1244,8 @@
     "width": 925,
     "height": 147,
     "raw_line": "(9.2.2)",
-    "ocr_text": "算8次频率方差。 N ∑(i−f)2 D(f) = (9.2.2) N"
+    "ocr_text": "算8次频率方差。 N ∑(i−f)2 D(f) = (9.2.2) N",
+    "latex": "D(f) = \\frac{1}{N}\\sum_{i=1}^N (f_i - \\bar{f})^2"
   },
   {
     "num": "9.2.3",
@@ -1152,7 +1256,8 @@
     "width": 678,
     "height": 79,
     "raw_line": "  (9.2.3)",
-    "ocr_text": "(nM[a]+ M[b])/(n+1), i=2 V[i]= (9.2.3) (nV[i −1]+ M[i])/(n +1), i>2"
+    "ocr_text": "(nM[a]+ M[b])/(n+1), i=2 V[i]= (9.2.3) (nV[i −1]+ M[i])/(n +1), i>2",
+    "latex": "V[i] = \\begin{cases} \\frac{n M[a] + M[b]}{n+1}, & i=2 \\\\ \\frac{n V[i-1] + M[i]}{n+1}, & i > 2 \\end{cases}"
   },
   {
     "num": "10.2.1",
@@ -1163,7 +1268,8 @@
     "width": 645,
     "height": 116,
     "raw_line": "(10.2.1)",
-    "ocr_text": "{af2+bf+c, fmin ≤ f < fsat A= (10.2.1) 1 f ≥ fsat 2"
+    "ocr_text": "{af2+bf+c, fmin ≤ f < fsat A= (10.2.1) 1 f ≥ fsat 2",
+    "latex": "A = \\begin{cases} a f^2 + b f + c, & f_{\\min} \\le f < f_{sat} \\\\ \\frac{1}{2}, & f \\ge f_{sat} \\end{cases}"
   },
   {
     "num": "10.2.2",
@@ -1174,7 +1280,8 @@
     "width": 618,
     "height": 73,
     "raw_line": "    (10.2.2)",
-    "ocr_text": "1 1 Varth Varmax +Varmin (10.2.2) 2 2"
+    "ocr_text": "1 1 Varth Varmax +Varmin (10.2.2) 2 2",
+    "latex": "Var_{th} = \\frac{1}{2}(Var_{\\max} + Var_{\\min})"
   },
   {
     "num": "10.2.3",
@@ -1185,7 +1292,8 @@
     "width": 873,
     "height": 79,
     "raw_line": "11 fa fl V ii   ， i mm  1,2, , 1,  (10.2.3)",
-    "ocr_text": "(2) 若 m =n，则先取fa₁和fli之间差值的绝对值，记为Vi，即 Vli = |fa1 − fli| , i = 1, 2,··, m − 1, m (10.2.3)"
+    "ocr_text": "(2) 若 m =n，则先取fa₁和fli之间差值的绝对值，记为Vi，即 Vli = |fa1 − fli| , i = 1, 2,··, m − 1, m (10.2.3)",
+    "latex": "V_{1i} = |f_{a1} - f_{li}|, \\quad i = 1, 2, \\dots, m"
   },
   {
     "num": "10.2.4",
@@ -1196,7 +1304,8 @@
     "width": 925,
     "height": 140,
     "raw_line": "， i =1,2,…, M1, M (10.2.4)",
-    "ocr_text": "i=1,2,…,M-1, M，j=1,2,…,N-1,N，则计算实际峰值的频率方差的公式为 N ∑(ij −fi)2 Di(Fi) = j=1 i =1,2,…, M-1, M (10.2.4) N"
+    "ocr_text": "i=1,2,…,M-1, M，j=1,2,…,N-1,N，则计算实际峰值的频率方差的公式为 N ∑(ij −fi)2 Di(Fi) = j=1 i =1,2,…, M-1, M (10.2.4) N",
+    "latex": "D_i(F_i) = \\frac{1}{N}\\sum_{j=1}^N (f_{ij} - \\bar{f}_i)^2, \\quad i = 1, 2, \\dots, M"
   },
   {
     "num": "10.2.5",
@@ -1207,7 +1316,8 @@
     "width": 925,
     "height": 146,
     "raw_line": "(10.2.5)",
-    "ocr_text": "的计算公式为 d}的最大值， i≤5 dc=d的平均值， 5<i<15 (10.2.5)"
+    "ocr_text": "的计算公式为 d}的最大值， i≤5 dc=d的平均值， 5<i<15 (10.2.5)",
+    "latex": "d_c = \\begin{cases} \\max\\{d_i\\}, & i \\le 5 \\\\ \\bar{d}, & 5 < i < 15 \\end{cases}"
   },
   {
     "num": "10.2.6",
@@ -1218,7 +1328,8 @@
     "width": 930,
     "height": 147,
     "raw_line": "～ 的平均值 (10.2.6)",
-    "ocr_text": "态截正幅值的比值，将比值结果平均之后再输出，输出的比值记为Rj， j=1,2,…,N−1。Rj的计算方法为 r的平均值， 2≤i<30 Rj= (10.2.6) ~r的平均值 i≥30"
+    "ocr_text": "态截正幅值的比值，将比值结果平均之后再输出，输出的比值记为Rj， j=1,2,…,N−1。Rj的计算方法为 r的平均值， 2≤i<30 Rj= (10.2.6) ~r的平均值 i≥30",
+    "latex": "R_j = \\begin{cases} \\bar{r}, & 2 \\le i < 30 \\\\ \\tilde{r}, & i \\ge 30 \\end{cases}"
   },
   {
     "num": "11.2.1",
@@ -1229,7 +1340,8 @@
     "width": 645,
     "height": 41,
     "raw_line": "0 00 0 0 e sin 2π t x t a b ft      (11.2.1)",
-    "ocr_text": "x0(t) = a0 + b0e−ξ0t sin(2πf0t + φ0) (11.2.1)"
+    "ocr_text": "x0(t) = a0 + b0e−ξ0t sin(2πf0t + φ0) (11.2.1)",
+    "latex": "x_0(t) = a_0 + b_0 e^{-\\xi_0 t}\\sin(2\\pi f_0 t + \\phi_0)"
   },
   {
     "num": "11.2.2",
@@ -1240,7 +1352,8 @@
     "width": 577,
     "height": 71,
     "raw_line": "  (11.2.2)",
-    "ocr_text": "n x(t)=∑xi(t)+ ne(t) (11.2.2) i=1"
+    "ocr_text": "n x(t)=∑xi(t)+ ne(t) (11.2.2) i=1",
+    "latex": "x(t) = \\sum_{i=1}^n x_i(t) + n_e(t)"
   },
   {
     "num": "11.2.3",
@@ -1251,7 +1364,8 @@
     "width": 871,
     "height": 29,
     "raw_line": "  (11.2.3)",
-    "ocr_text": "图11.2.7 瞬态冲击干扰瞬时值 PDF对比 图11.2.8 瞬态冲击干扰瞬时值CDF对比"
+    "ocr_text": "图11.2.7 瞬态冲击干扰瞬时值 PDF对比 图11.2.8 瞬态冲击干扰瞬时值CDF对比",
+    "latex": "e_1 = \\left|\\frac{A_2 - A_1}{A_1}\\right| \\times 100\\%"
   },
   {
     "num": "11.2.4",
@@ -1262,7 +1376,8 @@
     "width": 613,
     "height": 75,
     "raw_line": "  (11.2.4)",
-    "ocr_text": "cov(x, y) ρxy = (11.2.4) √cov(x,x)√cov(y, y)"
+    "ocr_text": "cov(x, y) ρxy = (11.2.4) √cov(x,x)√cov(y, y)",
+    "latex": "\\rho_{xy} = \\frac{\\text{cov}(x,y)}{\\sqrt{\\text{cov}(x,x)}\\sqrt{\\text{cov}(y,y)}}"
   },
   {
     "num": "11.2.5",
@@ -1273,7 +1388,8 @@
     "width": 596,
     "height": 114,
     "raw_line": "(11.2.5)",
-    "ocr_text": "n ∑(C1(i)−C2(i))2 e2 = i=1 (11.2.5) n"
+    "ocr_text": "n ∑(C1(i)−C2(i))2 e2 = i=1 (11.2.5) n",
+    "latex": "e_2 = \\frac{1}{n}\\sum_{i=1}^n (C_1(i) - C_2(i))^2"
   },
   {
     "num": "11.3.1",
@@ -1284,7 +1400,8 @@
     "width": 925,
     "height": 120,
     "raw_line": "1 X AX BU G w k kkk   (11.3.1)",
-    "ocr_text": "上述目的。并且，卡尔曼滤波器具有计算量小和数据存储量小的优点，便于实 时在线运算。 卡尔曼滤波器的数学公式用状态空间的概念来描述，包含描述状态变量的状"
+    "ocr_text": "上述目的。并且，卡尔曼滤波器具有计算量小和数据存储量小的优点，便于实 时在线运算。 卡尔曼滤波器的数学公式用状态空间的概念来描述，包含描述状态变量的状",
+    "latex": "X_{k+1} = A X_k + B U_k + G w_k"
   },
   {
     "num": "11.3.2",
@@ -1295,7 +1412,8 @@
     "width": 573,
     "height": 35,
     "raw_line": "Y HX Dv k kk 1 11   (11.3.2)",
-    "ocr_text": "Yk+1 = HXk+1 + Dvk+1 (11.3.2)"
+    "ocr_text": "Yk+1 = HXk+1 + Dvk+1 (11.3.2)",
+    "latex": "Y_{k+1} = H X_{k+1} + D v_{k+1}"
   },
   {
     "num": "11.3.3",
@@ -1306,7 +1424,8 @@
     "width": 627,
     "height": 41,
     "raw_line": "Eww k   ， covwQ k kj    (11.3.3)",
-    "ocr_text": "E[wk]=w , cov[wk]=Qδkj (11.3.3)"
+    "ocr_text": "E[wk]=w , cov[wk]=Qδkj (11.3.3)",
+    "latex": "E[w_k] = w, \\quad \\text{cov}[w_k] = Q \\delta_{kj}"
   },
   {
     "num": "11.3.4",
@@ -1317,7 +1436,8 @@
     "width": 620,
     "height": 41,
     "raw_line": "Evv k   ， covvR k kj    (11.3.4)",
-    "ocr_text": "E[vk]=ν , cov[vk]= Rδkj (11.3.4)"
+    "ocr_text": "E[vk]=ν , cov[vk]= Rδkj (11.3.4)",
+    "latex": "E[v_k] = v, \\quad \\text{cov}[v_k] = R \\delta_{kj}"
   },
   {
     "num": "11.3.5",
@@ -1328,7 +1448,8 @@
     "width": 645,
     "height": 38,
     "raw_line": "X AX BU Gw kk k k k k | 1 1| 1 1| 1     (11.3.5)",
-    "ocr_text": "X k|k−1 = AX k−1|k−1 + BU (11.3.5) k−1|k−1 + Gw"
+    "ocr_text": "X k|k−1 = AX k−1|k−1 + BU (11.3.5) k−1|k−1 + Gw",
+    "latex": "X_{k|k-1} = A X_{k-1|k-1} + B U_{k-1|k-1} + G w"
   },
   {
     "num": "11.3.6",
@@ -1339,7 +1460,8 @@
     "width": 611,
     "height": 43,
     "raw_line": "TT Pkk k k | 1 1| 1    AP A GQG (11.3.6)",
-    "ocr_text": "Pk|k−1 = APk−1|k−1AT + GQGT (11.3.6)"
+    "ocr_text": "Pk|k−1 = APk−1|k−1AT + GQGT (11.3.6)",
+    "latex": "P_{k|k-1} = A P_{k-1|k-1} A^T + G Q G^T"
   },
   {
     "num": "11.3.7",
@@ -1350,7 +1472,8 @@
     "width": 599,
     "height": 84,
     "raw_line": "(11.3.7)",
-    "ocr_text": "Pk|k−1HT Kk = (11.3.7) HP Pk|k−1H T + DRDT"
+    "ocr_text": "Pk|k−1HT Kk = (11.3.7) HP Pk|k−1H T + DRDT",
+    "latex": "K_k = \\frac{P_{k|k-1} H^T}{H P_{k|k-1} H^T + D R D^T}"
   },
   {
     "num": "11.3.8",
@@ -1361,7 +1484,8 @@
     "width": 664,
     "height": 46,
     "raw_line": "X X K Y HX Dv kk kk k k kk | |1      | 1  (11.3.8)",
-    "ocr_text": "Xk|k = Xk|k−1 + Kk(Yk− HXk|k−1 − Dv) (11.3.8)"
+    "ocr_text": "Xk|k = Xk|k−1 + Kk(Yk− HXk|k−1 − Dv) (11.3.8)",
+    "latex": "X_{k|k} = X_{k|k-1} + K_k(Y_k - H X_{k|k-1} - D v)"
   },
   {
     "num": "11.3.9",
@@ -1372,7 +1496,8 @@
     "width": 579,
     "height": 41,
     "raw_line": "  P I KH P kk||  k kk1 (11.3.9)",
-    "ocr_text": "Pk|k =(I − KkH)Pk|k−1 (11.3.9)"
+    "ocr_text": "Pk|k =(I − KkH)Pk|k−1 (11.3.9)",
+    "latex": "P_{k|k} = (I - K_k H) P_{k|k-1}"
   },
   {
     "num": "11.3.10",
@@ -1383,7 +1508,8 @@
     "width": 562,
     "height": 88,
     "raw_line": "D  (11.3.10)",
-    "ocr_text": "max(PPV) D= (11.3.10) min(PPV)"
+    "ocr_text": "max(PPV) D= (11.3.10) min(PPV)",
+    "latex": "D = \\frac{\\max(PPV)}{\\min(PPV)}"
   },
   {
     "num": "11.3.11",
@@ -1394,7 +1520,8 @@
     "width": 925,
     "height": 117,
     "raw_line": "2 Q AV BV  th th +C (11.3.11)",
-    "ocr_text": "对于这台50mm口径的涡街流量计，Vth和Q的拟合曲线如图11.3.10所示， 拟合度(R²)为0.9996，具有很高的拟合度。 由图11.3.10可以看出，过程噪声的方差Q与突变阈值Vth近似符合式(11.3.11)"
+    "ocr_text": "对于这台50mm口径的涡街流量计，Vth和Q的拟合曲线如图11.3.10所示， 拟合度(R²)为0.9996，具有很高的拟合度。 由图11.3.10可以看出，过程噪声的方差Q与突变阈值Vth近似符合式(11.3.11)",
+    "latex": "Q = A V_{th}^2 + B V_{th} + C"
   },
   {
     "num": "11.3.12",
@@ -1405,6 +1532,7 @@
     "width": 556,
     "height": 103,
     "raw_line": "(11.3.12)",
-    "ocr_text": "∑ (x_ - y)2} T S2=三 (11.3.12) T-1"
+    "ocr_text": "∑ (x_ - y)2} T S2=三 (11.3.12) T-1",
+    "latex": "S^2 = \\frac{1}{T-1}\\sum_{t=1}^T (x_t - \\bar{x})^2"
   }
 ]

@@ -624,17 +624,17 @@ body {
   color: var(--text-main);
 }
 
-/* Embedded Formulas inside Text View */
+/* Embedded Web Formulas inside Text View */
 .formula-card {
   margin: 22px auto;
   background: var(--bg-card);
   border: 1px solid var(--border-color);
-  border-left: 3px solid var(--primary);
+  border-left: 4px solid var(--primary);
   border-radius: 8px;
-  padding: 12px 16px;
+  padding: 12px 18px 14px;
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 12px;
   box-shadow: var(--shadow-sm);
   max-width: 100%;
   text-indent: 0 !important;
@@ -646,112 +646,162 @@ body {
   border-color: var(--primary);
 }
 
-.formula-main-row {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 16px;
-  width: 100%;
-}
-
-.formula-img-wrap {
-  flex: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: #ffffff;
-  border-radius: 6px;
-  padding: 8px 12px;
-  cursor: zoom-in;
-  border: 1px solid #f1f5f9;
-  min-height: 44px;
-}
-
-.formula-img-wrap img {
-  max-width: 100%;
-  max-height: 160px;
-  height: auto;
-  object-fit: contain;
-  display: block;
-}
-
-.formula-tag {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  gap: 4px;
-  flex-shrink: 0;
-}
-
-.formula-badge {
-  background: rgba(16, 185, 129, 0.12);
-  color: #059669;
-  font-size: 11px;
-  font-weight: 700;
-  padding: 2px 6px;
-  border-radius: 4px;
-}
-
-.formula-num {
-  font-family: var(--font-family-mono);
-  font-size: 13px;
-  font-weight: 700;
-  color: var(--text-muted);
-}
-
-.formula-ocr-box {
-  background: var(--bg-app);
-  border: 1px dashed var(--border-color);
-  border-radius: 6px;
-  padding: 6px 12px;
+.formula-card-topbar {
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 10px;
-  font-size: 12.5px;
+  border-bottom: 1px dashed var(--border-color);
+  padding-bottom: 8px;
 }
 
-.formula-ocr-tag {
+.formula-badge {
   background: rgba(37, 99, 235, 0.1);
   color: var(--primary);
-  font-size: 10px;
-  font-weight: 700;
-  padding: 2px 6px;
-  border-radius: 4px;
-  flex-shrink: 0;
-  letter-spacing: 0.5px;
-}
-
-.formula-ocr-code {
-  flex: 1;
   font-family: var(--font-family-mono);
-  color: var(--text-main);
-  line-height: 1.4;
-  word-break: break-all;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: 4px;
+  letter-spacing: 0.3px;
 }
 
-.btn-copy-formula {
-  background: var(--bg-card);
+.formula-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.btn-copy-formula,
+.btn-toggle-scan {
+  background: var(--bg-app);
   border: 1px solid var(--border-color);
   color: var(--text-muted);
   border-radius: 4px;
-  padding: 3px 8px;
-  font-size: 11px;
+  padding: 4px 9px;
+  font-size: 11.5px;
   cursor: pointer;
-  flex-shrink: 0;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
   transition: all 0.2s ease;
+  user-select: none;
 }
 
-.btn-copy-formula:hover {
+.btn-copy-formula:hover,
+.btn-toggle-scan:hover {
   background: var(--primary);
   color: #ffffff;
   border-color: var(--primary);
 }
 
 .btn-copy-formula.copied {
-  background: #10b981;
+  background: #10b981 !important;
+  color: #ffffff !important;
+  border-color: #10b981 !important;
+}
+
+.btn-toggle-scan.active {
+  background: var(--primary);
   color: #ffffff;
-  border-color: #10b981;
+  border-color: var(--primary);
+}
+
+/* Native Web Math Typography (KaTeX) */
+.formula-math-display {
+  padding: 10px 14px;
+  background: var(--bg-app);
+  border-radius: 6px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  text-align: center;
+  font-size: 1.15rem;
+  color: var(--text-main);
+  user-select: text !important;
+  cursor: pointer;
+  transition: background 0.15s ease;
+}
+
+.formula-math-display:hover {
+  background: rgba(37, 99, 235, 0.04);
+}
+
+.formula-math-display .katex-display {
+  margin: 0.4em 0 !important;
+  user-select: text !important;
+}
+
+.formula-math-display .katex {
+  color: var(--text-main) !important;
+  font-size: 1.15em !important;
+}
+
+.formula-raw-code {
+  font-family: var(--font-family-mono);
+  font-size: 13px;
+  color: var(--text-main);
+  padding: 8px;
+  text-align: center;
+  word-break: break-all;
+}
+
+/* Collapsible Original Scan Comparison */
+.formula-scan-collapsible {
+  margin-top: 4px;
+  padding-top: 10px;
+  border-top: 1px dashed var(--border-color);
+  animation: fadeIn 0.2s ease;
+}
+
+.scan-image-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  background: #ffffff;
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  padding: 10px;
+  cursor: zoom-in;
+}
+
+.scan-image-wrap img {
+  max-width: 100%;
+  max-height: 140px;
+  height: auto;
+  object-fit: contain;
+}
+
+.scan-image-hint {
+  font-size: 10.5px;
+  color: #64748b;
+}
+
+/* Theme overrides for KaTeX and formula box */
+[data-theme="dark"] .formula-math-display {
+  background: #151d2f;
+}
+
+[data-theme="dark"] .formula-math-display:hover {
+  background: #1c273e;
+}
+
+[data-theme="dark"] .scan-image-wrap {
+  background: #182235;
+  border-color: #24344d;
+}
+
+[data-theme="dark"] .scan-image-wrap img {
+  filter: invert(0.9) hue-rotate(180deg);
+}
+
+[data-theme="sepia"] .formula-math-display {
+  background: #ece3d1;
+}
+
+[data-theme="sepia"] .scan-image-wrap {
+  background: #fbf6ec;
 }
 
 /* Embedded Figures inside Text View */
